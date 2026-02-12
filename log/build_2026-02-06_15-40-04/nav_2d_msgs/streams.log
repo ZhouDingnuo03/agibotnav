@@ -1,0 +1,16 @@
+[0.028s] Invoking command in '/home/orin-001/sda/agibotnav/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/nav_2d_msgs -- -j8 -l8
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target nav_2d_msgs__rosidl_generator_c[0m
+[0.108s] failed to create symbolic link '/home/orin-001/sda/agibotnav/build/nav_2d_msgs/ament_cmake_python/nav_2d_msgs/nav_2d_msgs' because existing path cannot be removed: Is a directory
+[0.108s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_nav_2d_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_nav_2d_msgs] Error 1
+[0.109s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_nav_2d_msgs.dir/all] Error 2
+[0.109s] gmake[1]: *** Waiting for unfinished jobs....
+[0.117s] [  2%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[0.117s] [  2%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[0.119s] [  5%] Built target nav_2d_msgs__cpp
+[0.119s] [  5%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[0.125s] [  7%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[0.129s] [  9%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[0.129s] [  9%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[0.333s] [ 11%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[0.396s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[0.398s] gmake: *** [Makefile:146: all] Error 2

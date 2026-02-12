@@ -1,0 +1,1712 @@
+[0.000000] (-) TimerEvent: {}
+[0.000859] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.001111] (fastlio2_nav) JobQueued: {'identifier': 'fastlio2_nav', 'dependencies': OrderedDict()}
+[0.001380] (test) JobQueued: {'identifier': 'test', 'dependencies': OrderedDict()}
+[0.001479] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.017257] (fastlio2_nav) JobStarted: {'identifier': 'fastlio2_nav'}
+[0.032495] (test) JobStarted: {'identifier': 'test'}
+[0.046329] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.048023] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[0.049513] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin-001/sda/agibotnav/build/fast_lio', '--', '-j8', '-l8'], 'cwd': '/home/orin-001/sda/agibotnav/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin-001'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/home/orin-001/ros_noetic_ws/src'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller/lib:/home/orin-001/sda/nav/src/install/dwb_plugins/lib:/home/orin-001/sda/nav/src/install/dwb_core/lib:/home/orin-001/sda/nav/src/install/nav_2d_utils/lib:/home/orin-001/sda/nav/src/install/dwb_msgs/lib:/home/orin-001/sda/nav/src/install/nav_2d_msgs/lib:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller/lib:/home/orin-001/sda/nav/src/install/nav2_planner/lib:/home/orin-001/sda/nav/src/install/nav2_navfn_planner/lib:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_bt_navigator/lib:/home/orin-001/sda/nav/src/install/nav2_collision_monitor/lib:/home/orin-001/sda/nav/src/install/costmap_queue/lib:/home/orin-001/sda/nav/src/install/nav2_costmap_2d/lib:/home/orin-001/sda/nav/src/install/nav2_voxel_grid/lib:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins/lib:/home/orin-001/sda/nav/src/install/nav2_map_server/lib:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager/lib:/home/orin-001/sda/nav/src/install/nav2_behavior_tree/lib:/home/orin-001/sda/nav/src/install/nav2_amcl/lib:/home/orin-001/sda/nav/src/install/nav2_util/lib:/home/orin-001/sda/nav/src/install/nav2_msgs/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/home/orin-001/sda/agibotnav/install/dwb_msgs/lib:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/lib:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid/lib:/home/orin-001/sda/agibotnav/install/nav2_msgs/lib:/home/orin-001/sda/agibotnav/install/fast_lio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib:'), ('HOME', '/home/orin-001'), ('OLDPWD', '/home/orin-001'), ('DESKTOP_SESSION', 'ubuntu'), ('XIM', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin-001/sda/nav/src/install:/home/orin-001/sda/agibotnav/install:/home/orin-001/sda/driver/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orin-001'), ('XIM_PROGRAM', 'fcitx'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin-001'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'fcitx-gtk2:'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin-001/ros_noetic_ws/devel/bin:/home/orin-001/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orin-001/ros_noetic_ws/src/catkin/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2360,unix/ubuntu:/tmp/.ICE-unix/2360'), ('PAPERSIZE', 'a4'), ('GTK3_MODULES', 'fcitx-gtk3:'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98646ef2_cb87_466e_a33e_ef634271ea3d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('ROS_ROOT', '/home/orin-001/ros_noetic_ws/devel/share/ros'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/orin-001/sda/agibotnav/build/fast_lio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin-001/sda/nav/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/nav/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fast_lio:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/opt/ros/humble')]), 'shell': False}
+[0.099347] (-) TimerEvent: {}
+[0.199827] (-) TimerEvent: {}
+[0.300357] (-) TimerEvent: {}
+[0.401013] (-) TimerEvent: {}
+[0.501675] (-) TimerEvent: {}
+[0.602442] (-) TimerEvent: {}
+[0.615834] (fast_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found version "3.10.12") \n'}
+[0.616872] (fast_lio) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.617031] (fast_lio) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.617389] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.617579] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.618246] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.618636] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.618843] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.618990] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.619303] (fast_lio) StderrLine: {'line': b'\x1b[0mCurrent CPU archtecture: aarch64\x1b[0m\n'}
+[0.620948] (test) JobProgress: {'identifier': 'test', 'progress': 'cmake'}
+[0.621213] (test) JobProgress: {'identifier': 'test', 'progress': 'build'}
+[0.621291] (test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin-001/sda/agibotnav/build/test', '--', '-j8', '-l8'], 'cwd': '/home/orin-001/sda/agibotnav/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin-001'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/home/orin-001/ros_noetic_ws/src'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller/lib:/home/orin-001/sda/nav/src/install/dwb_plugins/lib:/home/orin-001/sda/nav/src/install/dwb_core/lib:/home/orin-001/sda/nav/src/install/nav_2d_utils/lib:/home/orin-001/sda/nav/src/install/dwb_msgs/lib:/home/orin-001/sda/nav/src/install/nav_2d_msgs/lib:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller/lib:/home/orin-001/sda/nav/src/install/nav2_planner/lib:/home/orin-001/sda/nav/src/install/nav2_navfn_planner/lib:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_bt_navigator/lib:/home/orin-001/sda/nav/src/install/nav2_collision_monitor/lib:/home/orin-001/sda/nav/src/install/costmap_queue/lib:/home/orin-001/sda/nav/src/install/nav2_costmap_2d/lib:/home/orin-001/sda/nav/src/install/nav2_voxel_grid/lib:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins/lib:/home/orin-001/sda/nav/src/install/nav2_map_server/lib:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager/lib:/home/orin-001/sda/nav/src/install/nav2_behavior_tree/lib:/home/orin-001/sda/nav/src/install/nav2_amcl/lib:/home/orin-001/sda/nav/src/install/nav2_util/lib:/home/orin-001/sda/nav/src/install/nav2_msgs/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/home/orin-001/sda/agibotnav/install/dwb_msgs/lib:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/lib:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid/lib:/home/orin-001/sda/agibotnav/install/nav2_msgs/lib:/home/orin-001/sda/agibotnav/install/fast_lio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib:'), ('HOME', '/home/orin-001'), ('OLDPWD', '/home/orin-001'), ('DESKTOP_SESSION', 'ubuntu'), ('XIM', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin-001/sda/nav/src/install:/home/orin-001/sda/agibotnav/install:/home/orin-001/sda/driver/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orin-001'), ('XIM_PROGRAM', 'fcitx'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin-001'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'fcitx-gtk2:'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin-001/ros_noetic_ws/devel/bin:/home/orin-001/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orin-001/ros_noetic_ws/src/catkin/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2360,unix/ubuntu:/tmp/.ICE-unix/2360'), ('PAPERSIZE', 'a4'), ('GTK3_MODULES', 'fcitx-gtk3:'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/98646ef2_cb87_466e_a33e_ef634271ea3d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('ROS_ROOT', '/home/orin-001/ros_noetic_ws/devel/share/ros'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/orin-001/sda/agibotnav/build/test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin-001/sda/nav/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/nav/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fast_lio')]), 'shell': False}
+[0.695116] (fast_lio) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.701929] (fast_lio) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.702496] (-) TimerEvent: {}
+[0.736178] (test) StdoutLine: {'line': b'[100%] Built target highlevel_demo\n'}
+[0.736569] (test) StdoutLine: {'line': b'[100%] Built target lowlevel_demo\n'}
+[0.761008] (test) CommandEnded: {'returncode': 0}
+[0.777389] (test) JobEnded: {'identifier': 'test', 'rc': 0}
+[0.802644] (-) TimerEvent: {}
+[0.854797] (fast_lio) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902781] (-) TimerEvent: {}
+[0.969954] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.002904] (-) TimerEvent: {}
+[1.015368] (fast_lio) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.044097] (fast_lio) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.078894] (fast_lio) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.103029] (-) TimerEvent: {}
+[1.115327] (fast_lio) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.138290] (fast_lio) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.177616] (fast_lio) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.203156] (-) TimerEvent: {}
+[1.258235] (fast_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.303301] (-) TimerEvent: {}
+[1.331655] (fast_lio) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[1.399630] (fastlio2_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fastlio2_nav', 'build', '--build-base', '/home/orin-001/sda/agibotnav/build/fastlio2_nav/build', 'install', '--record', '/home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin-001/sda/agibotnav/src/fastlio2_nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin-001', 'LC_TIME': 'zh_CN.UTF-8', 'ROS_PACKAGE_PATH': '/home/orin-001/ros_noetic_ws/src', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/orin-001/sda/nav/src/install/nav2_controller/lib:/home/orin-001/sda/nav/src/install/dwb_plugins/lib:/home/orin-001/sda/nav/src/install/dwb_core/lib:/home/orin-001/sda/nav/src/install/nav_2d_utils/lib:/home/orin-001/sda/nav/src/install/dwb_msgs/lib:/home/orin-001/sda/nav/src/install/nav_2d_msgs/lib:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller/lib:/home/orin-001/sda/nav/src/install/nav2_planner/lib:/home/orin-001/sda/nav/src/install/nav2_navfn_planner/lib:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_bt_navigator/lib:/home/orin-001/sda/nav/src/install/nav2_collision_monitor/lib:/home/orin-001/sda/nav/src/install/costmap_queue/lib:/home/orin-001/sda/nav/src/install/nav2_costmap_2d/lib:/home/orin-001/sda/nav/src/install/nav2_voxel_grid/lib:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins/lib:/home/orin-001/sda/nav/src/install/nav2_map_server/lib:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager/lib:/home/orin-001/sda/nav/src/install/nav2_behavior_tree/lib:/home/orin-001/sda/nav/src/install/nav2_amcl/lib:/home/orin-001/sda/nav/src/install/nav2_util/lib:/home/orin-001/sda/nav/src/install/nav2_msgs/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/home/orin-001/sda/agibotnav/install/dwb_msgs/lib:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/lib:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid/lib:/home/orin-001/sda/agibotnav/install/nav2_msgs/lib:/home/orin-001/sda/agibotnav/install/fast_lio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib:', 'HOME': '/home/orin-001', 'OLDPWD': '/home/orin-001', 'DESKTOP_SESSION': 'ubuntu', 'XIM': 'fcitx', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '2384', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/orin-001/sda/nav/src/install:/home/orin-001/sda/agibotnav/install:/home/orin-001/sda/driver/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'orin-001', 'XIM_PROGRAM': 'fcitx', 'http_proxy': 'http://127.0.0.1:7890', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orin-001', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_MODULES': 'fcitx-gtk2:', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/orin-001/ros_noetic_ws/devel/bin:/home/orin-001/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orin-001/ros_noetic_ws/src/catkin/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2360,unix/ubuntu:/tmp/.ICE-unix/2360', 'PAPERSIZE': 'a4', 'GTK3_MODULES': 'fcitx-gtk3:', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/98646ef2_cb87_466e_a33e_ef634271ea3d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.240', 'ROS_ROOT': '/home/orin-001/ros_noetic_ws/devel/share/ros', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/orin-001/sda/agibotnav/build/fastlio2_nav', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin-001/sda/agibotnav/build/fastlio2_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:/home/orin-001/sda/nav/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/nav/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fast_lio'}, 'shell': False}
+[1.403372] (-) TimerEvent: {}
+[1.503744] (-) TimerEvent: {}
+[1.604258] (-) TimerEvent: {}
+[1.704757] (-) TimerEvent: {}
+[1.805300] (-) TimerEvent: {}
+[1.904410] (fastlio2_nav) StdoutLine: {'line': b'running egg_info\n'}
+[1.905442] (-) TimerEvent: {}
+[1.905752] (fastlio2_nav) StdoutLine: {'line': b'writing ../../build/fastlio2_nav/fastlio2_nav.egg-info/PKG-INFO\n'}
+[1.906089] (fastlio2_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/fastlio2_nav/fastlio2_nav.egg-info/dependency_links.txt\n'}
+[1.906333] (fastlio2_nav) StdoutLine: {'line': b'writing entry points to ../../build/fastlio2_nav/fastlio2_nav.egg-info/entry_points.txt\n'}
+[1.906581] (fastlio2_nav) StdoutLine: {'line': b'writing requirements to ../../build/fastlio2_nav/fastlio2_nav.egg-info/requires.txt\n'}
+[1.906790] (fastlio2_nav) StdoutLine: {'line': b'writing top-level names to ../../build/fastlio2_nav/fastlio2_nav.egg-info/top_level.txt\n'}
+[1.914344] (fastlio2_nav) StdoutLine: {'line': b"reading manifest file '../../build/fastlio2_nav/fastlio2_nav.egg-info/SOURCES.txt'\n"}
+[1.915783] (fastlio2_nav) StdoutLine: {'line': b"writing manifest file '../../build/fastlio2_nav/fastlio2_nav.egg-info/SOURCES.txt'\n"}
+[1.916030] (fastlio2_nav) StdoutLine: {'line': b'running build\n'}
+[1.916446] (fastlio2_nav) StdoutLine: {'line': b'running build_py\n'}
+[1.916603] (fastlio2_nav) StdoutLine: {'line': b'running install\n'}
+[1.917025] (fastlio2_nav) StdoutLine: {'line': b'running install_lib\n'}
+[1.919155] (fastlio2_nav) StdoutLine: {'line': b'running install_data\n'}
+[1.919692] (fastlio2_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.923160] (fastlio2_nav) StdoutLine: {'line': b"removing '/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages/fastlio2_nav-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.923729] (fastlio2_nav) StdoutLine: {'line': b'Copying ../../build/fastlio2_nav/fastlio2_nav.egg-info to /home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages/fastlio2_nav-0.0.0-py3.10.egg-info\n'}
+[1.925525] (fastlio2_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[1.963052] (fastlio2_nav) StdoutLine: {'line': b"writing list of installed files to '/home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log'\n"}
+[2.005607] (-) TimerEvent: {}
+[2.017400] (fastlio2_nav) CommandEnded: {'returncode': 0}
+[2.035130] (fastlio2_nav) JobEnded: {'identifier': 'fastlio2_nav', 'rc': 0}
+[2.105791] (-) TimerEvent: {}
+[2.153858] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.171512] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.205929] (-) TimerEvent: {}
+[2.306497] (-) TimerEvent: {}
+[2.407014] (-) TimerEvent: {}
+[2.465983] (fast_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.479800] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.491347] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.507137] (-) TimerEvent: {}
+[2.607633] (-) TimerEvent: {}
+[2.708289] (-) TimerEvent: {}
+[2.762771] (fast_lio) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.808452] (-) TimerEvent: {}
+[2.908943] (-) TimerEvent: {}
+[3.009438] (-) TimerEvent: {}
+[3.046335] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.109594] (-) TimerEvent: {}
+[3.210200] (-) TimerEvent: {}
+[3.310753] (-) TimerEvent: {}
+[3.370851] (fast_lio) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.373953] (fast_lio) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.410815] (-) TimerEvent: {}
+[3.510728] (fast_lio) StdoutLine: {'line': b'-- Found livox_ros_driver2: 1.0.0 (/home/orin-001/sda/driver/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[3.510981] (-) TimerEvent: {}
+[3.547719] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.571229] (fast_lio) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):\n'}
+[3.571601] (fast_lio) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[3.571851] (fast_lio) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[3.572120] (fast_lio) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[3.572349] (fast_lio) StderrLine: {'line': b'\n'}
+[3.572562] (fast_lio) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[3.572768] (fast_lio) StderrLine: {'line': b'\n'}
+[3.572972] (fast_lio) StderrLine: {'line': b'    /usr\n'}
+[3.573172] (fast_lio) StderrLine: {'line': b'\n'}
+[3.573269] (fast_lio) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[3.573360] (fast_lio) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.573451] (fast_lio) StderrLine: {'line': b'\x1b[0m\n'}
+[3.586447] (fast_lio) StderrLine: {'line': b'\x1b[0mEigen:/usr/include/eigen3\x1b[0m\n'}
+[3.586765] (fast_lio) StdoutLine: {'line': b'-- PCL: /usr/include/pcl-1.12\n'}
+[3.611126] (-) TimerEvent: {}
+[3.711596] (-) TimerEvent: {}
+[3.812091] (-) TimerEvent: {}
+[3.912540] (-) TimerEvent: {}
+[4.013024] (-) TimerEvent: {}
+[4.113674] (-) TimerEvent: {}
+[4.125087] (fast_lio) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.213843] (-) TimerEvent: {}
+[4.314521] (-) TimerEvent: {}
+[4.415184] (-) TimerEvent: {}
+[4.515834] (-) TimerEvent: {}
+[4.616381] (-) TimerEvent: {}
+[4.716994] (-) TimerEvent: {}
+[4.817522] (-) TimerEvent: {}
+[4.824349] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.917666] (-) TimerEvent: {}
+[5.018212] (-) TimerEvent: {}
+[5.097852] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.118365] (-) TimerEvent: {}
+[5.154408] (fast_lio) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.206731] (fast_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.207382] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.207687] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.207950] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[5.218487] (-) TimerEvent: {}
+[5.319057] (-) TimerEvent: {}
+[5.346369] (fast_lio) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.419204] (-) TimerEvent: {}
+[5.488162] (fast_lio) StdoutLine: {'line': b'-- Generating done\n'}
+[5.519361] (-) TimerEvent: {}
+[5.525804] (fast_lio) StdoutLine: {'line': b'-- Build files have been written to: /home/orin-001/sda/agibotnav/build/fast_lio\n'}
+[5.619447] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_generator_c\x1b[0m\n'}
+[5.619836] (-) TimerEvent: {}
+[5.643102] (fast_lio) StdoutLine: {'line': b'[  2%] Built target fast_lio__cpp\n'}
+[5.646917] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target fast_lio__rosidl_generator_c\n'}
+[5.663235] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_fast_lio\n'}
+[5.668974] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.669824] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.671708] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c\x1b[0m\n'}
+[5.671996] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.672141] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.674124] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.700891] (fast_lio) StdoutLine: {'line': b'[ 34%] Built target fast_lio__rosidl_typesupport_c\n'}
+[5.701271] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[5.701422] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[5.701628] (fast_lio) StdoutLine: {'line': b'[ 45%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[5.704354] (fast_lio) StdoutLine: {'line': b'[ 60%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[5.704674] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[5.719999] (-) TimerEvent: {}
+[5.737213] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fastlio_mapping\x1b[0m\n'}
+[5.756085] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio\n'}
+[5.808164] (fast_lio) StdoutLine: {'line': b'[ 65%] Built target fast_lio__py\n'}
+[5.808929] (fast_lio) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o\x1b[0m\n'}
+[5.820067] (-) TimerEvent: {}
+[5.834697] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_generator_py\x1b[0m\n'}
+[5.865080] (fast_lio) StdoutLine: {'line': b'[ 74%] Built target fast_lio__rosidl_generator_py\n'}
+[5.891234] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.891579] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.891726] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.920207] (-) TimerEvent: {}
+[5.921752] (fast_lio) StdoutLine: {'line': b'[ 85%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.922193] (fast_lio) StdoutLine: {'line': b'[ 85%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[5.922730] (fast_lio) StdoutLine: {'line': b'[ 91%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[6.020334] (-) TimerEvent: {}
+[6.120811] (-) TimerEvent: {}
+[6.190916] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[6.192224] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[6.192702] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[6.193042] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[6.200561] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[6.201466] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[6.220938] (-) TimerEvent: {}
+[6.268063] (fast_lio) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[6.321084] (-) TimerEvent: {}
+[6.421646] (-) TimerEvent: {}
+[6.522161] (-) TimerEvent: {}
+[6.622694] (-) TimerEvent: {}
+[6.723195] (-) TimerEvent: {}
+[6.823695] (-) TimerEvent: {}
+[6.924245] (-) TimerEvent: {}
+[7.024748] (-) TimerEvent: {}
+[7.125183] (-) TimerEvent: {}
+[7.225629] (-) TimerEvent: {}
+[7.326146] (-) TimerEvent: {}
+[7.426683] (-) TimerEvent: {}
+[7.527176] (-) TimerEvent: {}
+[7.627725] (-) TimerEvent: {}
+[7.728250] (-) TimerEvent: {}
+[7.828761] (-) TimerEvent: {}
+[7.929274] (-) TimerEvent: {}
+[8.029791] (-) TimerEvent: {}
+[8.130308] (-) TimerEvent: {}
+[8.230826] (-) TimerEvent: {}
+[8.331345] (-) TimerEvent: {}
+[8.431861] (-) TimerEvent: {}
+[8.532393] (-) TimerEvent: {}
+[8.632903] (-) TimerEvent: {}
+[8.733412] (-) TimerEvent: {}
+[8.833915] (-) TimerEvent: {}
+[8.934421] (-) TimerEvent: {}
+[9.034933] (-) TimerEvent: {}
+[9.135449] (-) TimerEvent: {}
+[9.235973] (-) TimerEvent: {}
+[9.336494] (-) TimerEvent: {}
+[9.437016] (-) TimerEvent: {}
+[9.537546] (-) TimerEvent: {}
+[9.638154] (-) TimerEvent: {}
+[9.738753] (-) TimerEvent: {}
+[9.839269] (-) TimerEvent: {}
+[9.939781] (-) TimerEvent: {}
+[10.040323] (-) TimerEvent: {}
+[10.140851] (-) TimerEvent: {}
+[10.241383] (-) TimerEvent: {}
+[10.341900] (-) TimerEvent: {}
+[10.442432] (-) TimerEvent: {}
+[10.542966] (-) TimerEvent: {}
+[10.643511] (-) TimerEvent: {}
+[10.744053] (-) TimerEvent: {}
+[10.844547] (-) TimerEvent: {}
+[10.945012] (-) TimerEvent: {}
+[11.045548] (-) TimerEvent: {}
+[11.146075] (-) TimerEvent: {}
+[11.246577] (-) TimerEvent: {}
+[11.347087] (-) TimerEvent: {}
+[11.447593] (-) TimerEvent: {}
+[11.548098] (-) TimerEvent: {}
+[11.648615] (-) TimerEvent: {}
+[11.749150] (-) TimerEvent: {}
+[11.849664] (-) TimerEvent: {}
+[11.950183] (-) TimerEvent: {}
+[12.050685] (-) TimerEvent: {}
+[12.151204] (-) TimerEvent: {}
+[12.251724] (-) TimerEvent: {}
+[12.352246] (-) TimerEvent: {}
+[12.452754] (-) TimerEvent: {}
+[12.553259] (-) TimerEvent: {}
+[12.653768] (-) TimerEvent: {}
+[12.754289] (-) TimerEvent: {}
+[12.854791] (-) TimerEvent: {}
+[12.955305] (-) TimerEvent: {}
+[13.055816] (-) TimerEvent: {}
+[13.156343] (-) TimerEvent: {}
+[13.256855] (-) TimerEvent: {}
+[13.357408] (-) TimerEvent: {}
+[13.457963] (-) TimerEvent: {}
+[13.558485] (-) TimerEvent: {}
+[13.659212] (-) TimerEvent: {}
+[13.759745] (-) TimerEvent: {}
+[13.860290] (-) TimerEvent: {}
+[13.960827] (-) TimerEvent: {}
+[14.061355] (-) TimerEvent: {}
+[14.162177] (-) TimerEvent: {}
+[14.262700] (-) TimerEvent: {}
+[14.363230] (-) TimerEvent: {}
+[14.463884] (-) TimerEvent: {}
+[14.564442] (-) TimerEvent: {}
+[14.664963] (-) TimerEvent: {}
+[14.765483] (-) TimerEvent: {}
+[14.866028] (-) TimerEvent: {}
+[14.966486] (-) TimerEvent: {}
+[15.066933] (-) TimerEvent: {}
+[15.167448] (-) TimerEvent: {}
+[15.267965] (-) TimerEvent: {}
+[15.368506] (-) TimerEvent: {}
+[15.469030] (-) TimerEvent: {}
+[15.569555] (-) TimerEvent: {}
+[15.670081] (-) TimerEvent: {}
+[15.770576] (-) TimerEvent: {}
+[15.871017] (-) TimerEvent: {}
+[15.971467] (-) TimerEvent: {}
+[16.072082] (-) TimerEvent: {}
+[16.172619] (-) TimerEvent: {}
+[16.273140] (-) TimerEvent: {}
+[16.373654] (-) TimerEvent: {}
+[16.474171] (-) TimerEvent: {}
+[16.574694] (-) TimerEvent: {}
+[16.675203] (-) TimerEvent: {}
+[16.775715] (-) TimerEvent: {}
+[16.876249] (-) TimerEvent: {}
+[16.976811] (-) TimerEvent: {}
+[17.077325] (-) TimerEvent: {}
+[17.177837] (-) TimerEvent: {}
+[17.278357] (-) TimerEvent: {}
+[17.378867] (-) TimerEvent: {}
+[17.479385] (-) TimerEvent: {}
+[17.579902] (-) TimerEvent: {}
+[17.680422] (-) TimerEvent: {}
+[17.780934] (-) TimerEvent: {}
+[17.881446] (-) TimerEvent: {}
+[17.981949] (-) TimerEvent: {}
+[18.016539] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[18.017017] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[18.017161] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[18.017279] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[18.017430] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[18.017542] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[18.017644] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[18.017744] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/microsec_time_clock.hpp:18\x1b[m\x1b[K,\n'}
+[18.017838] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31\x1b[m\x1b[K,\n'}
+[18.017931] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36\x1b[m\x1b[K,\n'}
+[18.018023] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/sync/file_lock.hpp:26\x1b[m\x1b[K,\n'}
+[18.018116] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46\x1b[m\x1b[K,\n'}
+[18.018208] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73\x1b[m\x1b[K,\n'}
+[18.018302] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/IMU_Processing.hpp:18\x1b[m\x1b[K,\n'}
+[18.018395] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:16\x1b[m\x1b[K:\n'}
+[18.018487] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.018608] (fast_lio) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[18.018702] (fast_lio) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.082092] (-) TimerEvent: {}
+[18.182604] (-) TimerEvent: {}
+[18.283115] (-) TimerEvent: {}
+[18.383630] (-) TimerEvent: {}
+[18.484186] (-) TimerEvent: {}
+[18.584710] (-) TimerEvent: {}
+[18.685228] (-) TimerEvent: {}
+[18.785749] (-) TimerEvent: {}
+[18.886259] (-) TimerEvent: {}
+[18.986773] (-) TimerEvent: {}
+[19.087301] (-) TimerEvent: {}
+[19.187837] (-) TimerEvent: {}
+[19.288355] (-) TimerEvent: {}
+[19.388936] (-) TimerEvent: {}
+[19.489579] (-) TimerEvent: {}
+[19.590109] (-) TimerEvent: {}
+[19.690638] (-) TimerEvent: {}
+[19.791154] (-) TimerEvent: {}
+[19.891687] (-) TimerEvent: {}
+[19.992235] (-) TimerEvent: {}
+[20.092755] (-) TimerEvent: {}
+[20.193300] (-) TimerEvent: {}
+[20.293784] (-) TimerEvent: {}
+[20.394340] (-) TimerEvent: {}
+[20.494776] (-) TimerEvent: {}
+[20.595215] (-) TimerEvent: {}
+[20.695726] (-) TimerEvent: {}
+[20.796254] (-) TimerEvent: {}
+[20.896757] (-) TimerEvent: {}
+[20.997224] (-) TimerEvent: {}
+[21.097747] (-) TimerEvent: {}
+[21.198383] (-) TimerEvent: {}
+[21.298909] (-) TimerEvent: {}
+[21.399425] (-) TimerEvent: {}
+[21.499925] (-) TimerEvent: {}
+[21.600394] (-) TimerEvent: {}
+[21.700894] (-) TimerEvent: {}
+[21.801341] (-) TimerEvent: {}
+[21.901769] (-) TimerEvent: {}
+[22.002221] (-) TimerEvent: {}
+[22.102741] (-) TimerEvent: {}
+[22.203281] (-) TimerEvent: {}
+[22.303820] (-) TimerEvent: {}
+[22.404365] (-) TimerEvent: {}
+[22.504897] (-) TimerEvent: {}
+[22.605414] (-) TimerEvent: {}
+[22.705945] (-) TimerEvent: {}
+[22.806479] (-) TimerEvent: {}
+[22.907001] (-) TimerEvent: {}
+[23.007530] (-) TimerEvent: {}
+[23.108070] (-) TimerEvent: {}
+[23.208595] (-) TimerEvent: {}
+[23.309119] (-) TimerEvent: {}
+[23.409654] (-) TimerEvent: {}
+[23.510172] (-) TimerEvent: {}
+[23.610681] (-) TimerEvent: {}
+[23.711187] (-) TimerEvent: {}
+[23.811688] (-) TimerEvent: {}
+[23.912203] (-) TimerEvent: {}
+[24.012704] (-) TimerEvent: {}
+[24.113209] (-) TimerEvent: {}
+[24.213718] (-) TimerEvent: {}
+[24.314233] (-) TimerEvent: {}
+[24.414741] (-) TimerEvent: {}
+[24.515272] (-) TimerEvent: {}
+[24.615779] (-) TimerEvent: {}
+[24.716313] (-) TimerEvent: {}
+[24.816843] (-) TimerEvent: {}
+[24.917365] (-) TimerEvent: {}
+[25.017891] (-) TimerEvent: {}
+[25.118400] (-) TimerEvent: {}
+[25.218908] (-) TimerEvent: {}
+[25.319420] (-) TimerEvent: {}
+[25.419930] (-) TimerEvent: {}
+[25.520543] (-) TimerEvent: {}
+[25.621052] (-) TimerEvent: {}
+[25.721569] (-) TimerEvent: {}
+[25.822108] (-) TimerEvent: {}
+[25.922644] (-) TimerEvent: {}
+[26.023214] (-) TimerEvent: {}
+[26.123746] (-) TimerEvent: {}
+[26.224370] (-) TimerEvent: {}
+[26.324884] (-) TimerEvent: {}
+[26.425473] (-) TimerEvent: {}
+[26.525997] (-) TimerEvent: {}
+[26.626523] (-) TimerEvent: {}
+[26.727050] (-) TimerEvent: {}
+[26.827579] (-) TimerEvent: {}
+[26.928090] (-) TimerEvent: {}
+[27.028648] (-) TimerEvent: {}
+[27.129162] (-) TimerEvent: {}
+[27.229682] (-) TimerEvent: {}
+[27.330208] (-) TimerEvent: {}
+[27.430811] (-) TimerEvent: {}
+[27.531323] (-) TimerEvent: {}
+[27.631836] (-) TimerEvent: {}
+[27.732373] (-) TimerEvent: {}
+[27.832893] (-) TimerEvent: {}
+[27.933404] (-) TimerEvent: {}
+[28.033916] (-) TimerEvent: {}
+[28.134430] (-) TimerEvent: {}
+[28.234942] (-) TimerEvent: {}
+[28.335446] (-) TimerEvent: {}
+[28.435960] (-) TimerEvent: {}
+[28.536474] (-) TimerEvent: {}
+[28.636985] (-) TimerEvent: {}
+[28.737499] (-) TimerEvent: {}
+[28.838022] (-) TimerEvent: {}
+[28.938552] (-) TimerEvent: {}
+[29.038556] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:83\x1b[m\x1b[K,\n'}
+[29.038949] (-) TimerEvent: {}
+[29.039172] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/esekfom.hpp:49\x1b[m\x1b[K,\n'}
+[29.039344] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/use-ikfom.hpp:4\x1b[m\x1b[K,\n'}
+[29.039475] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/IMU_Processing.hpp:22\x1b[m\x1b[K,\n'}
+[29.039591] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:16\x1b[m\x1b[K:\n'}
+[29.039701] (fast_lio) StderrLine: {'line': b'/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<_FIter, _FIter> MTK::cos_sinc_sqrt(const scalar&) [with scalar = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.039809] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:252:52:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kscalar MTK::exp(MTK::vectview<scalar, dim>, MTK::vectview<const scalar, dim>, const scalar&) [with scalar = double; int n = 3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[29.039960] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/S2.hpp:140:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid MTK::S2<_scalar, den, num, S2_typ>::boxplus(MTK::vectview<const _scalar, 2>, MTK::S2<_scalar, den, num, S2_typ>::scalar) [with _scalar = double; int den = 98090; int num = 10000; int S2_typ = 1; MTK::S2<_scalar, den, num, S2_typ>::scalar = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[29.040106] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/use-ikfom.hpp:12:1:\x1b[m\x1b[K   required from here\n'}
+[29.040209] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:143:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double>\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 \x1b]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_base\x07in GCC 10.1\x1b]8;;\x07\n'}
+[29.040340] (fast_lio) StderrLine: {'line': b'  143 | std::pair<scalar, scalar> \x1b[01;36m\x1b[Kcos_sinc_sqrt\x1b[m\x1b[K(const scalar &x2){\n'}
+[29.040440] (fast_lio) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.139122] (-) TimerEvent: {}
+[29.239675] (-) TimerEvent: {}
+[29.340235] (-) TimerEvent: {}
+[29.440772] (-) TimerEvent: {}
+[29.541335] (-) TimerEvent: {}
+[29.641864] (-) TimerEvent: {}
+[29.742397] (-) TimerEvent: {}
+[29.842929] (-) TimerEvent: {}
+[29.943467] (-) TimerEvent: {}
+[30.044019] (-) TimerEvent: {}
+[30.144557] (-) TimerEvent: {}
+[30.245097] (-) TimerEvent: {}
+[30.345638] (-) TimerEvent: {}
+[30.446176] (-) TimerEvent: {}
+[30.546705] (-) TimerEvent: {}
+[30.647227] (-) TimerEvent: {}
+[30.747732] (-) TimerEvent: {}
+[30.848273] (-) TimerEvent: {}
+[30.948802] (-) TimerEvent: {}
+[31.049329] (-) TimerEvent: {}
+[31.149863] (-) TimerEvent: {}
+[31.250398] (-) TimerEvent: {}
+[31.350925] (-) TimerEvent: {}
+[31.451460] (-) TimerEvent: {}
+[31.551997] (-) TimerEvent: {}
+[31.652514] (-) TimerEvent: {}
+[31.753061] (-) TimerEvent: {}
+[31.853606] (-) TimerEvent: {}
+[31.954146] (-) TimerEvent: {}
+[32.054679] (-) TimerEvent: {}
+[32.155215] (-) TimerEvent: {}
+[32.255730] (-) TimerEvent: {}
+[32.356278] (-) TimerEvent: {}
+[32.456812] (-) TimerEvent: {}
+[32.557344] (-) TimerEvent: {}
+[32.657855] (-) TimerEvent: {}
+[32.758380] (-) TimerEvent: {}
+[32.858895] (-) TimerEvent: {}
+[32.959416] (-) TimerEvent: {}
+[33.060149] (-) TimerEvent: {}
+[33.160663] (-) TimerEvent: {}
+[33.261126] (-) TimerEvent: {}
+[33.361668] (-) TimerEvent: {}
+[33.462403] (-) TimerEvent: {}
+[33.562960] (-) TimerEvent: {}
+[33.663516] (-) TimerEvent: {}
+[33.764243] (-) TimerEvent: {}
+[33.864789] (-) TimerEvent: {}
+[33.965323] (-) TimerEvent: {}
+[34.065838] (-) TimerEvent: {}
+[34.166354] (-) TimerEvent: {}
+[34.266881] (-) TimerEvent: {}
+[34.367413] (-) TimerEvent: {}
+[34.467945] (-) TimerEvent: {}
+[34.568525] (-) TimerEvent: {}
+[34.669046] (-) TimerEvent: {}
+[34.769552] (-) TimerEvent: {}
+[34.870065] (-) TimerEvent: {}
+[34.970587] (-) TimerEvent: {}
+[35.071091] (-) TimerEvent: {}
+[35.171594] (-) TimerEvent: {}
+[35.272126] (-) TimerEvent: {}
+[35.372656] (-) TimerEvent: {}
+[35.473198] (-) TimerEvent: {}
+[35.573740] (-) TimerEvent: {}
+[35.674251] (-) TimerEvent: {}
+[35.774950] (-) TimerEvent: {}
+[35.875521] (-) TimerEvent: {}
+[35.976062] (-) TimerEvent: {}
+[36.076587] (-) TimerEvent: {}
+[36.177117] (-) TimerEvent: {}
+[36.277639] (-) TimerEvent: {}
+[36.378175] (-) TimerEvent: {}
+[36.478711] (-) TimerEvent: {}
+[36.579241] (-) TimerEvent: {}
+[36.679779] (-) TimerEvent: {}
+[36.780325] (-) TimerEvent: {}
+[36.880859] (-) TimerEvent: {}
+[36.981390] (-) TimerEvent: {}
+[37.081926] (-) TimerEvent: {}
+[37.182445] (-) TimerEvent: {}
+[37.282973] (-) TimerEvent: {}
+[37.383539] (-) TimerEvent: {}
+[37.484066] (-) TimerEvent: {}
+[37.584581] (-) TimerEvent: {}
+[37.685096] (-) TimerEvent: {}
+[37.785605] (-) TimerEvent: {}
+[37.886123] (-) TimerEvent: {}
+[37.986651] (-) TimerEvent: {}
+[38.087177] (-) TimerEvent: {}
+[38.187686] (-) TimerEvent: {}
+[38.288212] (-) TimerEvent: {}
+[38.388742] (-) TimerEvent: {}
+[38.489268] (-) TimerEvent: {}
+[38.589798] (-) TimerEvent: {}
+[38.690351] (-) TimerEvent: {}
+[38.790900] (-) TimerEvent: {}
+[38.891427] (-) TimerEvent: {}
+[38.991957] (-) TimerEvent: {}
+[39.092504] (-) TimerEvent: {}
+[39.193026] (-) TimerEvent: {}
+[39.293553] (-) TimerEvent: {}
+[39.394044] (-) TimerEvent: {}
+[39.494484] (-) TimerEvent: {}
+[39.594920] (-) TimerEvent: {}
+[39.695365] (-) TimerEvent: {}
+[39.795852] (-) TimerEvent: {}
+[39.896323] (-) TimerEvent: {}
+[39.996848] (-) TimerEvent: {}
+[40.097373] (-) TimerEvent: {}
+[40.197898] (-) TimerEvent: {}
+[40.298429] (-) TimerEvent: {}
+[40.398971] (-) TimerEvent: {}
+[40.499502] (-) TimerEvent: {}
+[40.600054] (-) TimerEvent: {}
+[40.700583] (-) TimerEvent: {}
+[40.801110] (-) TimerEvent: {}
+[40.901647] (-) TimerEvent: {}
+[41.002182] (-) TimerEvent: {}
+[41.102702] (-) TimerEvent: {}
+[41.203229] (-) TimerEvent: {}
+[41.303746] (-) TimerEvent: {}
+[41.404317] (-) TimerEvent: {}
+[41.504849] (-) TimerEvent: {}
+[41.605328] (-) TimerEvent: {}
+[41.705838] (-) TimerEvent: {}
+[41.806348] (-) TimerEvent: {}
+[41.906858] (-) TimerEvent: {}
+[42.007380] (-) TimerEvent: {}
+[42.107906] (-) TimerEvent: {}
+[42.208448] (-) TimerEvent: {}
+[42.308975] (-) TimerEvent: {}
+[42.409504] (-) TimerEvent: {}
+[42.510038] (-) TimerEvent: {}
+[42.610572] (-) TimerEvent: {}
+[42.711098] (-) TimerEvent: {}
+[42.811619] (-) TimerEvent: {}
+[42.912139] (-) TimerEvent: {}
+[43.012653] (-) TimerEvent: {}
+[43.113159] (-) TimerEvent: {}
+[43.213686] (-) TimerEvent: {}
+[43.314223] (-) TimerEvent: {}
+[43.414747] (-) TimerEvent: {}
+[43.515267] (-) TimerEvent: {}
+[43.615788] (-) TimerEvent: {}
+[43.716340] (-) TimerEvent: {}
+[43.816875] (-) TimerEvent: {}
+[43.917400] (-) TimerEvent: {}
+[44.017940] (-) TimerEvent: {}
+[44.118475] (-) TimerEvent: {}
+[44.219017] (-) TimerEvent: {}
+[44.319548] (-) TimerEvent: {}
+[44.420085] (-) TimerEvent: {}
+[44.520796] (-) TimerEvent: {}
+[44.621393] (-) TimerEvent: {}
+[44.721970] (-) TimerEvent: {}
+[44.822504] (-) TimerEvent: {}
+[44.923043] (-) TimerEvent: {}
+[45.023672] (-) TimerEvent: {}
+[45.124368] (-) TimerEvent: {}
+[45.224903] (-) TimerEvent: {}
+[45.325425] (-) TimerEvent: {}
+[45.425932] (-) TimerEvent: {}
+[45.526453] (-) TimerEvent: {}
+[45.626976] (-) TimerEvent: {}
+[45.727502] (-) TimerEvent: {}
+[45.828032] (-) TimerEvent: {}
+[45.928544] (-) TimerEvent: {}
+[46.029104] (-) TimerEvent: {}
+[46.129637] (-) TimerEvent: {}
+[46.230151] (-) TimerEvent: {}
+[46.330632] (-) TimerEvent: {}
+[46.431165] (-) TimerEvent: {}
+[46.531675] (-) TimerEvent: {}
+[46.632155] (-) TimerEvent: {}
+[46.732680] (-) TimerEvent: {}
+[46.833211] (-) TimerEvent: {}
+[46.933723] (-) TimerEvent: {}
+[47.034232] (-) TimerEvent: {}
+[47.134746] (-) TimerEvent: {}
+[47.235259] (-) TimerEvent: {}
+[47.335777] (-) TimerEvent: {}
+[47.436315] (-) TimerEvent: {}
+[47.536825] (-) TimerEvent: {}
+[47.637333] (-) TimerEvent: {}
+[47.737842] (-) TimerEvent: {}
+[47.838343] (-) TimerEvent: {}
+[47.938853] (-) TimerEvent: {}
+[48.039366] (-) TimerEvent: {}
+[48.139875] (-) TimerEvent: {}
+[48.240471] (-) TimerEvent: {}
+[48.341200] (-) TimerEvent: {}
+[48.441816] (-) TimerEvent: {}
+[48.542323] (-) TimerEvent: {}
+[48.642830] (-) TimerEvent: {}
+[48.743330] (-) TimerEvent: {}
+[48.843841] (-) TimerEvent: {}
+[48.944380] (-) TimerEvent: {}
+[49.044879] (-) TimerEvent: {}
+[49.145386] (-) TimerEvent: {}
+[49.245895] (-) TimerEvent: {}
+[49.346423] (-) TimerEvent: {}
+[49.446949] (-) TimerEvent: {}
+[49.547473] (-) TimerEvent: {}
+[49.648012] (-) TimerEvent: {}
+[49.748596] (-) TimerEvent: {}
+[49.849121] (-) TimerEvent: {}
+[49.949646] (-) TimerEvent: {}
+[50.050191] (-) TimerEvent: {}
+[50.150721] (-) TimerEvent: {}
+[50.251233] (-) TimerEvent: {}
+[50.351748] (-) TimerEvent: {}
+[50.452295] (-) TimerEvent: {}
+[50.552825] (-) TimerEvent: {}
+[50.653407] (-) TimerEvent: {}
+[50.753931] (-) TimerEvent: {}
+[50.854521] (-) TimerEvent: {}
+[50.955031] (-) TimerEvent: {}
+[51.055565] (-) TimerEvent: {}
+[51.156254] (-) TimerEvent: {}
+[51.256805] (-) TimerEvent: {}
+[51.357447] (-) TimerEvent: {}
+[51.457992] (-) TimerEvent: {}
+[51.558502] (-) TimerEvent: {}
+[51.658993] (-) TimerEvent: {}
+[51.759460] (-) TimerEvent: {}
+[51.859883] (-) TimerEvent: {}
+[51.960474] (-) TimerEvent: {}
+[52.061139] (-) TimerEvent: {}
+[52.161776] (-) TimerEvent: {}
+[52.262413] (-) TimerEvent: {}
+[52.362937] (-) TimerEvent: {}
+[52.463474] (-) TimerEvent: {}
+[52.564132] (-) TimerEvent: {}
+[52.664760] (-) TimerEvent: {}
+[52.765305] (-) TimerEvent: {}
+[52.865965] (-) TimerEvent: {}
+[52.966598] (-) TimerEvent: {}
+[53.067158] (-) TimerEvent: {}
+[53.167816] (-) TimerEvent: {}
+[53.268458] (-) TimerEvent: {}
+[53.368962] (-) TimerEvent: {}
+[53.469471] (-) TimerEvent: {}
+[53.569972] (-) TimerEvent: {}
+[53.670419] (-) TimerEvent: {}
+[53.770905] (-) TimerEvent: {}
+[53.871323] (-) TimerEvent: {}
+[53.971725] (-) TimerEvent: {}
+[54.072137] (-) TimerEvent: {}
+[54.172530] (-) TimerEvent: {}
+[54.272956] (-) TimerEvent: {}
+[54.373450] (-) TimerEvent: {}
+[54.473924] (-) TimerEvent: {}
+[54.574355] (-) TimerEvent: {}
+[54.674794] (-) TimerEvent: {}
+[54.775337] (-) TimerEvent: {}
+[54.875821] (-) TimerEvent: {}
+[54.976331] (-) TimerEvent: {}
+[55.076829] (-) TimerEvent: {}
+[55.177320] (-) TimerEvent: {}
+[55.277819] (-) TimerEvent: {}
+[55.378323] (-) TimerEvent: {}
+[55.478832] (-) TimerEvent: {}
+[55.579326] (-) TimerEvent: {}
+[55.679824] (-) TimerEvent: {}
+[55.780361] (-) TimerEvent: {}
+[55.880866] (-) TimerEvent: {}
+[55.981364] (-) TimerEvent: {}
+[56.081863] (-) TimerEvent: {}
+[56.182378] (-) TimerEvent: {}
+[56.282894] (-) TimerEvent: {}
+[56.383417] (-) TimerEvent: {}
+[56.483929] (-) TimerEvent: {}
+[56.584461] (-) TimerEvent: {}
+[56.684965] (-) TimerEvent: {}
+[56.785468] (-) TimerEvent: {}
+[56.885966] (-) TimerEvent: {}
+[56.986464] (-) TimerEvent: {}
+[57.086959] (-) TimerEvent: {}
+[57.187451] (-) TimerEvent: {}
+[57.287950] (-) TimerEvent: {}
+[57.388483] (-) TimerEvent: {}
+[57.489002] (-) TimerEvent: {}
+[57.589515] (-) TimerEvent: {}
+[57.690033] (-) TimerEvent: {}
+[57.790543] (-) TimerEvent: {}
+[57.891057] (-) TimerEvent: {}
+[57.991572] (-) TimerEvent: {}
+[58.092089] (-) TimerEvent: {}
+[58.192621] (-) TimerEvent: {}
+[58.293132] (-) TimerEvent: {}
+[58.393644] (-) TimerEvent: {}
+[58.494143] (-) TimerEvent: {}
+[58.594646] (-) TimerEvent: {}
+[58.695144] (-) TimerEvent: {}
+[58.795637] (-) TimerEvent: {}
+[58.896157] (-) TimerEvent: {}
+[58.996647] (-) TimerEvent: {}
+[59.097140] (-) TimerEvent: {}
+[59.197636] (-) TimerEvent: {}
+[59.298141] (-) TimerEvent: {}
+[59.398657] (-) TimerEvent: {}
+[59.499166] (-) TimerEvent: {}
+[59.599681] (-) TimerEvent: {}
+[59.700338] (-) TimerEvent: {}
+[59.800872] (-) TimerEvent: {}
+[59.901378] (-) TimerEvent: {}
+[60.001881] (-) TimerEvent: {}
+[60.102397] (-) TimerEvent: {}
+[60.202907] (-) TimerEvent: {}
+[60.303413] (-) TimerEvent: {}
+[60.403924] (-) TimerEvent: {}
+[60.504478] (-) TimerEvent: {}
+[60.605014] (-) TimerEvent: {}
+[60.705530] (-) TimerEvent: {}
+[60.806056] (-) TimerEvent: {}
+[60.906606] (-) TimerEvent: {}
+[61.007124] (-) TimerEvent: {}
+[61.107661] (-) TimerEvent: {}
+[61.208189] (-) TimerEvent: {}
+[61.308716] (-) TimerEvent: {}
+[61.409236] (-) TimerEvent: {}
+[61.509744] (-) TimerEvent: {}
+[61.610211] (-) TimerEvent: {}
+[61.710597] (-) TimerEvent: {}
+[61.811010] (-) TimerEvent: {}
+[61.911508] (-) TimerEvent: {}
+[62.012015] (-) TimerEvent: {}
+[62.112498] (-) TimerEvent: {}
+[62.212997] (-) TimerEvent: {}
+[62.313516] (-) TimerEvent: {}
+[62.414022] (-) TimerEvent: {}
+[62.514528] (-) TimerEvent: {}
+[62.615038] (-) TimerEvent: {}
+[62.715561] (-) TimerEvent: {}
+[62.816088] (-) TimerEvent: {}
+[62.916604] (-) TimerEvent: {}
+[63.017119] (-) TimerEvent: {}
+[63.117629] (-) TimerEvent: {}
+[63.218130] (-) TimerEvent: {}
+[63.318621] (-) TimerEvent: {}
+[63.419124] (-) TimerEvent: {}
+[63.519628] (-) TimerEvent: {}
+[63.620130] (-) TimerEvent: {}
+[63.720635] (-) TimerEvent: {}
+[63.821150] (-) TimerEvent: {}
+[63.921698] (-) TimerEvent: {}
+[64.022202] (-) TimerEvent: {}
+[64.122719] (-) TimerEvent: {}
+[64.223226] (-) TimerEvent: {}
+[64.323738] (-) TimerEvent: {}
+[64.424292] (-) TimerEvent: {}
+[64.524832] (-) TimerEvent: {}
+[64.625355] (-) TimerEvent: {}
+[64.725887] (-) TimerEvent: {}
+[64.826458] (-) TimerEvent: {}
+[64.926989] (-) TimerEvent: {}
+[65.027550] (-) TimerEvent: {}
+[65.128108] (-) TimerEvent: {}
+[65.228636] (-) TimerEvent: {}
+[65.329160] (-) TimerEvent: {}
+[65.429671] (-) TimerEvent: {}
+[65.530178] (-) TimerEvent: {}
+[65.630692] (-) TimerEvent: {}
+[65.731202] (-) TimerEvent: {}
+[65.831716] (-) TimerEvent: {}
+[65.932254] (-) TimerEvent: {}
+[66.032778] (-) TimerEvent: {}
+[66.133299] (-) TimerEvent: {}
+[66.233815] (-) TimerEvent: {}
+[66.334328] (-) TimerEvent: {}
+[66.434837] (-) TimerEvent: {}
+[66.535342] (-) TimerEvent: {}
+[66.635845] (-) TimerEvent: {}
+[66.736380] (-) TimerEvent: {}
+[66.836908] (-) TimerEvent: {}
+[66.937432] (-) TimerEvent: {}
+[67.037949] (-) TimerEvent: {}
+[67.138468] (-) TimerEvent: {}
+[67.238966] (-) TimerEvent: {}
+[67.339475] (-) TimerEvent: {}
+[67.440011] (-) TimerEvent: {}
+[67.540516] (-) TimerEvent: {}
+[67.641020] (-) TimerEvent: {}
+[67.741547] (-) TimerEvent: {}
+[67.842080] (-) TimerEvent: {}
+[67.942608] (-) TimerEvent: {}
+[68.043140] (-) TimerEvent: {}
+[68.143667] (-) TimerEvent: {}
+[68.244229] (-) TimerEvent: {}
+[68.344771] (-) TimerEvent: {}
+[68.445307] (-) TimerEvent: {}
+[68.545843] (-) TimerEvent: {}
+[68.646372] (-) TimerEvent: {}
+[68.746884] (-) TimerEvent: {}
+[68.847402] (-) TimerEvent: {}
+[68.947927] (-) TimerEvent: {}
+[69.048472] (-) TimerEvent: {}
+[69.148992] (-) TimerEvent: {}
+[69.249506] (-) TimerEvent: {}
+[69.350020] (-) TimerEvent: {}
+[69.450538] (-) TimerEvent: {}
+[69.551057] (-) TimerEvent: {}
+[69.651578] (-) TimerEvent: {}
+[69.752098] (-) TimerEvent: {}
+[69.852628] (-) TimerEvent: {}
+[69.953148] (-) TimerEvent: {}
+[70.053660] (-) TimerEvent: {}
+[70.154174] (-) TimerEvent: {}
+[70.254692] (-) TimerEvent: {}
+[70.355214] (-) TimerEvent: {}
+[70.455723] (-) TimerEvent: {}
+[70.556270] (-) TimerEvent: {}
+[70.656780] (-) TimerEvent: {}
+[70.757286] (-) TimerEvent: {}
+[70.857792] (-) TimerEvent: {}
+[70.958300] (-) TimerEvent: {}
+[71.058806] (-) TimerEvent: {}
+[71.159326] (-) TimerEvent: {}
+[71.259847] (-) TimerEvent: {}
+[71.360376] (-) TimerEvent: {}
+[71.460887] (-) TimerEvent: {}
+[71.561392] (-) TimerEvent: {}
+[71.661908] (-) TimerEvent: {}
+[71.762419] (-) TimerEvent: {}
+[71.862933] (-) TimerEvent: {}
+[71.963446] (-) TimerEvent: {}
+[72.063969] (-) TimerEvent: {}
+[72.164506] (-) TimerEvent: {}
+[72.265016] (-) TimerEvent: {}
+[72.365523] (-) TimerEvent: {}
+[72.466035] (-) TimerEvent: {}
+[72.566539] (-) TimerEvent: {}
+[72.667042] (-) TimerEvent: {}
+[72.767549] (-) TimerEvent: {}
+[72.868081] (-) TimerEvent: {}
+[72.968593] (-) TimerEvent: {}
+[73.069101] (-) TimerEvent: {}
+[73.169610] (-) TimerEvent: {}
+[73.270121] (-) TimerEvent: {}
+[73.370630] (-) TimerEvent: {}
+[73.471147] (-) TimerEvent: {}
+[73.571660] (-) TimerEvent: {}
+[73.672180] (-) TimerEvent: {}
+[73.772681] (-) TimerEvent: {}
+[73.873190] (-) TimerEvent: {}
+[73.973697] (-) TimerEvent: {}
+[74.074197] (-) TimerEvent: {}
+[74.174706] (-) TimerEvent: {}
+[74.275225] (-) TimerEvent: {}
+[74.375745] (-) TimerEvent: {}
+[74.476294] (-) TimerEvent: {}
+[74.576835] (-) TimerEvent: {}
+[74.677368] (-) TimerEvent: {}
+[74.777890] (-) TimerEvent: {}
+[74.878418] (-) TimerEvent: {}
+[74.978962] (-) TimerEvent: {}
+[75.079497] (-) TimerEvent: {}
+[75.180029] (-) TimerEvent: {}
+[75.280541] (-) TimerEvent: {}
+[75.381051] (-) TimerEvent: {}
+[75.481565] (-) TimerEvent: {}
+[75.582083] (-) TimerEvent: {}
+[75.682601] (-) TimerEvent: {}
+[75.783117] (-) TimerEvent: {}
+[75.883632] (-) TimerEvent: {}
+[75.984156] (-) TimerEvent: {}
+[76.084686] (-) TimerEvent: {}
+[76.185225] (-) TimerEvent: {}
+[76.285774] (-) TimerEvent: {}
+[76.386290] (-) TimerEvent: {}
+[76.486808] (-) TimerEvent: {}
+[76.587318] (-) TimerEvent: {}
+[76.687836] (-) TimerEvent: {}
+[76.788363] (-) TimerEvent: {}
+[76.888878] (-) TimerEvent: {}
+[76.989397] (-) TimerEvent: {}
+[77.089919] (-) TimerEvent: {}
+[77.190476] (-) TimerEvent: {}
+[77.290999] (-) TimerEvent: {}
+[77.391527] (-) TimerEvent: {}
+[77.492233] (-) TimerEvent: {}
+[77.592937] (-) TimerEvent: {}
+[77.693630] (-) TimerEvent: {}
+[77.794206] (-) TimerEvent: {}
+[77.894912] (-) TimerEvent: {}
+[77.995553] (-) TimerEvent: {}
+[78.096074] (-) TimerEvent: {}
+[78.196741] (-) TimerEvent: {}
+[78.297328] (-) TimerEvent: {}
+[78.397849] (-) TimerEvent: {}
+[78.498377] (-) TimerEvent: {}
+[78.598947] (-) TimerEvent: {}
+[78.699636] (-) TimerEvent: {}
+[78.800361] (-) TimerEvent: {}
+[78.901059] (-) TimerEvent: {}
+[79.001759] (-) TimerEvent: {}
+[79.102438] (-) TimerEvent: {}
+[79.203120] (-) TimerEvent: {}
+[79.303806] (-) TimerEvent: {}
+[79.404512] (-) TimerEvent: {}
+[79.505158] (-) TimerEvent: {}
+[79.605697] (-) TimerEvent: {}
+[79.706265] (-) TimerEvent: {}
+[79.806774] (-) TimerEvent: {}
+[79.907289] (-) TimerEvent: {}
+[80.007827] (-) TimerEvent: {}
+[80.108484] (-) TimerEvent: {}
+[80.209117] (-) TimerEvent: {}
+[80.309657] (-) TimerEvent: {}
+[80.410301] (-) TimerEvent: {}
+[80.510856] (-) TimerEvent: {}
+[80.611565] (-) TimerEvent: {}
+[80.712229] (-) TimerEvent: {}
+[80.812740] (-) TimerEvent: {}
+[80.913652] (-) TimerEvent: {}
+[81.014279] (-) TimerEvent: {}
+[81.114842] (-) TimerEvent: {}
+[81.215510] (-) TimerEvent: {}
+[81.316093] (-) TimerEvent: {}
+[81.416802] (-) TimerEvent: {}
+[81.517488] (-) TimerEvent: {}
+[81.618204] (-) TimerEvent: {}
+[81.718892] (-) TimerEvent: {}
+[81.819581] (-) TimerEvent: {}
+[81.920296] (-) TimerEvent: {}
+[82.020863] (-) TimerEvent: {}
+[82.121592] (-) TimerEvent: {}
+[82.222263] (-) TimerEvent: {}
+[82.323092] (-) TimerEvent: {}
+[82.423615] (-) TimerEvent: {}
+[82.524109] (-) TimerEvent: {}
+[82.624930] (-) TimerEvent: {}
+[82.725481] (-) TimerEvent: {}
+[82.826183] (-) TimerEvent: {}
+[82.926879] (-) TimerEvent: {}
+[83.027574] (-) TimerEvent: {}
+[83.128285] (-) TimerEvent: {}
+[83.228941] (-) TimerEvent: {}
+[83.329646] (-) TimerEvent: {}
+[83.430343] (-) TimerEvent: {}
+[83.531046] (-) TimerEvent: {}
+[83.631701] (-) TimerEvent: {}
+[83.732338] (-) TimerEvent: {}
+[83.832971] (-) TimerEvent: {}
+[83.933497] (-) TimerEvent: {}
+[84.034045] (-) TimerEvent: {}
+[84.134740] (-) TimerEvent: {}
+[84.235426] (-) TimerEvent: {}
+[84.336135] (-) TimerEvent: {}
+[84.436816] (-) TimerEvent: {}
+[84.537524] (-) TimerEvent: {}
+[84.638207] (-) TimerEvent: {}
+[84.738758] (-) TimerEvent: {}
+[84.839292] (-) TimerEvent: {}
+[84.939846] (-) TimerEvent: {}
+[85.040563] (-) TimerEvent: {}
+[85.141098] (-) TimerEvent: {}
+[85.241654] (-) TimerEvent: {}
+[85.342335] (-) TimerEvent: {}
+[85.443020] (-) TimerEvent: {}
+[85.543719] (-) TimerEvent: {}
+[85.644434] (-) TimerEvent: {}
+[85.745137] (-) TimerEvent: {}
+[85.845829] (-) TimerEvent: {}
+[85.946655] (-) TimerEvent: {}
+[86.047340] (-) TimerEvent: {}
+[86.148130] (-) TimerEvent: {}
+[86.248650] (-) TimerEvent: {}
+[86.349168] (-) TimerEvent: {}
+[86.449722] (-) TimerEvent: {}
+[86.550410] (-) TimerEvent: {}
+[86.651098] (-) TimerEvent: {}
+[86.751787] (-) TimerEvent: {}
+[86.852545] (-) TimerEvent: {}
+[86.953223] (-) TimerEvent: {}
+[87.053885] (-) TimerEvent: {}
+[87.154449] (-) TimerEvent: {}
+[87.255120] (-) TimerEvent: {}
+[87.355711] (-) TimerEvent: {}
+[87.456260] (-) TimerEvent: {}
+[87.556770] (-) TimerEvent: {}
+[87.657319] (-) TimerEvent: {}
+[87.757971] (-) TimerEvent: {}
+[87.858631] (-) TimerEvent: {}
+[87.959266] (-) TimerEvent: {}
+[88.059794] (-) TimerEvent: {}
+[88.160492] (-) TimerEvent: {}
+[88.261166] (-) TimerEvent: {}
+[88.361830] (-) TimerEvent: {}
+[88.462457] (-) TimerEvent: {}
+[88.562986] (-) TimerEvent: {}
+[88.663651] (-) TimerEvent: {}
+[88.764318] (-) TimerEvent: {}
+[88.864836] (-) TimerEvent: {}
+[88.965369] (-) TimerEvent: {}
+[89.065908] (-) TimerEvent: {}
+[89.166468] (-) TimerEvent: {}
+[89.267129] (-) TimerEvent: {}
+[89.367675] (-) TimerEvent: {}
+[89.468408] (-) TimerEvent: {}
+[89.569098] (-) TimerEvent: {}
+[89.669792] (-) TimerEvent: {}
+[89.770430] (-) TimerEvent: {}
+[89.870964] (-) TimerEvent: {}
+[89.971640] (-) TimerEvent: {}
+[90.072207] (-) TimerEvent: {}
+[90.172717] (-) TimerEvent: {}
+[90.273218] (-) TimerEvent: {}
+[90.373749] (-) TimerEvent: {}
+[90.474444] (-) TimerEvent: {}
+[90.575110] (-) TimerEvent: {}
+[90.675784] (-) TimerEvent: {}
+[90.776476] (-) TimerEvent: {}
+[90.877238] (-) TimerEvent: {}
+[90.977885] (-) TimerEvent: {}
+[91.078445] (-) TimerEvent: {}
+[91.179152] (-) TimerEvent: {}
+[91.279799] (-) TimerEvent: {}
+[91.380359] (-) TimerEvent: {}
+[91.481025] (-) TimerEvent: {}
+[91.581704] (-) TimerEvent: {}
+[91.682319] (-) TimerEvent: {}
+[91.782809] (-) TimerEvent: {}
+[91.883333] (-) TimerEvent: {}
+[91.983951] (-) TimerEvent: {}
+[92.084593] (-) TimerEvent: {}
+[92.185209] (-) TimerEvent: {}
+[92.285735] (-) TimerEvent: {}
+[92.386386] (-) TimerEvent: {}
+[92.486905] (-) TimerEvent: {}
+[92.587566] (-) TimerEvent: {}
+[92.688227] (-) TimerEvent: {}
+[92.788755] (-) TimerEvent: {}
+[92.889363] (-) TimerEvent: {}
+[92.989847] (-) TimerEvent: {}
+[93.090378] (-) TimerEvent: {}
+[93.191036] (-) TimerEvent: {}
+[93.291713] (-) TimerEvent: {}
+[93.392370] (-) TimerEvent: {}
+[93.492973] (-) TimerEvent: {}
+[93.593626] (-) TimerEvent: {}
+[93.694288] (-) TimerEvent: {}
+[93.794896] (-) TimerEvent: {}
+[93.895391] (-) TimerEvent: {}
+[93.995884] (-) TimerEvent: {}
+[94.096527] (-) TimerEvent: {}
+[94.197172] (-) TimerEvent: {}
+[94.297821] (-) TimerEvent: {}
+[94.398484] (-) TimerEvent: {}
+[94.499137] (-) TimerEvent: {}
+[94.599786] (-) TimerEvent: {}
+[94.700470] (-) TimerEvent: {}
+[94.801094] (-) TimerEvent: {}
+[94.901604] (-) TimerEvent: {}
+[95.002256] (-) TimerEvent: {}
+[95.102912] (-) TimerEvent: {}
+[95.203586] (-) TimerEvent: {}
+[95.304279] (-) TimerEvent: {}
+[95.404882] (-) TimerEvent: {}
+[95.505405] (-) TimerEvent: {}
+[95.605907] (-) TimerEvent: {}
+[95.706396] (-) TimerEvent: {}
+[95.806898] (-) TimerEvent: {}
+[95.907412] (-) TimerEvent: {}
+[96.008088] (-) TimerEvent: {}
+[96.108741] (-) TimerEvent: {}
+[96.209418] (-) TimerEvent: {}
+[96.310058] (-) TimerEvent: {}
+[96.410599] (-) TimerEvent: {}
+[96.511223] (-) TimerEvent: {}
+[96.611725] (-) TimerEvent: {}
+[96.712283] (-) TimerEvent: {}
+[96.812799] (-) TimerEvent: {}
+[96.913358] (-) TimerEvent: {}
+[97.014065] (-) TimerEvent: {}
+[97.114751] (-) TimerEvent: {}
+[97.215463] (-) TimerEvent: {}
+[97.316134] (-) TimerEvent: {}
+[97.416829] (-) TimerEvent: {}
+[97.517520] (-) TimerEvent: {}
+[97.618205] (-) TimerEvent: {}
+[97.718912] (-) TimerEvent: {}
+[97.819564] (-) TimerEvent: {}
+[97.920143] (-) TimerEvent: {}
+[98.020832] (-) TimerEvent: {}
+[98.121582] (-) TimerEvent: {}
+[98.222254] (-) TimerEvent: {}
+[98.322781] (-) TimerEvent: {}
+[98.423328] (-) TimerEvent: {}
+[98.524044] (-) TimerEvent: {}
+[98.624735] (-) TimerEvent: {}
+[98.725434] (-) TimerEvent: {}
+[98.826118] (-) TimerEvent: {}
+[98.926929] (-) TimerEvent: {}
+[99.027565] (-) TimerEvent: {}
+[99.128292] (-) TimerEvent: {}
+[99.228926] (-) TimerEvent: {}
+[99.329444] (-) TimerEvent: {}
+[99.429997] (-) TimerEvent: {}
+[99.530670] (-) TimerEvent: {}
+[99.631343] (-) TimerEvent: {}
+[99.732038] (-) TimerEvent: {}
+[99.832706] (-) TimerEvent: {}
+[99.933364] (-) TimerEvent: {}
+[100.034024] (-) TimerEvent: {}
+[100.134678] (-) TimerEvent: {}
+[100.235355] (-) TimerEvent: {}
+[100.336075] (-) TimerEvent: {}
+[100.436761] (-) TimerEvent: {}
+[100.537429] (-) TimerEvent: {}
+[100.638086] (-) TimerEvent: {}
+[100.738710] (-) TimerEvent: {}
+[100.839240] (-) TimerEvent: {}
+[100.939877] (-) TimerEvent: {}
+[101.040429] (-) TimerEvent: {}
+[101.141103] (-) TimerEvent: {}
+[101.241778] (-) TimerEvent: {}
+[101.342436] (-) TimerEvent: {}
+[101.443105] (-) TimerEvent: {}
+[101.543798] (-) TimerEvent: {}
+[101.644403] (-) TimerEvent: {}
+[101.744967] (-) TimerEvent: {}
+[101.845503] (-) TimerEvent: {}
+[101.946133] (-) TimerEvent: {}
+[102.046652] (-) TimerEvent: {}
+[102.147298] (-) TimerEvent: {}
+[102.247895] (-) TimerEvent: {}
+[102.348579] (-) TimerEvent: {}
+[102.449232] (-) TimerEvent: {}
+[102.549920] (-) TimerEvent: {}
+[102.650581] (-) TimerEvent: {}
+[102.751245] (-) TimerEvent: {}
+[102.851906] (-) TimerEvent: {}
+[102.952596] (-) TimerEvent: {}
+[103.053236] (-) TimerEvent: {}
+[103.153893] (-) TimerEvent: {}
+[103.254465] (-) TimerEvent: {}
+[103.355089] (-) TimerEvent: {}
+[103.455576] (-) TimerEvent: {}
+[103.556132] (-) TimerEvent: {}
+[103.656811] (-) TimerEvent: {}
+[103.757364] (-) TimerEvent: {}
+[103.858022] (-) TimerEvent: {}
+[103.958676] (-) TimerEvent: {}
+[104.059339] (-) TimerEvent: {}
+[104.159924] (-) TimerEvent: {}
+[104.260449] (-) TimerEvent: {}
+[104.360947] (-) TimerEvent: {}
+[104.461485] (-) TimerEvent: {}
+[104.562152] (-) TimerEvent: {}
+[104.662804] (-) TimerEvent: {}
+[104.763453] (-) TimerEvent: {}
+[104.864140] (-) TimerEvent: {}
+[104.964792] (-) TimerEvent: {}
+[105.065448] (-) TimerEvent: {}
+[105.166121] (-) TimerEvent: {}
+[105.266793] (-) TimerEvent: {}
+[105.367474] (-) TimerEvent: {}
+[105.468230] (-) TimerEvent: {}
+[105.568899] (-) TimerEvent: {}
+[105.669570] (-) TimerEvent: {}
+[105.770240] (-) TimerEvent: {}
+[105.870811] (-) TimerEvent: {}
+[105.971358] (-) TimerEvent: {}
+[106.072079] (-) TimerEvent: {}
+[106.172724] (-) TimerEvent: {}
+[106.273273] (-) TimerEvent: {}
+[106.373943] (-) TimerEvent: {}
+[106.474614] (-) TimerEvent: {}
+[106.575349] (-) TimerEvent: {}
+[106.676006] (-) TimerEvent: {}
+[106.776632] (-) TimerEvent: {}
+[106.877412] (-) TimerEvent: {}
+[106.977959] (-) TimerEvent: {}
+[107.078605] (-) TimerEvent: {}
+[107.179145] (-) TimerEvent: {}
+[107.279788] (-) TimerEvent: {}
+[107.380411] (-) TimerEvent: {}
+[107.481085] (-) TimerEvent: {}
+[107.581773] (-) TimerEvent: {}
+[107.682460] (-) TimerEvent: {}
+[107.783096] (-) TimerEvent: {}
+[107.883739] (-) TimerEvent: {}
+[107.984419] (-) TimerEvent: {}
+[108.085072] (-) TimerEvent: {}
+[108.185677] (-) TimerEvent: {}
+[108.286319] (-) TimerEvent: {}
+[108.387103] (-) TimerEvent: {}
+[108.488095] (-) TimerEvent: {}
+[108.588592] (-) TimerEvent: {}
+[108.689076] (-) TimerEvent: {}
+[108.789544] (-) TimerEvent: {}
+[108.890299] (-) TimerEvent: {}
+[108.991013] (-) TimerEvent: {}
+[109.091668] (-) TimerEvent: {}
+[109.192310] (-) TimerEvent: {}
+[109.292973] (-) TimerEvent: {}
+[109.393492] (-) TimerEvent: {}
+[109.493999] (-) TimerEvent: {}
+[109.594759] (-) TimerEvent: {}
+[109.695296] (-) TimerEvent: {}
+[109.795939] (-) TimerEvent: {}
+[109.896641] (-) TimerEvent: {}
+[109.997313] (-) TimerEvent: {}
+[110.097983] (-) TimerEvent: {}
+[110.198616] (-) TimerEvent: {}
+[110.299163] (-) TimerEvent: {}
+[110.399824] (-) TimerEvent: {}
+[110.500517] (-) TimerEvent: {}
+[110.601063] (-) TimerEvent: {}
+[110.701734] (-) TimerEvent: {}
+[110.802359] (-) TimerEvent: {}
+[110.902875] (-) TimerEvent: {}
+[111.003501] (-) TimerEvent: {}
+[111.104048] (-) TimerEvent: {}
+[111.204713] (-) TimerEvent: {}
+[111.305344] (-) TimerEvent: {}
+[111.405850] (-) TimerEvent: {}
+[111.506370] (-) TimerEvent: {}
+[111.607013] (-) TimerEvent: {}
+[111.707684] (-) TimerEvent: {}
+[111.808382] (-) TimerEvent: {}
+[111.909047] (-) TimerEvent: {}
+[112.009677] (-) TimerEvent: {}
+[112.110201] (-) TimerEvent: {}
+[112.210757] (-) TimerEvent: {}
+[112.311432] (-) TimerEvent: {}
+[112.411942] (-) TimerEvent: {}
+[112.512467] (-) TimerEvent: {}
+[112.612977] (-) TimerEvent: {}
+[112.713485] (-) TimerEvent: {}
+[112.814026] (-) TimerEvent: {}
+[112.914687] (-) TimerEvent: {}
+[113.015359] (-) TimerEvent: {}
+[113.116040] (-) TimerEvent: {}
+[113.216708] (-) TimerEvent: {}
+[113.317408] (-) TimerEvent: {}
+[113.418099] (-) TimerEvent: {}
+[113.518738] (-) TimerEvent: {}
+[113.619290] (-) TimerEvent: {}
+[113.720059] (-) TimerEvent: {}
+[113.820588] (-) TimerEvent: {}
+[113.921095] (-) TimerEvent: {}
+[114.021597] (-) TimerEvent: {}
+[114.122108] (-) TimerEvent: {}
+[114.222754] (-) TimerEvent: {}
+[114.323413] (-) TimerEvent: {}
+[114.424054] (-) TimerEvent: {}
+[114.524702] (-) TimerEvent: {}
+[114.625347] (-) TimerEvent: {}
+[114.725986] (-) TimerEvent: {}
+[114.826518] (-) TimerEvent: {}
+[114.927183] (-) TimerEvent: {}
+[115.027850] (-) TimerEvent: {}
+[115.128384] (-) TimerEvent: {}
+[115.228912] (-) TimerEvent: {}
+[115.329455] (-) TimerEvent: {}
+[115.429981] (-) TimerEvent: {}
+[115.530538] (-) TimerEvent: {}
+[115.631252] (-) TimerEvent: {}
+[115.731916] (-) TimerEvent: {}
+[115.832634] (-) TimerEvent: {}
+[115.933275] (-) TimerEvent: {}
+[116.033883] (-) TimerEvent: {}
+[116.134546] (-) TimerEvent: {}
+[116.235180] (-) TimerEvent: {}
+[116.335730] (-) TimerEvent: {}
+[116.436426] (-) TimerEvent: {}
+[116.536965] (-) TimerEvent: {}
+[116.637457] (-) TimerEvent: {}
+[116.737948] (-) TimerEvent: {}
+[116.838474] (-) TimerEvent: {}
+[116.939157] (-) TimerEvent: {}
+[117.039834] (-) TimerEvent: {}
+[117.140544] (-) TimerEvent: {}
+[117.241250] (-) TimerEvent: {}
+[117.341932] (-) TimerEvent: {}
+[117.442588] (-) TimerEvent: {}
+[117.543140] (-) TimerEvent: {}
+[117.643826] (-) TimerEvent: {}
+[117.744501] (-) TimerEvent: {}
+[117.845022] (-) TimerEvent: {}
+[117.945531] (-) TimerEvent: {}
+[118.046031] (-) TimerEvent: {}
+[118.146531] (-) TimerEvent: {}
+[118.247028] (-) TimerEvent: {}
+[118.347537] (-) TimerEvent: {}
+[118.448102] (-) TimerEvent: {}
+[118.548846] (-) TimerEvent: {}
+[118.649545] (-) TimerEvent: {}
+[118.750211] (-) TimerEvent: {}
+[118.850865] (-) TimerEvent: {}
+[118.951507] (-) TimerEvent: {}
+[119.052066] (-) TimerEvent: {}
+[119.152666] (-) TimerEvent: {}
+[119.253372] (-) TimerEvent: {}
+[119.354083] (-) TimerEvent: {}
+[119.454600] (-) TimerEvent: {}
+[119.555121] (-) TimerEvent: {}
+[119.655770] (-) TimerEvent: {}
+[119.756502] (-) TimerEvent: {}
+[119.857184] (-) TimerEvent: {}
+[119.957737] (-) TimerEvent: {}
+[120.058436] (-) TimerEvent: {}
+[120.159077] (-) TimerEvent: {}
+[120.259642] (-) TimerEvent: {}
+[120.360342] (-) TimerEvent: {}
+[120.461025] (-) TimerEvent: {}
+[120.561726] (-) TimerEvent: {}
+[120.662437] (-) TimerEvent: {}
+[120.763005] (-) TimerEvent: {}
+[120.863706] (-) TimerEvent: {}
+[120.964401] (-) TimerEvent: {}
+[121.065053] (-) TimerEvent: {}
+[121.165706] (-) TimerEvent: {}
+[121.266367] (-) TimerEvent: {}
+[121.366993] (-) TimerEvent: {}
+[121.467538] (-) TimerEvent: {}
+[121.568227] (-) TimerEvent: {}
+[121.668887] (-) TimerEvent: {}
+[121.769539] (-) TimerEvent: {}
+[121.870044] (-) TimerEvent: {}
+[121.970531] (-) TimerEvent: {}
+[122.071023] (-) TimerEvent: {}
+[122.171525] (-) TimerEvent: {}
+[122.272074] (-) TimerEvent: {}
+[122.372771] (-) TimerEvent: {}
+[122.473455] (-) TimerEvent: {}
+[122.574104] (-) TimerEvent: {}
+[122.674809] (-) TimerEvent: {}
+[122.775473] (-) TimerEvent: {}
+[122.875995] (-) TimerEvent: {}
+[122.976554] (-) TimerEvent: {}
+[123.077237] (-) TimerEvent: {}
+[123.177904] (-) TimerEvent: {}
+[123.278568] (-) TimerEvent: {}
+[123.379229] (-) TimerEvent: {}
+[123.479893] (-) TimerEvent: {}
+[123.580595] (-) TimerEvent: {}
+[123.681263] (-) TimerEvent: {}
+[123.781932] (-) TimerEvent: {}
+[123.882595] (-) TimerEvent: {}
+[123.983267] (-) TimerEvent: {}
+[124.083909] (-) TimerEvent: {}
+[124.184482] (-) TimerEvent: {}
+[124.285137] (-) TimerEvent: {}
+[124.385770] (-) TimerEvent: {}
+[124.486269] (-) TimerEvent: {}
+[124.586770] (-) TimerEvent: {}
+[124.687286] (-) TimerEvent: {}
+[124.787796] (-) TimerEvent: {}
+[124.888365] (-) TimerEvent: {}
+[124.989012] (-) TimerEvent: {}
+[125.089562] (-) TimerEvent: {}
+[125.190223] (-) TimerEvent: {}
+[125.290894] (-) TimerEvent: {}
+[125.391578] (-) TimerEvent: {}
+[125.492279] (-) TimerEvent: {}
+[125.592938] (-) TimerEvent: {}
+[125.693454] (-) TimerEvent: {}
+[125.793969] (-) TimerEvent: {}
+[125.894482] (-) TimerEvent: {}
+[125.995016] (-) TimerEvent: {}
+[126.095626] (-) TimerEvent: {}
+[126.196280] (-) TimerEvent: {}
+[126.296935] (-) TimerEvent: {}
+[126.397593] (-) TimerEvent: {}
+[126.498259] (-) TimerEvent: {}
+[126.598916] (-) TimerEvent: {}
+[126.699584] (-) TimerEvent: {}
+[126.800230] (-) TimerEvent: {}
+[126.900765] (-) TimerEvent: {}
+[127.001430] (-) TimerEvent: {}
+[127.102069] (-) TimerEvent: {}
+[127.202586] (-) TimerEvent: {}
+[127.303095] (-) TimerEvent: {}
+[127.403646] (-) TimerEvent: {}
+[127.504332] (-) TimerEvent: {}
+[127.604848] (-) TimerEvent: {}
+[127.705355] (-) TimerEvent: {}
+[127.805887] (-) TimerEvent: {}
+[127.906557] (-) TimerEvent: {}
+[128.007191] (-) TimerEvent: {}
+[128.107742] (-) TimerEvent: {}
+[128.208446] (-) TimerEvent: {}
+[128.309115] (-) TimerEvent: {}
+[128.409797] (-) TimerEvent: {}
+[128.510380] (-) TimerEvent: {}
+[128.610884] (-) TimerEvent: {}
+[128.711421] (-) TimerEvent: {}
+[128.812075] (-) TimerEvent: {}
+[128.912601] (-) TimerEvent: {}
+[129.013241] (-) TimerEvent: {}
+[129.113899] (-) TimerEvent: {}
+[129.214575] (-) TimerEvent: {}
+[129.315226] (-) TimerEvent: {}
+[129.415923] (-) TimerEvent: {}
+[129.516606] (-) TimerEvent: {}
+[129.617261] (-) TimerEvent: {}
+[129.717924] (-) TimerEvent: {}
+[129.818550] (-) TimerEvent: {}
+[129.919050] (-) TimerEvent: {}
+[130.019541] (-) TimerEvent: {}
+[130.120053] (-) TimerEvent: {}
+[130.220592] (-) TimerEvent: {}
+[130.321248] (-) TimerEvent: {}
+[130.421912] (-) TimerEvent: {}
+[130.522579] (-) TimerEvent: {}
+[130.623230] (-) TimerEvent: {}
+[130.723893] (-) TimerEvent: {}
+[130.824629] (-) TimerEvent: {}
+[130.925289] (-) TimerEvent: {}
+[131.025949] (-) TimerEvent: {}
+[131.126602] (-) TimerEvent: {}
+[131.227298] (-) TimerEvent: {}
+[131.327939] (-) TimerEvent: {}
+[131.428387] (-) TimerEvent: {}
+[131.528858] (-) TimerEvent: {}
+[131.629411] (-) TimerEvent: {}
+[131.729950] (-) TimerEvent: {}
+[131.830519] (-) TimerEvent: {}
+[131.931125] (-) TimerEvent: {}
+[132.031674] (-) TimerEvent: {}
+[132.132248] (-) TimerEvent: {}
+[132.232905] (-) TimerEvent: {}
+[132.333578] (-) TimerEvent: {}
+[132.434251] (-) TimerEvent: {}
+[132.534913] (-) TimerEvent: {}
+[132.635453] (-) TimerEvent: {}
+[132.735954] (-) TimerEvent: {}
+[132.836457] (-) TimerEvent: {}
+[132.936948] (-) TimerEvent: {}
+[133.037481] (-) TimerEvent: {}
+[133.138164] (-) TimerEvent: {}
+[133.238825] (-) TimerEvent: {}
+[133.339498] (-) TimerEvent: {}
+[133.440134] (-) TimerEvent: {}
+[133.540786] (-) TimerEvent: {}
+[133.641438] (-) TimerEvent: {}
+[133.742085] (-) TimerEvent: {}
+[133.842620] (-) TimerEvent: {}
+[133.943264] (-) TimerEvent: {}
+[134.043897] (-) TimerEvent: {}
+[134.144476] (-) TimerEvent: {}
+[134.245177] (-) TimerEvent: {}
+[134.345828] (-) TimerEvent: {}
+[134.446375] (-) TimerEvent: {}
+[134.547039] (-) TimerEvent: {}
+[134.647624] (-) TimerEvent: {}
+[134.748373] (-) TimerEvent: {}
+[134.849058] (-) TimerEvent: {}
+[134.949733] (-) TimerEvent: {}
+[135.050419] (-) TimerEvent: {}
+[135.151108] (-) TimerEvent: {}
+[135.251758] (-) TimerEvent: {}
+[135.352282] (-) TimerEvent: {}
+[135.452785] (-) TimerEvent: {}
+[135.553283] (-) TimerEvent: {}
+[135.653866] (-) TimerEvent: {}
+[135.754595] (-) TimerEvent: {}
+[135.855319] (-) TimerEvent: {}
+[135.955998] (-) TimerEvent: {}
+[136.056655] (-) TimerEvent: {}
+[136.157349] (-) TimerEvent: {}
+[136.258046] (-) TimerEvent: {}
+[136.358791] (-) TimerEvent: {}
+[136.459503] (-) TimerEvent: {}
+[136.560234] (-) TimerEvent: {}
+[136.660890] (-) TimerEvent: {}
+[136.761470] (-) TimerEvent: {}
+[136.862035] (-) TimerEvent: {}
+[136.962604] (-) TimerEvent: {}
+[137.063107] (-) TimerEvent: {}
+[137.163640] (-) TimerEvent: {}
+[137.264147] (-) TimerEvent: {}
+[137.364794] (-) TimerEvent: {}
+[137.465455] (-) TimerEvent: {}
+[137.566098] (-) TimerEvent: {}
+[137.666762] (-) TimerEvent: {}
+[137.767427] (-) TimerEvent: {}
+[137.868049] (-) TimerEvent: {}
+[137.968571] (-) TimerEvent: {}
+[138.069195] (-) TimerEvent: {}
+[138.169683] (-) TimerEvent: {}
+[138.270265] (-) TimerEvent: {}
+[138.370956] (-) TimerEvent: {}
+[138.471656] (-) TimerEvent: {}
+[138.572364] (-) TimerEvent: {}
+[138.672986] (-) TimerEvent: {}
+[138.773500] (-) TimerEvent: {}
+[138.874009] (-) TimerEvent: {}
+[138.974510] (-) TimerEvent: {}
+[139.075035] (-) TimerEvent: {}
+[139.175553] (-) TimerEvent: {}
+[139.276070] (-) TimerEvent: {}
+[139.376667] (-) TimerEvent: {}
+[139.477191] (-) TimerEvent: {}
+[139.577740] (-) TimerEvent: {}
+[139.664181] (fast_lio) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable fastlio_mapping\x1b[0m\n'}
+[139.677880] (-) TimerEvent: {}
+[139.778372] (-) TimerEvent: {}
+[139.878934] (-) TimerEvent: {}
+[139.979577] (-) TimerEvent: {}
+[140.080101] (-) TimerEvent: {}
+[140.180747] (-) TimerEvent: {}
+[140.281258] (-) TimerEvent: {}
+[140.381815] (-) TimerEvent: {}
+[140.482488] (-) TimerEvent: {}
+[140.583136] (-) TimerEvent: {}
+[140.683780] (-) TimerEvent: {}
+[140.784474] (-) TimerEvent: {}
+[140.885130] (-) TimerEvent: {}
+[140.985834] (-) TimerEvent: {}
+[141.086395] (-) TimerEvent: {}
+[141.187073] (-) TimerEvent: {}
+[141.287732] (-) TimerEvent: {}
+[141.388320] (-) TimerEvent: {}
+[141.488995] (-) TimerEvent: {}
+[141.589636] (-) TimerEvent: {}
+[141.690164] (-) TimerEvent: {}
+[141.790819] (-) TimerEvent: {}
+[141.857209] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::TypedBadConversion<double>::~TypedBadConversion()':\n"}
+[141.857891] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML18TypedBadConversionIdED2Ev[_ZN4YAML18TypedBadConversionIdED5Ev]+0x10): undefined reference to `YAML::BadConversion::~BadConversion()'\n"}
+[141.858210] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::TypedBadConversion<double>::~TypedBadConversion()':\n"}
+[141.858476] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML18TypedBadConversionIdED0Ev[_ZN4YAML18TypedBadConversionIdED5Ev]+0x20): undefined reference to `YAML::BadConversion::~BadConversion()'\n"}
+[141.865730] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::detail::node::mark_defined()':\n"}
+[141.866331] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML6detail4node12mark_definedEv[_ZN4YAML6detail4node12mark_definedEv]+0x34): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[141.866594] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML6detail4node12mark_definedEv[_ZN4YAML6detail4node12mark_definedEv]+0x80): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[141.866862] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML6detail4node12mark_definedEv[_ZN4YAML6detail4node12mark_definedEv]+0xbc): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[141.867319] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML6detail4node12mark_definedEv[_ZN4YAML6detail4node12mark_definedEv]+0xf8): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[141.867914] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML6detail4node12mark_definedEv[_ZN4YAML6detail4node12mark_definedEv]+0x134): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[141.868145] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o:laserMapping.cpp:(.text._ZN4YAML6detail4node12mark_definedEv[_ZN4YAML6detail4node12mark_definedEv]+0x168): more undefined references to `YAML::detail::node_data::mark_defined()' follow\n"}
+[141.868331] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::BadConversion::BadConversion(YAML::Mark const&)':\n"}
+[141.868478] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x94): undefined reference to `vtable for YAML::Exception'\n"}
+[141.868648] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0xa4): undefined reference to `vtable for YAML::Exception'\n"}
+[141.868790] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0xd0): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[141.868894] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0xd8): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[141.869065] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0xf8): undefined reference to `vtable for YAML::BadConversion'\n"}
+[141.869225] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x100): undefined reference to `vtable for YAML::BadConversion'\n"}
+[141.869324] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::InvalidNode::InvalidNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[141.869442] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x264): undefined reference to `vtable for YAML::Exception'\n"}
+[141.869582] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x274): undefined reference to `vtable for YAML::Exception'\n"}
+[141.869836] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x29c): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[141.870127] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2a8): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[141.870587] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2c8): undefined reference to `vtable for YAML::InvalidNode'\n"}
+[141.870818] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2d0): undefined reference to `vtable for YAML::InvalidNode'\n"}
+[141.871029] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::convert<double>::decode(YAML::Node const&, double&)':\n"}
+[141.871233] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML7convertIdE6decodeERKNS_4NodeERd[_ZN4YAML7convertIdE6decodeERKNS_4NodeERd]+0x50c): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.871554] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML7convertIdE6decodeERKNS_4NodeERd[_ZN4YAML7convertIdE6decodeERKNS_4NodeERd]+0x510): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.871952] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML7convertIdE6decodeERKNS_4NodeERd[_ZN4YAML7convertIdE6decodeERKNS_4NodeERd]+0x51c): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.872383] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML7convertIdE6decodeERKNS_4NodeERd[_ZN4YAML7convertIdE6decodeERKNS_4NodeERd]+0x524): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.872609] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::Node::Mark() const':\n"}
+[141.872844] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x90): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.873052] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x94): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.873267] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x9c): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.873685] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0xa0): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.874051] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `double YAML::Node::as<double>() const':\n"}
+[141.874397] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x134): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.874608] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x138): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.874807] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x140): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.875007] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x144): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.875205] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::detail::node_data::get<char [18]>(char const (&) [18], std::shared_ptr<YAML::detail::memory_holder>)::{lambda(std::pair<YAML::detail::node*, YAML::detail::node*>)#1}::operator()(std::pair<YAML::detail::node*, YAML::detail::node*>) const [clone .isra.0]':\n"}
+[141.875416] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZZN4YAML6detail9node_data3getIA18_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEEENKUlSt4pairIPS4_SD_EE_clESE_.isra.0[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x1dc): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.875621] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZZN4YAML6detail9node_data3getIA18_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEEENKUlSt4pairIPS4_SD_EE_clESE_.isra.0[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x1e0): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.875867] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZZN4YAML6detail9node_data3getIA18_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEEENKUlSt4pairIPS4_SD_EE_clESE_.isra.0[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x1e8): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.876233] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZZN4YAML6detail9node_data3getIA18_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEEENKUlSt4pairIPS4_SD_EE_clESE_.isra.0[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x1ec): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.876896] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::detail::node_data::get<char [17]>(char const (&) [17], std::shared_ptr<YAML::detail::memory_holder>)::{lambda(std::pair<YAML::detail::node*, YAML::detail::node*>)#1}::operator()(std::pair<YAML::detail::node*, YAML::detail::node*>) const [clone .isra.0]':\n"}
+[141.877460] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZZN4YAML6detail9node_data3getIA17_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEEENKUlSt4pairIPS4_SD_EE_clESE_.isra.0[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x1dc): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.878024] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZZN4YAML6detail9node_data3getIA17_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEEENKUlSt4pairIPS4_SD_EE_clESE_.isra.0[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x1e0): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.878551] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZZN4YAML6detail9node_data3getIA17_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEEENKUlSt4pairIPS4_SD_EE_clESE_.isra.0[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x1e8): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.878864] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZZN4YAML6detail9node_data3getIA17_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEEENKUlSt4pairIPS4_SD_EE_clESE_.isra.0[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x1ec): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.879054] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::Node::EnsureNodeExists() const':\n"}
+[141.879230] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0xcc): undefined reference to `YAML::detail::memory::create_node()'\n"}
+[141.879399] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0xec): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[141.879545] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x15c): undefined reference to `YAML::detail::node_data::set_null()'\n"}
+[141.879696] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x18c): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.879834] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x190): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.879999] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x19c): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.880186] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x1a0): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.880344] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::Node::Node<char const*>(char const* const&)':\n"}
+[141.880486] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML4NodeC2IPKcEERKT_[_ZN4YAML4NodeC5IPKcEERKT_]+0xe8): undefined reference to `YAML::detail::memory::create_node()'\n"}
+[141.880650] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeC2IPKcEERKT_[_ZN4YAML4NodeC5IPKcEERKT_]+0x154): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[141.880797] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeC2IPKcEERKT_[_ZN4YAML4NodeC5IPKcEERKT_]+0x1c0): undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[141.880952] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [17]>(YAML::Mark const&, char const (&) [17])':\n"}
+[141.881089] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA17_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA17_cEERKNS_4MarkERKT_]+0x7c): undefined reference to `vtable for YAML::Exception'\n"}
+[141.881312] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA17_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA17_cEERKNS_4MarkERKT_]+0x8c): undefined reference to `vtable for YAML::Exception'\n"}
+[141.881687] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA17_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA17_cEERKNS_4MarkERKT_]+0xb8): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[141.881970] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA17_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA17_cEERKNS_4MarkERKT_]+0xc4): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[141.882183] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA17_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA17_cEERKNS_4MarkERKT_]+0xe4): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[141.882416] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA17_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA17_cEERKNS_4MarkERKT_]+0xec): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[141.882626] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::Node YAML::Node::operator[]<char [17]>(char const (&) [17])':\n"}
+[141.882827] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0xf4): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[141.883028] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x7a8): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[141.883227] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x7cc): undefined reference to `YAML::detail::memory::create_node()'\n"}
+[141.883425] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x7e0): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[141.883648] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x8d8): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.883848] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x8dc): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.884078] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x8e4): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.884284] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x8e8): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.884388] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x934): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.884478] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x938): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.884567] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x940): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.884655] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x944): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.884743] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x9a8): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.884842] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x9ac): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.884934] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x9b4): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.885024] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x9b8): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.885135] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x9ec): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.885224] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x9f0): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.885312] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x9f8): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.885401] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0x9fc): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.885496] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0xc04): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[141.885588] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0xc08): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[141.885741] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0xc10): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[141.885857] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA17_cEES0_RKT_[_ZN4YAML4NodeixIA17_cEES0_RKT_]+0xc14): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[141.885987] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [18]>(YAML::Mark const&, char const (&) [18])':\n"}
+[141.886082] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA18_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA18_cEERKNS_4MarkERKT_]+0x7c): undefined reference to `vtable for YAML::Exception'\n"}
+[141.886174] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA18_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA18_cEERKNS_4MarkERKT_]+0x8c): undefined reference to `vtable for YAML::Exception'\n"}
+[141.886265] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA18_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA18_cEERKNS_4MarkERKT_]+0xb8): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[141.886375] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA18_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA18_cEERKNS_4MarkERKT_]+0xc4): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[141.886468] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA18_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA18_cEERKNS_4MarkERKT_]+0xe4): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[141.886558] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML12BadSubscriptC2IA18_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA18_cEERKNS_4MarkERKT_]+0xec): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[141.886648] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `YAML::Node YAML::Node::operator[]<char [18]>(char const (&) [18])':\n"}
+[141.886738] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xf4): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[141.886829] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x808): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[141.886932] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x82c): undefined reference to `YAML::detail::memory::create_node()'\n"}
+[141.887133] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x840): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[141.887340] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x96c): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.887537] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x970): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.887758] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x978): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.887957] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x97c): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.888192] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x9b0): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.888395] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x9b4): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.888591] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x9bc): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.888787] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0x9c0): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.888980] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xa24): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.889197] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xa28): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.889512] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xa30): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.889715] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xa34): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.889911] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xa68): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.890107] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xa6c): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.890302] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xa74): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[141.890522] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xa78): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[141.890721] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xca0): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[141.890891] (-) TimerEvent: {}
+[141.891070] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xca4): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[141.891187] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xcac): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[141.891288] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN4YAML4NodeixIA18_cEES0_RKT_[_ZN4YAML4NodeixIA18_cEES0_RKT_]+0xcb0): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[141.891383] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o: in function `LaserMappingNode::LaserMappingNode(rclcpp::NodeOptions const&)':\n"}
+[141.891476] (fast_lio) StderrLine: {'line': b"laserMapping.cpp:(.text._ZN16LaserMappingNodeC2ERKN6rclcpp11NodeOptionsE[_ZN16LaserMappingNodeC5ERKN6rclcpp11NodeOptionsE]+0x158): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[141.891581] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: laserMapping.cpp:(.text._ZN16LaserMappingNodeC2ERKN6rclcpp11NodeOptionsE[_ZN16LaserMappingNodeC5ERKN6rclcpp11NodeOptionsE]+0x33dc): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[141.891680] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIdEE[_ZTIN4YAML18TypedBadConversionIdEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'\n"}
+[141.894337] (fast_lio) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o:(.data.rel.local.DW.ref._ZTIN4YAML9ExceptionE[DW.ref._ZTIN4YAML9ExceptionE]+0x0): undefined reference to `typeinfo for YAML::Exception'\n"}
+[141.960710] (fast_lio) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[141.964098] (fast_lio) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:480: fastlio_mapping] Error 1\n'}
+[141.964796] (fast_lio) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/fastlio_mapping.dir/all] Error 2\n'}
+[141.965676] (fast_lio) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[141.971353] (fast_lio) CommandEnded: {'returncode': 2}
+[141.991039] (-) TimerEvent: {}
+[141.995888] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 2}
+[142.007205] (-) EventReactorShutdown: {}

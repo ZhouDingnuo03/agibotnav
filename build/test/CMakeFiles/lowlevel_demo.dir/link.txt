@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lowlevel_demo.dir/lowlevel_demo.cpp.o -o lowlevel_demo  -Wl,-rpath,/home/orin-001/sda/agibotnav/src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64 /home/orin-001/sda/agibotnav/src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64/libmc_sdk_zsl_1_aarch64.so 

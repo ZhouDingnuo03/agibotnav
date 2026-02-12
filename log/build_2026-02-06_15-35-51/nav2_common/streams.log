@@ -1,0 +1,64 @@
+[0.028s] Invoking command in '/home/orin-001/sda/agibotnav/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orin-001/sda/agibotnav/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/orin-001/sda/agibotnav/install/nav2_common
+[0.057s] -- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.517s] -- Found ament_cmake_python: 1.3.12 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.789s] -- Configuring done
+[0.794s] -- Generating done
+[0.797s] -- Build files have been written to: /home/orin-001/sda/agibotnav/build/nav2_common
+[0.802s] Invoked command in '/home/orin-001/sda/agibotnav/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orin-001/sda/agibotnav/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/orin-001/sda/agibotnav/install/nav2_common
+[0.804s] Invoking command in '/home/orin-001/sda/agibotnav/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/nav2_common -- -j8 -l8
+[0.902s] Built target ament_cmake_python_copy_nav2_common
+[1.344s] running egg_info
+[1.345s] creating nav2_common.egg-info
+[1.345s] writing nav2_common.egg-info/PKG-INFO
+[1.345s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[1.346s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.348s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.352s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.353s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.414s] Built target ament_cmake_python_build_nav2_common_egg
+[1.435s] Invoked command in '/home/orin-001/sda/agibotnav/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/nav2_common -- -j8 -l8
+[1.439s] Invoking command in '/home/orin-001/sda/agibotnav/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orin-001/sda/agibotnav/build/nav2_common
+[1.452s] -- Install configuration: ""
+[1.453s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[1.453s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[1.453s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.20-py3.10.egg-info
+[1.454s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.20-py3.10.egg-info/PKG-INFO
+[1.454s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.20-py3.10.egg-info/dependency_links.txt
+[1.454s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.20-py3.10.egg-info/SOURCES.txt
+[1.454s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.20-py3.10.egg-info/top_level.txt
+[1.454s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[1.455s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[1.455s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[1.455s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[1.455s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[1.455s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[1.455s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[1.456s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[1.517s] Listing '/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[1.517s] Compiling '/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py'...
+[1.517s] Listing '/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[1.517s] Compiling '/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py'...
+[1.517s] Compiling '/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py'...
+[1.517s] Compiling '/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py'...
+[1.518s] Compiling '/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py'...
+[1.518s] Compiling '/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py'...
+[1.527s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[1.528s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[1.528s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[1.528s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[1.528s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/environment/path.sh
+[1.529s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/environment/path.dsv
+[1.529s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/local_setup.bash
+[1.529s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/local_setup.sh
+[1.529s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/local_setup.zsh
+[1.530s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/local_setup.dsv
+[1.530s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/package.dsv
+[1.530s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[1.531s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[1.531s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[1.531s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[1.531s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/package.xml
+[1.532s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/cmake
+[1.532s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[1.537s] Invoked command in '/home/orin-001/sda/agibotnav/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orin-001/sda/agibotnav/build/nav2_common

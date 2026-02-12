@@ -1,0 +1,69 @@
+[0.025s] Invoking command in '/home/orin-001/sda/agibotnav/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/fast_lio -- -j8 -l8
+[0.164s] [  2%] Built target fast_lio__cpp
+[0.165s] [ 11%] Built target fast_lio__rosidl_generator_c
+[0.185s] [ 11%] Built target ament_cmake_python_symlink_fast_lio
+[0.215s] [ 34%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.216s] [ 42%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.216s] [ 45%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[0.216s] [ 45%] Built target fast_lio__rosidl_typesupport_cpp
+[0.217s] [ 54%] Built target fast_lio__rosidl_typesupport_c
+[0.218s] [ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target fastlio_mapping[0m
+[0.268s] [ 62%] Built target fast_lio
+[0.319s] [ 65%] Built target fast_lio__py
+[0.337s] [ 68%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[0.371s] [ 74%] Built target fast_lio__rosidl_generator_py
+[0.425s] [ 91%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[0.425s] [ 91%] Built target fast_lio__rosidl_typesupport_c__pyext
+[0.425s] [ 91%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[0.667s] running egg_info
+[0.668s] writing fast_lio.egg-info/PKG-INFO
+[0.668s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.669s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.675s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.676s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.739s] [ 91%] Built target ament_cmake_python_build_fast_lio_egg
+[12.247s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[12.247s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[12.247s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[12.248s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[12.248s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[12.248s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[12.248s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[12.249s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[12.249s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[12.249s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[12.249s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[12.249s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[12.250s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[12.250s]                  from [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/IMU_Processing.hpp:18[m[K,
+[12.250s]                  from [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:49[m[K:
+[12.250s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[12.251s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[12.251s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.853s] [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:508:6:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserMappingNode[m[K’ has not been declared
+[15.853s]   508 | void [01;31m[KLaserMappingNode[m[K::publish_frame_world(rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pubLaserCloudFull)
+[15.854s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[15.862s] [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:[m[K In function ‘[01m[Kvoid publish_frame_world(rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::SharedPtr)[m[K’:
+[15.862s] [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:532:36:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[15.863s]   532 | generate_grid_map(laserCloudWorld, [01;31m[Kthis[m[K->pubGridMap_, laserCloudmsg.header.stamp);
+[15.863s]       |                                    [01;31m[K^~~~[m[K
+[15.863s] [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:534:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[15.863s]   534 | publish_map_odom_tf([01;31m[Kthis[m[K->tf_broadcaster_, laserCloudmsg.header.stamp);
+[15.864s]       |                     [01;31m[K^~~~[m[K
+[22.861s] In file included from [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:83[m[K,
+[22.861s]                  from [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/esekfom.hpp:49[m[K,
+[22.861s]                  from [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/use-ikfom.hpp:4[m[K,
+[22.861s]                  from [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/IMU_Processing.hpp:22[m[K,
+[22.862s]                  from [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:49[m[K:
+[22.862s] /home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp: In instantiation of ‘[01m[Kstd::pair<_FIter, _FIter> MTK::cos_sinc_sqrt(const scalar&) [with scalar = double][m[K’:
+[22.862s] [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:252:52:[m[K   required from ‘[01m[Kscalar MTK::exp(MTK::vectview<scalar, dim>, MTK::vectview<const scalar, dim>, const scalar&) [with scalar = double; int n = 3][m[K’
+[22.862s] [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/S2.hpp:140:32:[m[K   required from ‘[01m[Kvoid MTK::S2<_scalar, den, num, S2_typ>::boxplus(MTK::vectview<const _scalar, 2>, MTK::S2<_scalar, den, num, S2_typ>::scalar) [with _scalar = double; int den = 98090; int num = 10000; int S2_typ = 1; MTK::S2<_scalar, den, num, S2_typ>::scalar = double][m[K’
+[22.863s] [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/use-ikfom.hpp:12:1:[m[K   required from here
+[22.863s] [01m[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:143:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[22.863s]   143 | std::pair<scalar, scalar> [01;36m[Kcos_sinc_sqrt[m[K(const scalar &x2){
+[22.863s]       |                           [01;36m[K^~~~~~~~~~~~~[m[K
+[80.275s] gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:76: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o] Error 1
+[80.276s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/fastlio_mapping.dir/all] Error 2
+[80.277s] gmake: *** [Makefile:146: all] Error 2
+[80.283s] Invoked command in '/home/orin-001/sda/agibotnav/build/fast_lio' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/fast_lio -- -j8 -l8

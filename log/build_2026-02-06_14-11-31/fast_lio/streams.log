@@ -1,0 +1,133 @@
+[0.022s] Invoking command in '/home/orin-001/sda/agibotnav/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/fast_lio -- -j8 -l8
+[0.114s] [  2%] Built target fast_lio__cpp
+[0.115s] [ 11%] Built target fast_lio__rosidl_generator_c
+[0.131s] [ 11%] Built target ament_cmake_python_symlink_fast_lio
+[0.150s] [ 20%] Built target fast_lio__rosidl_typesupport_c
+[0.151s] [ 28%] Built target fast_lio__rosidl_typesupport_cpp
+[0.151s] [ 37%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.153s] [ 54%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.153s] [ 54%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.169s] [ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[0.186s] [35m[1mConsolidate compiler generated dependencies of target fastlio_mapping[0m
+[0.201s] [ 62%] Built target fast_lio
+[0.236s] [ 65%] Built target fast_lio__py
+[0.250s] [ 68%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[0.272s] [ 74%] Built target fast_lio__rosidl_generator_py
+[0.309s] [ 88%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[0.309s] [ 88%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[0.310s] [ 91%] Built target fast_lio__rosidl_typesupport_c__pyext
+[0.622s] running egg_info
+[0.623s] writing fast_lio.egg-info/PKG-INFO
+[0.624s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.624s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.632s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.633s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.694s] [ 91%] Built target ament_cmake_python_build_fast_lio_egg
+[15.726s] [ 94%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[17.968s] [100%] Built target fastlio_mapping
+[17.992s] Invoked command in '/home/orin-001/sda/agibotnav/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/fast_lio -- -j8 -l8
+[18.011s] Invoking command in '/home/orin-001/sda/agibotnav/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orin-001/sda/agibotnav/build/fast_lio
+[18.025s] -- Install configuration: "Release"
+[18.026s] -- Execute custom install script
+[18.026s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[18.027s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[18.027s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[18.028s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[18.028s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[18.028s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[18.028s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/library_path.sh
+[18.029s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[18.029s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[18.029s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.030s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[18.030s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[18.031s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[18.031s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[18.031s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[18.031s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.032s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[18.032s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.033s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[18.033s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.033s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[18.033s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[18.034s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[18.034s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[18.035s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.035s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.035s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[18.036s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[18.036s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[18.036s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.037s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[18.037s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[18.037s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[18.037s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[18.037s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[18.038s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[18.038s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[18.038s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[18.038s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[18.039s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[18.039s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[18.039s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[18.040s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[18.040s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/lib/fast_lio/fastlio_mapping
+[18.040s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/config/avia.yaml
+[18.041s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/config/horizon.yaml
+[18.041s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/config/mid360.yaml
+[18.041s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[18.041s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[18.042s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[18.042s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[18.042s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[18.042s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[18.043s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[18.043s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[18.043s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[18.044s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/path.sh
+[18.044s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/path.dsv
+[18.044s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/local_setup.bash
+[18.044s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/local_setup.sh
+[18.045s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/local_setup.zsh
+[18.045s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/local_setup.dsv
+[18.045s] -- Symlinking: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.dsv
+[18.061s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[18.061s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[18.061s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.062s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[18.062s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[18.062s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.063s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.063s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.063s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[18.064s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[18.064s] -- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.xml
+[18.064s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[18.064s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[18.065s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[18.065s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[18.065s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[18.065s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[18.066s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[18.122s] Listing '/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[18.123s] Listing '/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[18.132s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[18.132s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[18.132s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[18.132s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[18.132s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[18.133s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[18.133s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.133s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[18.133s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[18.133s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[18.133s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[18.133s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[18.133s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[18.134s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[18.134s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[18.134s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[18.134s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[18.134s] -- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[18.138s] Invoked command in '/home/orin-001/sda/agibotnav/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orin-001/sda/agibotnav/build/fast_lio

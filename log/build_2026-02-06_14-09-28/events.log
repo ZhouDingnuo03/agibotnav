@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000496] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.000885] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.015718] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.017844] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[0.019690] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin-001/sda/agibotnav/build/fast_lio', '--', '-j8', '-l8'], 'cwd': '/home/orin-001/sda/agibotnav/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin-001'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/home/orin-001/ros_noetic_ws/src'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin-001/sda/agibotnav/install/fast_lio/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib:'), ('HOME', '/home/orin-001'), ('OLDPWD', '/home/orin-001'), ('DESKTOP_SESSION', 'ubuntu'), ('XIM', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2542'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin-001/sda/driver/install:/home/orin-001/sda/agibotnav/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orin-001'), ('XIM_PROGRAM', 'fcitx'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin-001'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'fcitx-gtk2:'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin-001/ros_noetic_ws/devel/bin:/home/orin-001/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orin-001/ros_noetic_ws/src/catkin/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2325,unix/ubuntu:/tmp/.ICE-unix/2325'), ('PAPERSIZE', 'a4'), ('GTK3_MODULES', 'fcitx-gtk3:'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29b7ffe7_c684_401a_99ab_92cc9f67f276'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.197'), ('ROS_ROOT', '/home/orin-001/ros_noetic_ws/devel/share/ros'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin-001/sda/agibotnav/install/fast_lio:/home/orin-001/sda/driver/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/orin-001/sda/agibotnav/build/fast_lio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages:/home/orin-001/sda/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin-001/sda/agibotnav/install/fast_lio:/home/orin-001/sda/driver/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[0.099624] (-) TimerEvent: {}
+[0.119801] (fast_lio) StdoutLine: {'line': b'[  2%] Built target fast_lio__cpp\n'}
+[0.120312] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target fast_lio__rosidl_generator_c\n'}
+[0.136829] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_fast_lio\n'}
+[0.157274] (fast_lio) StdoutLine: {'line': b'[ 20%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[0.158767] (fast_lio) StdoutLine: {'line': b'[ 28%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[0.160957] (fast_lio) StdoutLine: {'line': b'[ 45%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[0.161264] (fast_lio) StdoutLine: {'line': b'[ 45%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[0.164710] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_c\n'}
+[0.175980] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[0.194162] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fastlio_mapping\x1b[0m\n'}
+[0.199740] (-) TimerEvent: {}
+[0.209236] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio\n'}
+[0.247772] (fast_lio) StdoutLine: {'line': b'[ 65%] Built target fast_lio__py\n'}
+[0.259413] (fast_lio) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o\x1b[0m\n'}
+[0.285145] (fast_lio) StdoutLine: {'line': b'[ 74%] Built target fast_lio__rosidl_generator_py\n'}
+[0.299904] (-) TimerEvent: {}
+[0.323076] (fast_lio) StdoutLine: {'line': b'[ 91%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.323431] (fast_lio) StdoutLine: {'line': b'[ 91%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[0.323574] (fast_lio) StdoutLine: {'line': b'[ 91%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[0.400035] (-) TimerEvent: {}
+[0.500535] (-) TimerEvent: {}
+[0.583258] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[0.584421] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[0.584869] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[0.585195] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[0.591188] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.592177] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.600661] (-) TimerEvent: {}
+[0.648481] (fast_lio) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[0.700809] (-) TimerEvent: {}
+[0.801322] (-) TimerEvent: {}
+[0.901880] (-) TimerEvent: {}
+[1.002578] (-) TimerEvent: {}
+[1.103246] (-) TimerEvent: {}
+[1.203921] (-) TimerEvent: {}
+[1.304604] (-) TimerEvent: {}
+[1.405258] (-) TimerEvent: {}
+[1.505898] (-) TimerEvent: {}
+[1.606533] (-) TimerEvent: {}
+[1.707187] (-) TimerEvent: {}
+[1.807849] (-) TimerEvent: {}
+[1.908524] (-) TimerEvent: {}
+[2.009192] (-) TimerEvent: {}
+[2.109867] (-) TimerEvent: {}
+[2.210524] (-) TimerEvent: {}
+[2.311183] (-) TimerEvent: {}
+[2.411847] (-) TimerEvent: {}
+[2.512530] (-) TimerEvent: {}
+[2.613184] (-) TimerEvent: {}
+[2.713833] (-) TimerEvent: {}
+[2.814475] (-) TimerEvent: {}
+[2.915117] (-) TimerEvent: {}
+[3.015767] (-) TimerEvent: {}
+[3.116445] (-) TimerEvent: {}
+[3.217092] (-) TimerEvent: {}
+[3.317744] (-) TimerEvent: {}
+[3.418401] (-) TimerEvent: {}
+[3.519077] (-) TimerEvent: {}
+[3.619748] (-) TimerEvent: {}
+[3.720462] (-) TimerEvent: {}
+[3.821168] (-) TimerEvent: {}
+[3.921842] (-) TimerEvent: {}
+[4.022522] (-) TimerEvent: {}
+[4.123201] (-) TimerEvent: {}
+[4.223934] (-) TimerEvent: {}
+[4.324616] (-) TimerEvent: {}
+[4.425270] (-) TimerEvent: {}
+[4.525981] (-) TimerEvent: {}
+[4.626654] (-) TimerEvent: {}
+[4.727333] (-) TimerEvent: {}
+[4.828001] (-) TimerEvent: {}
+[4.928684] (-) TimerEvent: {}
+[5.029442] (-) TimerEvent: {}
+[5.129980] (-) TimerEvent: {}
+[5.230632] (-) TimerEvent: {}
+[5.331360] (-) TimerEvent: {}
+[5.431894] (-) TimerEvent: {}
+[5.532585] (-) TimerEvent: {}
+[5.633294] (-) TimerEvent: {}
+[5.733832] (-) TimerEvent: {}
+[5.834496] (-) TimerEvent: {}
+[5.935229] (-) TimerEvent: {}
+[6.035775] (-) TimerEvent: {}
+[6.136459] (-) TimerEvent: {}
+[6.237099] (-) TimerEvent: {}
+[6.337643] (-) TimerEvent: {}
+[6.438313] (-) TimerEvent: {}
+[6.538945] (-) TimerEvent: {}
+[6.639472] (-) TimerEvent: {}
+[6.740153] (-) TimerEvent: {}
+[6.840806] (-) TimerEvent: {}
+[6.941348] (-) TimerEvent: {}
+[7.042010] (-) TimerEvent: {}
+[7.142673] (-) TimerEvent: {}
+[7.243208] (-) TimerEvent: {}
+[7.343858] (-) TimerEvent: {}
+[7.444553] (-) TimerEvent: {}
+[7.545103] (-) TimerEvent: {}
+[7.645772] (-) TimerEvent: {}
+[7.746447] (-) TimerEvent: {}
+[7.846981] (-) TimerEvent: {}
+[7.947660] (-) TimerEvent: {}
+[8.048372] (-) TimerEvent: {}
+[8.148904] (-) TimerEvent: {}
+[8.249570] (-) TimerEvent: {}
+[8.350231] (-) TimerEvent: {}
+[8.450778] (-) TimerEvent: {}
+[8.551440] (-) TimerEvent: {}
+[8.652111] (-) TimerEvent: {}
+[8.752640] (-) TimerEvent: {}
+[8.853168] (-) TimerEvent: {}
+[8.953840] (-) TimerEvent: {}
+[9.054530] (-) TimerEvent: {}
+[9.155187] (-) TimerEvent: {}
+[9.255826] (-) TimerEvent: {}
+[9.356375] (-) TimerEvent: {}
+[9.457037] (-) TimerEvent: {}
+[9.557719] (-) TimerEvent: {}
+[9.658334] (-) TimerEvent: {}
+[9.759031] (-) TimerEvent: {}
+[9.859701] (-) TimerEvent: {}
+[9.960333] (-) TimerEvent: {}
+[10.061011] (-) TimerEvent: {}
+[10.161745] (-) TimerEvent: {}
+[10.199586] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/preprocess.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Preprocess::mid360_handler(const UniquePtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.200795] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/preprocess.cpp:584:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZI>::PointCloud(PointCloudXYZI&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.201105] (fast_lio) StderrLine: {'line': b'  584 | XYZI>::Ptr rotate_cloud(new pcl::PointCloud<pcl::PointXYZI>(pl_surf\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[10.201361] (fast_lio) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.201598] (fast_lio) StderrLine: {'line': b'\n'}
+[10.201824] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:49\x1b[m\x1b[K,\n'}
+[10.202076] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.202291] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/preprocess.h:3\x1b[m\x1b[K,\n'}
+[10.202497] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[10.202699] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:201:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>::PointCloud(uint32_t, uint32_t, const PointT&) [with PointT = pcl::PointXYZI; uint32_t = unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202863] (fast_lio) StderrLine: {'line': b'  201 |       \x1b[01;36m\x1b[KPointCloud\x1b[m\x1b[K (std::uint32_t width_, std::uint32_t height_, const PointT& value_ = PointT ())\n'}
+[10.202959] (fast_lio) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.203056] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:201:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[10.203151] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:185:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>::PointCloud(const pcl::PointCloud<PointT>&, const Indices&) [with PointT = pcl::PointXYZI; pcl::Indices = std::vector<int>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.203247] (fast_lio) StderrLine: {'line': b'  185 |       \x1b[01;36m\x1b[KPointCloud\x1b[m\x1b[K (const PointCloud<PointT> &pc,\n'}
+[10.203340] (fast_lio) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.203430] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:185:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[10.203522] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:179:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<PointT>::PointCloud() [with PointT = pcl::PointXYZI]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.203631] (fast_lio) StderrLine: {'line': b'  179 |       \x1b[01;36m\x1b[KPointCloud\x1b[m\x1b[K () = default;\n'}
+[10.203727] (fast_lio) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.203818] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:179:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[10.203910] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:172:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZI>::PointCloud(const pcl::PointCloud<pcl::PointXYZI>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204005] (fast_lio) StderrLine: {'line': b'  172 |   class PCL_EXPORTS \x1b[01;36m\x1b[KPointCloud\x1b[m\x1b[K\n'}
+[10.204122] (fast_lio) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.204215] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:172:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPointCloudXYZI\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZINormal>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst pcl::PointCloud<pcl::PointXYZI>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204332] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:172:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZI>::PointCloud(pcl::PointCloud<pcl::PointXYZI>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204437] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:172:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPointCloudXYZI\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZINormal>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZI>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204535] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/preprocess.cpp:588:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KPointCloudXYZI\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZINormal>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZI>, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZI>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[10.204634] (fast_lio) StderrLine: {'line': b'  588 |     pl_surf = *\x1b[01;31m\x1b[Krotate_cloud\x1b[m\x1b[K;\n'}
+[10.204726] (fast_lio) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.204817] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:49\x1b[m\x1b[K,\n'}
+[10.204923] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47\x1b[m\x1b[K,\n'}
+[10.205029] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/preprocess.h:3\x1b[m\x1b[K,\n'}
+[10.205228] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[10.205426] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:172:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZINormal>& pcl::PointCloud<pcl::PointXYZINormal>::operator=(const pcl::PointCloud<pcl::PointXYZINormal>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205628] (fast_lio) StderrLine: {'line': b'  172 |   class PCL_EXPORTS \x1b[01;36m\x1b[KPointCloud\x1b[m\x1b[K\n'}
+[10.205825] (fast_lio) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.206021] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:172:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZI>, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZI>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst pcl::PointCloud<pcl::PointXYZINormal>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206230] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:172:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZINormal>& pcl::PointCloud<pcl::PointXYZINormal>::operator=(pcl::PointCloud<pcl::PointXYZINormal>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206433] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:172:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZI>, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZI>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZINormal>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.261901] (-) TimerEvent: {}
+[10.362545] (-) TimerEvent: {}
+[10.463224] (-) TimerEvent: {}
+[10.563876] (-) TimerEvent: {}
+[10.664605] (-) TimerEvent: {}
+[10.765285] (-) TimerEvent: {}
+[10.865876] (-) TimerEvent: {}
+[10.966580] (-) TimerEvent: {}
+[11.067293] (-) TimerEvent: {}
+[11.167936] (-) TimerEvent: {}
+[11.268630] (-) TimerEvent: {}
+[11.369337] (-) TimerEvent: {}
+[11.469884] (-) TimerEvent: {}
+[11.570564] (-) TimerEvent: {}
+[11.671242] (-) TimerEvent: {}
+[11.771836] (-) TimerEvent: {}
+[11.872558] (-) TimerEvent: {}
+[11.973215] (-) TimerEvent: {}
+[12.073772] (-) TimerEvent: {}
+[12.174441] (-) TimerEvent: {}
+[12.275070] (-) TimerEvent: {}
+[12.375660] (-) TimerEvent: {}
+[12.476410] (-) TimerEvent: {}
+[12.577046] (-) TimerEvent: {}
+[12.677620] (-) TimerEvent: {}
+[12.708742] (fast_lio) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:104: CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o] Error 1\n'}
+[12.709666] (fast_lio) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/fastlio_mapping.dir/all] Error 2\n'}
+[12.710138] (fast_lio) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.714814] (fast_lio) CommandEnded: {'returncode': 2}
+[12.741000] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 2}
+[12.751853] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

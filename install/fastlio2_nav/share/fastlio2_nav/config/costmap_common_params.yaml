@@ -1,0 +1,75 @@
+# 公共参数（全局/局部代价地图共享）
+costmap_common_params:
+  global_frame: map                # 全局坐标系（和TF一致）
+  robot_base_frame: base_link      # 机器人基坐标系（和TF一致）
+  update_frequency: 10.0           # 更新频率
+  publish_frequency: 5.0           # 发布频率
+  transform_tolerance: 1.0         # 增大TF容忍时间，避免超时
+  resolution: 0.1                  # 地图分辨率（和fastlio2匹配）
+  plugins:                         # 启用的图层
+    - {name: voxel_layer, type: "nav2_costmap_2d::VoxelLayer"}
+    - {name: inflation_layer, type: "nav2_costmap_2d::InflationLayer"}
+
+# VoxelLayer：处理fastlio2的3D点云
+voxel_layer:
+  enabled: true
+  max_obstacle_height: 5.0         # 放宽高度范围，避免过滤点云
+  min_obstacle_height: -1.0        # 覆盖地面以下点
+  origin_z: 0.0
+  z_resolution: 0.1
+  z_voxels: 60                     # 适配5m高度
+  unknown_threshold: 15
+  mark_threshold: -100             # 强制所有点标记为障碍物
+  observation_sources: fastlio2_cloud
+  fastlio2_cloud:
+    data_type: PointCloud2         # 必须大写P
+    topic: /cloud_registered       # fastlio2点云话题
+    marking: true
+    clearing: false                # 关闭清除，避免点云被覆盖
+    max_obstacle_height: 5.0
+    min_obstacle_height: -1.0
+    obstacle_range: 50.0           # 扩大检测范围
+    raytrace_range: 60.0
+
+# 膨胀层：障碍物膨胀（适配机器人尺寸）
+inflation_layer:
+  enabled: true
+  inflation_radius: 0.5            # 膨胀半径
+  cost_scaling_factor: 10.0
+  cost_max: 255                    # 最大代价值（红色）
+
+# 全局代价地图专属配置
+global_costmap:
+  ros__parameters:
+    global_frame: map
+    robot_base_frame: base_link
+    update_frequency: 2.0
+    publish_frequency: 1.0
+    static_map: false    
+    static_layer:                  # 显式禁用静态图层
+      enabled: false          # 禁用静态地图，仅用点云
+    rolling_window: false          # 全局地图固定
+    width: 100.0                   # 地图范围100m×100m
+    height: 100.0
+    origin_x: -50.0
+    origin_y: -50.0
+    track_unknown_space: true      # 显示未知区域
+    unknown_cost_value: 255
+
+# 局部代价地图专属配置
+local_costmap:
+  ros__parameters:
+    global_frame: map
+    robot_base_frame: base_link
+    update_frequency: 10.0
+    publish_frequency: 5.0
+    static_map: false
+    static_layer:                  # 显式禁用静态图层
+      enabled: false
+    rolling_window: true           # 局部地图跟随机器人
+    width: 5.0                     # 局部地图范围5m×5m
+    height: 5.0
+    resolution: 0.1
+    track_unknown_space: true
+    unknown_cost_value: 255
+

@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000728] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000866] (-) JobUnselected: {'identifier': 'fastlio2_nav'}
+[0.001222] (-) EventReactorShutdown: {}

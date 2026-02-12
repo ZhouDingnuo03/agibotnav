@@ -1,0 +1,11 @@
+[1.299s] Invoking command in '/home/orin-001/sda/agibotnav/src/nav': PYTHONPATH=/home/orin-001/sda/agibotnav/build/fastlio2_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fastlio2_nav build --build-base /home/orin-001/sda/agibotnav/build/fastlio2_nav/build install --record /home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log --single-version-externally-managed install_data
+[1.796s] running egg_info
+[1.797s] creating ../../build/fastlio2_nav/fastlio2_nav.egg-info
+[1.797s] writing ../../build/fastlio2_nav/fastlio2_nav.egg-info/PKG-INFO
+[1.798s] writing dependency_links to ../../build/fastlio2_nav/fastlio2_nav.egg-info/dependency_links.txt
+[1.798s] writing entry points to ../../build/fastlio2_nav/fastlio2_nav.egg-info/entry_points.txt
+[1.798s] writing requirements to ../../build/fastlio2_nav/fastlio2_nav.egg-info/requires.txt
+[1.799s] writing top-level names to ../../build/fastlio2_nav/fastlio2_nav.egg-info/top_level.txt
+[1.802s] writing manifest file '../../build/fastlio2_nav/fastlio2_nav.egg-info/SOURCES.txt'
+[1.804s] error: package directory 'fastlio2_nav' does not exist
+[1.851s] Invoked command in '/home/orin-001/sda/agibotnav/src/nav' returned '1': PYTHONPATH=/home/orin-001/sda/agibotnav/build/fastlio2_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fastlio2_nav build --build-base /home/orin-001/sda/agibotnav/build/fastlio2_nav/build install --record /home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log --single-version-externally-managed install_data

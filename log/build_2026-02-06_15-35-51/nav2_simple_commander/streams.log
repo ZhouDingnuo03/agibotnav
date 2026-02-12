@@ -1,0 +1,91 @@
+[1.404s] Invoking command in '/home/orin-001/sda/agibotnav/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orin-001/sda/agibotnav/install/nav2_msgs/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/home/orin-001/sda/agibotnav/install/fast_lio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib PYTHONPATH=/home/orin-001/sda/agibotnav/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build install --record /home/orin-001/sda/agibotnav/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[1.875s] running egg_info
+[1.876s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[1.876s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[1.877s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[1.877s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[1.877s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[1.878s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[1.881s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.886s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.888s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.888s] running build
+[1.888s] running build_py
+[1.890s] creating /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build
+[1.890s] creating /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib
+[1.890s] creating /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.891s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.891s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.891s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.891s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.891s] copying nav2_simple_commander/footprint_collision_checker.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.891s] copying nav2_simple_commander/robot_navigator.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.891s] copying nav2_simple_commander/costmap_2d.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.891s] copying nav2_simple_commander/line_iterator.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.892s] copying nav2_simple_commander/example_follow_path.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.892s] copying nav2_simple_commander/__init__.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.892s] copying nav2_simple_commander/demo_picking.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.892s] copying nav2_simple_commander/demo_security.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.892s] copying nav2_simple_commander/demo_inspection.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.892s] copying nav2_simple_commander/demo_recoveries.py -> /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.893s] running install
+[1.893s] running install_lib
+[1.895s] creating /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.895s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.895s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.896s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.896s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.896s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/footprint_collision_checker.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.896s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.896s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.897s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.897s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.897s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.897s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.897s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.898s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.898s] copying /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.899s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-310.pyc
+[1.900s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[1.901s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[1.902s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[1.903s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/footprint_collision_checker.py to footprint_collision_checker.cpython-310.pyc
+[1.906s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[1.911s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[1.912s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-310.pyc
+[1.914s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[1.915s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[1.915s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[1.916s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[1.917s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[1.918s] byte-compiling /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[1.919s] running install_data
+[1.919s] creating /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/ament_index
+[1.919s] creating /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/ament_index/resource_index
+[1.919s] creating /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.919s] copying resource/nav2_simple_commander -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.920s] copying package.xml -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.920s] copying launch/inspection_demo_launch.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.920s] copying launch/waypoint_follower_example_launch.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.920s] copying launch/security_demo_launch.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.921s] copying launch/picking_demo_launch.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.921s] copying launch/nav_through_poses_example_launch.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.922s] copying launch/assisted_teleop_example_launch.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.922s] copying launch/warehouse.world -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.922s] copying launch/nav_to_pose_example_launch.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.923s] copying launch/recoveries_example_launch.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.923s] copying launch/follow_path_example_launch.py -> /home/orin-001/sda/agibotnav/install/nav2_simple_commander/share/nav2_simple_commander
+[1.923s] running install_egg_info
+[1.926s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[1.928s] running install_scripts
+[1.967s] Installing demo_inspection script to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.967s] Installing demo_picking script to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.967s] Installing demo_recoveries script to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.968s] Installing demo_security script to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.968s] Installing example_assisted_teleop script to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.968s] Installing example_follow_path script to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.968s] Installing example_nav_through_poses script to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.969s] Installing example_nav_to_pose script to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.969s] Installing example_waypoint_follower script to /home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.969s] writing list of installed files to '/home/orin-001/sda/agibotnav/build/nav2_simple_commander/install.log'
+[2.033s] Invoked command in '/home/orin-001/sda/agibotnav/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orin-001/sda/agibotnav/install/nav2_msgs/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/home/orin-001/sda/agibotnav/install/fast_lio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib PYTHONPATH=/home/orin-001/sda/agibotnav/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/orin-001/sda/agibotnav/build/nav2_simple_commander/build install --record /home/orin-001/sda/agibotnav/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

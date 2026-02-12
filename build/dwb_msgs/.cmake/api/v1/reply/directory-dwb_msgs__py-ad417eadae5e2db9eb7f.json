@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dwb_msgs__py",
+		"source" : "/home/orin-001/sda/agibotnav/build/dwb_msgs/dwb_msgs__py"
+	}
+}

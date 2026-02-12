@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5ebb808eb62994fcc9e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "dwb_msgs__py",
+					"jsonFile" : "directory-dwb_msgs__py-ad417eadae5e2db9eb7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/orin-001/sda/agibotnav/build/dwb_msgs/dwb_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dwb_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dwb_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dwb_msgs_egg-0d20b999e46807d4bfab.json",
+					"name" : "ament_cmake_python_build_dwb_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dwb_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dwb_msgs-643b9a81c75d7a8aaca7.json",
+					"name" : "ament_cmake_python_copy_dwb_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs-a02d4ea862f054ee4dd1.json",
+					"name" : "dwb_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__cpp-2abc8486ac13f9fa887b.json",
+					"name" : "dwb_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dwb_msgs__py::@0dc0456f80c7128fc3f1",
+					"jsonFile" : "target-dwb_msgs__py-e0a13a878397c2e5a5c8.json",
+					"name" : "dwb_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_generator_c-8605ddc229170561cc42.json",
+					"name" : "dwb_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_generator_py-688534254e0d2f0af6f0.json",
+					"name" : "dwb_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_c-20df1d49d6ff1ffef9e4.json",
+					"name" : "dwb_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_c__pyext-feae069b50c0b68504b1.json",
+					"name" : "dwb_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_cpp-a72e793068fd438f7562.json",
+					"name" : "dwb_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_fastrtps_c-3a1474f9daa07933578c.json",
+					"name" : "dwb_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_fastrtps_c__pyext-0cddcab0cd8b5da7bf6e.json",
+					"name" : "dwb_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_fastrtps_cpp-b4d2eddaa282751df23f.json",
+					"name" : "dwb_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_introspection_c-84f020a76f931629a3bb.json",
+					"name" : "dwb_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_introspection_c__pyext-362f983d4a8bb853b291.json",
+					"name" : "dwb_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs__rosidl_typesupport_introspection_cpp-573f93e1f7e62a446010.json",
+					"name" : "dwb_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dwb_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dwb_msgs_uninstall-7bb2808c6fa8f59bd62f.json",
+					"name" : "dwb_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ae7897c4acade490ec28.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orin-001/sda/agibotnav/build/dwb_msgs",
+		"source" : "/home/orin-001/sda/agibotnav/src/navigation2/nav2_dwb_controller/dwb_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1508 @@
+[0.000000] (-) TimerEvent: {}
+[0.000965] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.001050] (fastlio2_nav) JobQueued: {'identifier': 'fastlio2_nav', 'dependencies': OrderedDict()}
+[0.001277] (test) JobQueued: {'identifier': 'test', 'dependencies': OrderedDict()}
+[0.001328] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.017995] (fastlio2_nav) JobStarted: {'identifier': 'fastlio2_nav'}
+[0.035659] (test) JobStarted: {'identifier': 'test'}
+[0.051384] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.053145] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[0.054645] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin-001/sda/agibotnav/build/fast_lio', '--', '-j8', '-l8'], 'cwd': '/home/orin-001/sda/agibotnav/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin-001'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/home/orin-001/ros_noetic_ws/src'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller/lib:/home/orin-001/sda/nav/src/install/dwb_plugins/lib:/home/orin-001/sda/nav/src/install/dwb_core/lib:/home/orin-001/sda/nav/src/install/nav_2d_utils/lib:/home/orin-001/sda/nav/src/install/dwb_msgs/lib:/home/orin-001/sda/nav/src/install/nav_2d_msgs/lib:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller/lib:/home/orin-001/sda/nav/src/install/nav2_planner/lib:/home/orin-001/sda/nav/src/install/nav2_navfn_planner/lib:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_bt_navigator/lib:/home/orin-001/sda/nav/src/install/nav2_collision_monitor/lib:/home/orin-001/sda/nav/src/install/costmap_queue/lib:/home/orin-001/sda/nav/src/install/nav2_costmap_2d/lib:/home/orin-001/sda/nav/src/install/nav2_voxel_grid/lib:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins/lib:/home/orin-001/sda/nav/src/install/nav2_map_server/lib:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager/lib:/home/orin-001/sda/nav/src/install/nav2_behavior_tree/lib:/home/orin-001/sda/nav/src/install/nav2_amcl/lib:/home/orin-001/sda/nav/src/install/nav2_util/lib:/home/orin-001/sda/nav/src/install/nav2_msgs/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/home/orin-001/sda/agibotnav/install/dwb_msgs/lib:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/lib:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid/lib:/home/orin-001/sda/agibotnav/install/nav2_msgs/lib:/home/orin-001/sda/agibotnav/install/fast_lio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib:'), ('HOME', '/home/orin-001'), ('OLDPWD', '/home/orin-001'), ('DESKTOP_SESSION', 'ubuntu'), ('XIM', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2318'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin-001/sda/nav/src/install:/home/orin-001/sda/agibotnav/install:/home/orin-001/sda/driver/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orin-001'), ('XIM_PROGRAM', 'fcitx'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin-001'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'fcitx-gtk2:'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin-001/ros_noetic_ws/devel/bin:/home/orin-001/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orin-001/ros_noetic_ws/src/catkin/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2294,unix/ubuntu:/tmp/.ICE-unix/2294'), ('PAPERSIZE', 'a4'), ('GTK3_MODULES', 'fcitx-gtk3:'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80250db6_d28a_45f2_98cb_2b87335facb0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('ROS_ROOT', '/home/orin-001/ros_noetic_ws/devel/share/ros'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/orin-001/sda/agibotnav/build/fast_lio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin-001/sda/nav/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/nav/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fast_lio:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/opt/ros/humble')]), 'shell': False}
+[0.099450] (-) TimerEvent: {}
+[0.199963] (-) TimerEvent: {}
+[0.300579] (-) TimerEvent: {}
+[0.401062] (-) TimerEvent: {}
+[0.501567] (-) TimerEvent: {}
+[0.598913] (fast_lio) StdoutLine: {'line': b'[  2%] Built target fast_lio__cpp\n'}
+[0.599350] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target fast_lio__rosidl_generator_c\n'}
+[0.599676] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_fast_lio\n'}
+[0.599864] (fast_lio) StdoutLine: {'line': b'[ 28%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[0.600257] (fast_lio) StdoutLine: {'line': b'[ 28%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[0.600557] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[0.600700] (fast_lio) StdoutLine: {'line': b'[ 45%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[0.600991] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_c\n'}
+[0.601174] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[0.601456] (fast_lio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fastlio_mapping\x1b[0m\n'}
+[0.601835] (-) TimerEvent: {}
+[0.602924] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio\n'}
+[0.603347] (fast_lio) StdoutLine: {'line': b'[ 65%] Built target fast_lio__py\n'}
+[0.603790] (fast_lio) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o\x1b[0m\n'}
+[0.604759] (fast_lio) StdoutLine: {'line': b'[ 74%] Built target fast_lio__rosidl_generator_py\n'}
+[0.604944] (fast_lio) StdoutLine: {'line': b'[ 82%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[0.605079] (fast_lio) StdoutLine: {'line': b'[ 85%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[0.605204] (fast_lio) StdoutLine: {'line': b'[ 91%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.605322] (test) JobProgress: {'identifier': 'test', 'progress': 'cmake'}
+[0.605360] (test) JobProgress: {'identifier': 'test', 'progress': 'build'}
+[0.605397] (test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin-001/sda/agibotnav/build/test', '--', '-j8', '-l8'], 'cwd': '/home/orin-001/sda/agibotnav/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin-001'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/home/orin-001/ros_noetic_ws/src'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller/lib:/home/orin-001/sda/nav/src/install/dwb_plugins/lib:/home/orin-001/sda/nav/src/install/dwb_core/lib:/home/orin-001/sda/nav/src/install/nav_2d_utils/lib:/home/orin-001/sda/nav/src/install/dwb_msgs/lib:/home/orin-001/sda/nav/src/install/nav_2d_msgs/lib:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller/lib:/home/orin-001/sda/nav/src/install/nav2_planner/lib:/home/orin-001/sda/nav/src/install/nav2_navfn_planner/lib:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_bt_navigator/lib:/home/orin-001/sda/nav/src/install/nav2_collision_monitor/lib:/home/orin-001/sda/nav/src/install/costmap_queue/lib:/home/orin-001/sda/nav/src/install/nav2_costmap_2d/lib:/home/orin-001/sda/nav/src/install/nav2_voxel_grid/lib:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins/lib:/home/orin-001/sda/nav/src/install/nav2_map_server/lib:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager/lib:/home/orin-001/sda/nav/src/install/nav2_behavior_tree/lib:/home/orin-001/sda/nav/src/install/nav2_amcl/lib:/home/orin-001/sda/nav/src/install/nav2_util/lib:/home/orin-001/sda/nav/src/install/nav2_msgs/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/home/orin-001/sda/agibotnav/install/dwb_msgs/lib:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/lib:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid/lib:/home/orin-001/sda/agibotnav/install/nav2_msgs/lib:/home/orin-001/sda/agibotnav/install/fast_lio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib:'), ('HOME', '/home/orin-001'), ('OLDPWD', '/home/orin-001'), ('DESKTOP_SESSION', 'ubuntu'), ('XIM', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2318'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin-001/sda/nav/src/install:/home/orin-001/sda/agibotnav/install:/home/orin-001/sda/driver/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orin-001'), ('XIM_PROGRAM', 'fcitx'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin-001'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'fcitx-gtk2:'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin-001/ros_noetic_ws/devel/bin:/home/orin-001/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orin-001/ros_noetic_ws/src/catkin/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2294,unix/ubuntu:/tmp/.ICE-unix/2294'), ('PAPERSIZE', 'a4'), ('GTK3_MODULES', 'fcitx-gtk3:'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80250db6_d28a_45f2_98cb_2b87335facb0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('ROS_ROOT', '/home/orin-001/ros_noetic_ws/devel/share/ros'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/orin-001/sda/agibotnav/build/test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin-001/sda/nav/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/nav/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fast_lio')]), 'shell': False}
+[0.701982] (-) TimerEvent: {}
+[0.714989] (test) StdoutLine: {'line': b'[ 75%] Built target lowlevel_demo\n'}
+[0.715440] (test) StdoutLine: {'line': b'[100%] Built target highlevel_demo\n'}
+[0.718930] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[0.720381] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[0.720864] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[0.721259] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[0.728679] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.729799] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.739969] (test) CommandEnded: {'returncode': 0}
+[0.757478] (test) JobEnded: {'identifier': 'test', 'rc': 0}
+[0.799876] (fast_lio) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[0.802054] (-) TimerEvent: {}
+[0.902431] (-) TimerEvent: {}
+[1.002899] (-) TimerEvent: {}
+[1.103371] (-) TimerEvent: {}
+[1.203840] (-) TimerEvent: {}
+[1.304531] (-) TimerEvent: {}
+[1.309712] (fastlio2_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fastlio2_nav', 'build', '--build-base', '/home/orin-001/sda/agibotnav/build/fastlio2_nav/build', 'install', '--record', '/home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin-001/sda/agibotnav/src/fastlio2_nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin-001', 'LC_TIME': 'zh_CN.UTF-8', 'ROS_PACKAGE_PATH': '/home/orin-001/ros_noetic_ws/src', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/orin-001/sda/nav/src/install/nav2_controller/lib:/home/orin-001/sda/nav/src/install/dwb_plugins/lib:/home/orin-001/sda/nav/src/install/dwb_core/lib:/home/orin-001/sda/nav/src/install/nav_2d_utils/lib:/home/orin-001/sda/nav/src/install/dwb_msgs/lib:/home/orin-001/sda/nav/src/install/nav_2d_msgs/lib:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller/lib:/home/orin-001/sda/nav/src/install/nav2_planner/lib:/home/orin-001/sda/nav/src/install/nav2_navfn_planner/lib:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_bt_navigator/lib:/home/orin-001/sda/nav/src/install/nav2_collision_monitor/lib:/home/orin-001/sda/nav/src/install/costmap_queue/lib:/home/orin-001/sda/nav/src/install/nav2_costmap_2d/lib:/home/orin-001/sda/nav/src/install/nav2_voxel_grid/lib:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins/lib:/home/orin-001/sda/nav/src/install/nav2_map_server/lib:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager/lib:/home/orin-001/sda/nav/src/install/nav2_behavior_tree/lib:/home/orin-001/sda/nav/src/install/nav2_amcl/lib:/home/orin-001/sda/nav/src/install/nav2_util/lib:/home/orin-001/sda/nav/src/install/nav2_msgs/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/home/orin-001/sda/agibotnav/install/dwb_msgs/lib:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/lib:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid/lib:/home/orin-001/sda/agibotnav/install/nav2_msgs/lib:/home/orin-001/sda/agibotnav/install/fast_lio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib:', 'HOME': '/home/orin-001', 'OLDPWD': '/home/orin-001', 'DESKTOP_SESSION': 'ubuntu', 'XIM': 'fcitx', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '2318', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/orin-001/sda/nav/src/install:/home/orin-001/sda/agibotnav/install:/home/orin-001/sda/driver/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'orin-001', 'XIM_PROGRAM': 'fcitx', 'http_proxy': 'http://127.0.0.1:7890', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orin-001', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_MODULES': 'fcitx-gtk2:', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/orin-001/ros_noetic_ws/devel/bin:/home/orin-001/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orin-001/ros_noetic_ws/src/catkin/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2294,unix/ubuntu:/tmp/.ICE-unix/2294', 'PAPERSIZE': 'a4', 'GTK3_MODULES': 'fcitx-gtk3:', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/80250db6_d28a_45f2_98cb_2b87335facb0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'ROS_ROOT': '/home/orin-001/ros_noetic_ws/devel/share/ros', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/orin-001/sda/agibotnav/build/fastlio2_nav', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin-001/sda/agibotnav/build/fastlio2_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:/home/orin-001/sda/nav/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/nav/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fast_lio'}, 'shell': False}
+[1.404646] (-) TimerEvent: {}
+[1.505137] (-) TimerEvent: {}
+[1.605517] (-) TimerEvent: {}
+[1.705926] (-) TimerEvent: {}
+[1.782869] (fastlio2_nav) StdoutLine: {'line': b'running egg_info\n'}
+[1.784034] (fastlio2_nav) StdoutLine: {'line': b'writing ../../build/fastlio2_nav/fastlio2_nav.egg-info/PKG-INFO\n'}
+[1.784487] (fastlio2_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/fastlio2_nav/fastlio2_nav.egg-info/dependency_links.txt\n'}
+[1.784756] (fastlio2_nav) StdoutLine: {'line': b'writing entry points to ../../build/fastlio2_nav/fastlio2_nav.egg-info/entry_points.txt\n'}
+[1.785036] (fastlio2_nav) StdoutLine: {'line': b'writing requirements to ../../build/fastlio2_nav/fastlio2_nav.egg-info/requires.txt\n'}
+[1.785206] (fastlio2_nav) StdoutLine: {'line': b'writing top-level names to ../../build/fastlio2_nav/fastlio2_nav.egg-info/top_level.txt\n'}
+[1.792689] (fastlio2_nav) StdoutLine: {'line': b"reading manifest file '../../build/fastlio2_nav/fastlio2_nav.egg-info/SOURCES.txt'\n"}
+[1.794086] (fastlio2_nav) StdoutLine: {'line': b"writing manifest file '../../build/fastlio2_nav/fastlio2_nav.egg-info/SOURCES.txt'\n"}
+[1.794323] (fastlio2_nav) StdoutLine: {'line': b'running build\n'}
+[1.794531] (fastlio2_nav) StdoutLine: {'line': b'running build_py\n'}
+[1.794773] (fastlio2_nav) StdoutLine: {'line': b'running install\n'}
+[1.795312] (fastlio2_nav) StdoutLine: {'line': b'running install_lib\n'}
+[1.797438] (fastlio2_nav) StdoutLine: {'line': b'running install_data\n'}
+[1.797955] (fastlio2_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.801305] (fastlio2_nav) StdoutLine: {'line': b"removing '/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages/fastlio2_nav-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.801920] (fastlio2_nav) StdoutLine: {'line': b'Copying ../../build/fastlio2_nav/fastlio2_nav.egg-info to /home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages/fastlio2_nav-0.0.0-py3.10.egg-info\n'}
+[1.803613] (fastlio2_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[1.805983] (-) TimerEvent: {}
+[1.840414] (fastlio2_nav) StdoutLine: {'line': b"writing list of installed files to '/home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log'\n"}
+[1.893634] (fastlio2_nav) CommandEnded: {'returncode': 0}
+[1.905950] (fastlio2_nav) JobEnded: {'identifier': 'fastlio2_nav', 'rc': 0}
+[1.907060] (-) TimerEvent: {}
+[2.007528] (-) TimerEvent: {}
+[2.108196] (-) TimerEvent: {}
+[2.208867] (-) TimerEvent: {}
+[2.309511] (-) TimerEvent: {}
+[2.410141] (-) TimerEvent: {}
+[2.510742] (-) TimerEvent: {}
+[2.611339] (-) TimerEvent: {}
+[2.711963] (-) TimerEvent: {}
+[2.812612] (-) TimerEvent: {}
+[2.913238] (-) TimerEvent: {}
+[3.013881] (-) TimerEvent: {}
+[3.114519] (-) TimerEvent: {}
+[3.215322] (-) TimerEvent: {}
+[3.316073] (-) TimerEvent: {}
+[3.416665] (-) TimerEvent: {}
+[3.517213] (-) TimerEvent: {}
+[3.617729] (-) TimerEvent: {}
+[3.718343] (-) TimerEvent: {}
+[3.818777] (-) TimerEvent: {}
+[3.919435] (-) TimerEvent: {}
+[4.020081] (-) TimerEvent: {}
+[4.120765] (-) TimerEvent: {}
+[4.221543] (-) TimerEvent: {}
+[4.322090] (-) TimerEvent: {}
+[4.422633] (-) TimerEvent: {}
+[4.523187] (-) TimerEvent: {}
+[4.623717] (-) TimerEvent: {}
+[4.724264] (-) TimerEvent: {}
+[4.824842] (-) TimerEvent: {}
+[4.925459] (-) TimerEvent: {}
+[5.026122] (-) TimerEvent: {}
+[5.126786] (-) TimerEvent: {}
+[5.227453] (-) TimerEvent: {}
+[5.328132] (-) TimerEvent: {}
+[5.428762] (-) TimerEvent: {}
+[5.529435] (-) TimerEvent: {}
+[5.630114] (-) TimerEvent: {}
+[5.730778] (-) TimerEvent: {}
+[5.831462] (-) TimerEvent: {}
+[5.932172] (-) TimerEvent: {}
+[6.032884] (-) TimerEvent: {}
+[6.133582] (-) TimerEvent: {}
+[6.234255] (-) TimerEvent: {}
+[6.334852] (-) TimerEvent: {}
+[6.435494] (-) TimerEvent: {}
+[6.536158] (-) TimerEvent: {}
+[6.636819] (-) TimerEvent: {}
+[6.737480] (-) TimerEvent: {}
+[6.838142] (-) TimerEvent: {}
+[6.938800] (-) TimerEvent: {}
+[7.039477] (-) TimerEvent: {}
+[7.140160] (-) TimerEvent: {}
+[7.240883] (-) TimerEvent: {}
+[7.341551] (-) TimerEvent: {}
+[7.442227] (-) TimerEvent: {}
+[7.542887] (-) TimerEvent: {}
+[7.643555] (-) TimerEvent: {}
+[7.744242] (-) TimerEvent: {}
+[7.844933] (-) TimerEvent: {}
+[7.945604] (-) TimerEvent: {}
+[8.046278] (-) TimerEvent: {}
+[8.146934] (-) TimerEvent: {}
+[8.247594] (-) TimerEvent: {}
+[8.348250] (-) TimerEvent: {}
+[8.448947] (-) TimerEvent: {}
+[8.549643] (-) TimerEvent: {}
+[8.650321] (-) TimerEvent: {}
+[8.751003] (-) TimerEvent: {}
+[8.851693] (-) TimerEvent: {}
+[8.952390] (-) TimerEvent: {}
+[9.053047] (-) TimerEvent: {}
+[9.153709] (-) TimerEvent: {}
+[9.254394] (-) TimerEvent: {}
+[9.355090] (-) TimerEvent: {}
+[9.455767] (-) TimerEvent: {}
+[9.556443] (-) TimerEvent: {}
+[9.657089] (-) TimerEvent: {}
+[9.757747] (-) TimerEvent: {}
+[9.858394] (-) TimerEvent: {}
+[9.959064] (-) TimerEvent: {}
+[10.059723] (-) TimerEvent: {}
+[10.160410] (-) TimerEvent: {}
+[10.261059] (-) TimerEvent: {}
+[10.361711] (-) TimerEvent: {}
+[10.462396] (-) TimerEvent: {}
+[10.563078] (-) TimerEvent: {}
+[10.663726] (-) TimerEvent: {}
+[10.764411] (-) TimerEvent: {}
+[10.865070] (-) TimerEvent: {}
+[10.965735] (-) TimerEvent: {}
+[11.066409] (-) TimerEvent: {}
+[11.167086] (-) TimerEvent: {}
+[11.267745] (-) TimerEvent: {}
+[11.368419] (-) TimerEvent: {}
+[11.469084] (-) TimerEvent: {}
+[11.569747] (-) TimerEvent: {}
+[11.670408] (-) TimerEvent: {}
+[11.771064] (-) TimerEvent: {}
+[11.871719] (-) TimerEvent: {}
+[11.972411] (-) TimerEvent: {}
+[12.073085] (-) TimerEvent: {}
+[12.173757] (-) TimerEvent: {}
+[12.274417] (-) TimerEvent: {}
+[12.375074] (-) TimerEvent: {}
+[12.380430] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[12.380988] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[12.381264] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[12.381507] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[12.381737] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[12.381962] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[12.382177] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[12.382385] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/microsec_time_clock.hpp:18\x1b[m\x1b[K,\n'}
+[12.382591] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31\x1b[m\x1b[K,\n'}
+[12.382793] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36\x1b[m\x1b[K,\n'}
+[12.382996] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/sync/file_lock.hpp:26\x1b[m\x1b[K,\n'}
+[12.383195] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46\x1b[m\x1b[K,\n'}
+[12.383395] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73\x1b[m\x1b[K,\n'}
+[12.383630] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/IMU_Processing.hpp:18\x1b[m\x1b[K,\n'}
+[12.383833] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:16\x1b[m\x1b[K:\n'}
+[12.384032] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.384250] (fast_lio) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[12.384489] (fast_lio) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.475256] (-) TimerEvent: {}
+[12.575929] (-) TimerEvent: {}
+[12.676595] (-) TimerEvent: {}
+[12.777259] (-) TimerEvent: {}
+[12.877926] (-) TimerEvent: {}
+[12.978596] (-) TimerEvent: {}
+[13.079294] (-) TimerEvent: {}
+[13.179988] (-) TimerEvent: {}
+[13.280674] (-) TimerEvent: {}
+[13.381345] (-) TimerEvent: {}
+[13.482012] (-) TimerEvent: {}
+[13.582668] (-) TimerEvent: {}
+[13.683332] (-) TimerEvent: {}
+[13.783999] (-) TimerEvent: {}
+[13.884686] (-) TimerEvent: {}
+[13.985332] (-) TimerEvent: {}
+[14.085999] (-) TimerEvent: {}
+[14.186659] (-) TimerEvent: {}
+[14.287321] (-) TimerEvent: {}
+[14.387980] (-) TimerEvent: {}
+[14.488664] (-) TimerEvent: {}
+[14.589331] (-) TimerEvent: {}
+[14.690001] (-) TimerEvent: {}
+[14.790659] (-) TimerEvent: {}
+[14.891301] (-) TimerEvent: {}
+[14.991948] (-) TimerEvent: {}
+[15.092609] (-) TimerEvent: {}
+[15.193275] (-) TimerEvent: {}
+[15.293943] (-) TimerEvent: {}
+[15.394610] (-) TimerEvent: {}
+[15.495282] (-) TimerEvent: {}
+[15.595942] (-) TimerEvent: {}
+[15.696629] (-) TimerEvent: {}
+[15.797291] (-) TimerEvent: {}
+[15.897962] (-) TimerEvent: {}
+[15.998635] (-) TimerEvent: {}
+[16.099307] (-) TimerEvent: {}
+[16.200054] (-) TimerEvent: {}
+[16.300775] (-) TimerEvent: {}
+[16.401486] (-) TimerEvent: {}
+[16.502180] (-) TimerEvent: {}
+[16.602850] (-) TimerEvent: {}
+[16.703516] (-) TimerEvent: {}
+[16.804176] (-) TimerEvent: {}
+[16.904849] (-) TimerEvent: {}
+[17.005516] (-) TimerEvent: {}
+[17.106164] (-) TimerEvent: {}
+[17.206816] (-) TimerEvent: {}
+[17.307424] (-) TimerEvent: {}
+[17.408052] (-) TimerEvent: {}
+[17.508738] (-) TimerEvent: {}
+[17.609402] (-) TimerEvent: {}
+[17.710044] (-) TimerEvent: {}
+[17.810654] (-) TimerEvent: {}
+[17.911347] (-) TimerEvent: {}
+[18.012012] (-) TimerEvent: {}
+[18.112687] (-) TimerEvent: {}
+[18.213353] (-) TimerEvent: {}
+[18.314017] (-) TimerEvent: {}
+[18.414690] (-) TimerEvent: {}
+[18.515354] (-) TimerEvent: {}
+[18.616009] (-) TimerEvent: {}
+[18.716696] (-) TimerEvent: {}
+[18.817347] (-) TimerEvent: {}
+[18.918003] (-) TimerEvent: {}
+[19.018667] (-) TimerEvent: {}
+[19.119326] (-) TimerEvent: {}
+[19.219984] (-) TimerEvent: {}
+[19.320662] (-) TimerEvent: {}
+[19.421337] (-) TimerEvent: {}
+[19.522010] (-) TimerEvent: {}
+[19.622677] (-) TimerEvent: {}
+[19.723338] (-) TimerEvent: {}
+[19.824001] (-) TimerEvent: {}
+[19.924680] (-) TimerEvent: {}
+[20.025328] (-) TimerEvent: {}
+[20.125987] (-) TimerEvent: {}
+[20.226654] (-) TimerEvent: {}
+[20.327301] (-) TimerEvent: {}
+[20.427989] (-) TimerEvent: {}
+[20.528714] (-) TimerEvent: {}
+[20.629403] (-) TimerEvent: {}
+[20.730090] (-) TimerEvent: {}
+[20.830801] (-) TimerEvent: {}
+[20.931507] (-) TimerEvent: {}
+[21.032202] (-) TimerEvent: {}
+[21.132922] (-) TimerEvent: {}
+[21.233699] (-) TimerEvent: {}
+[21.334413] (-) TimerEvent: {}
+[21.435112] (-) TimerEvent: {}
+[21.535794] (-) TimerEvent: {}
+[21.636459] (-) TimerEvent: {}
+[21.737144] (-) TimerEvent: {}
+[21.837836] (-) TimerEvent: {}
+[21.938530] (-) TimerEvent: {}
+[22.039200] (-) TimerEvent: {}
+[22.139902] (-) TimerEvent: {}
+[22.240641] (-) TimerEvent: {}
+[22.341384] (-) TimerEvent: {}
+[22.442049] (-) TimerEvent: {}
+[22.542673] (-) TimerEvent: {}
+[22.643307] (-) TimerEvent: {}
+[22.743917] (-) TimerEvent: {}
+[22.844582] (-) TimerEvent: {}
+[22.945193] (-) TimerEvent: {}
+[23.020480] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:83\x1b[m\x1b[K,\n'}
+[23.021089] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/esekfom.hpp:49\x1b[m\x1b[K,\n'}
+[23.021371] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/use-ikfom.hpp:4\x1b[m\x1b[K,\n'}
+[23.021613] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/IMU_Processing.hpp:22\x1b[m\x1b[K,\n'}
+[23.021837] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/src/laserMapping.cpp:16\x1b[m\x1b[K:\n'}
+[23.022055] (fast_lio) StderrLine: {'line': b'/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<_FIter, _FIter> MTK::cos_sinc_sqrt(const scalar&) [with scalar = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.022276] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:252:52:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kscalar MTK::exp(MTK::vectview<scalar, dim>, MTK::vectview<const scalar, dim>, const scalar&) [with scalar = double; int n = 3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.022534] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/S2.hpp:140:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid MTK::S2<_scalar, den, num, S2_typ>::boxplus(MTK::vectview<const _scalar, 2>, MTK::S2<_scalar, den, num, S2_typ>::scalar) [with _scalar = double; int den = 98090; int num = 10000; int S2_typ = 1; MTK::S2<_scalar, den, num, S2_typ>::scalar = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[23.022759] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/use-ikfom.hpp:12:1:\x1b[m\x1b[K   required from here\n'}
+[23.022967] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin-001/sda/agibotnav/src/FAST_LIO/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:143:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double>\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 \x1b]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_base\x07in GCC 10.1\x1b]8;;\x07\n'}
+[23.023186] (fast_lio) StderrLine: {'line': b'  143 | std::pair<scalar, scalar> \x1b[01;36m\x1b[Kcos_sinc_sqrt\x1b[m\x1b[K(const scalar &x2){\n'}
+[23.023395] (fast_lio) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.045263] (-) TimerEvent: {}
+[23.145795] (-) TimerEvent: {}
+[23.246499] (-) TimerEvent: {}
+[23.347147] (-) TimerEvent: {}
+[23.447748] (-) TimerEvent: {}
+[23.548383] (-) TimerEvent: {}
+[23.648909] (-) TimerEvent: {}
+[23.749385] (-) TimerEvent: {}
+[23.849928] (-) TimerEvent: {}
+[23.950464] (-) TimerEvent: {}
+[24.050951] (-) TimerEvent: {}
+[24.151397] (-) TimerEvent: {}
+[24.251910] (-) TimerEvent: {}
+[24.352442] (-) TimerEvent: {}
+[24.453030] (-) TimerEvent: {}
+[24.553571] (-) TimerEvent: {}
+[24.654114] (-) TimerEvent: {}
+[24.754655] (-) TimerEvent: {}
+[24.855172] (-) TimerEvent: {}
+[24.955678] (-) TimerEvent: {}
+[25.056178] (-) TimerEvent: {}
+[25.156703] (-) TimerEvent: {}
+[25.257197] (-) TimerEvent: {}
+[25.357766] (-) TimerEvent: {}
+[25.458416] (-) TimerEvent: {}
+[25.559001] (-) TimerEvent: {}
+[25.659634] (-) TimerEvent: {}
+[25.760248] (-) TimerEvent: {}
+[25.860971] (-) TimerEvent: {}
+[25.961720] (-) TimerEvent: {}
+[26.062396] (-) TimerEvent: {}
+[26.163048] (-) TimerEvent: {}
+[26.263754] (-) TimerEvent: {}
+[26.364457] (-) TimerEvent: {}
+[26.465165] (-) TimerEvent: {}
+[26.565837] (-) TimerEvent: {}
+[26.666500] (-) TimerEvent: {}
+[26.767148] (-) TimerEvent: {}
+[26.867808] (-) TimerEvent: {}
+[26.968462] (-) TimerEvent: {}
+[27.069112] (-) TimerEvent: {}
+[27.169766] (-) TimerEvent: {}
+[27.270392] (-) TimerEvent: {}
+[27.370923] (-) TimerEvent: {}
+[27.471493] (-) TimerEvent: {}
+[27.572145] (-) TimerEvent: {}
+[27.672771] (-) TimerEvent: {}
+[27.773336] (-) TimerEvent: {}
+[27.873894] (-) TimerEvent: {}
+[27.974427] (-) TimerEvent: {}
+[28.074977] (-) TimerEvent: {}
+[28.175503] (-) TimerEvent: {}
+[28.276092] (-) TimerEvent: {}
+[28.376818] (-) TimerEvent: {}
+[28.477510] (-) TimerEvent: {}
+[28.578157] (-) TimerEvent: {}
+[28.678825] (-) TimerEvent: {}
+[28.779503] (-) TimerEvent: {}
+[28.880185] (-) TimerEvent: {}
+[28.980886] (-) TimerEvent: {}
+[29.081568] (-) TimerEvent: {}
+[29.182250] (-) TimerEvent: {}
+[29.282939] (-) TimerEvent: {}
+[29.383610] (-) TimerEvent: {}
+[29.484296] (-) TimerEvent: {}
+[29.584983] (-) TimerEvent: {}
+[29.685655] (-) TimerEvent: {}
+[29.786345] (-) TimerEvent: {}
+[29.887021] (-) TimerEvent: {}
+[29.987708] (-) TimerEvent: {}
+[30.088428] (-) TimerEvent: {}
+[30.189109] (-) TimerEvent: {}
+[30.289803] (-) TimerEvent: {}
+[30.390497] (-) TimerEvent: {}
+[30.491197] (-) TimerEvent: {}
+[30.591855] (-) TimerEvent: {}
+[30.692544] (-) TimerEvent: {}
+[30.793235] (-) TimerEvent: {}
+[30.893934] (-) TimerEvent: {}
+[30.994634] (-) TimerEvent: {}
+[31.095330] (-) TimerEvent: {}
+[31.196023] (-) TimerEvent: {}
+[31.296740] (-) TimerEvent: {}
+[31.397443] (-) TimerEvent: {}
+[31.498153] (-) TimerEvent: {}
+[31.598812] (-) TimerEvent: {}
+[31.699485] (-) TimerEvent: {}
+[31.800168] (-) TimerEvent: {}
+[31.900866] (-) TimerEvent: {}
+[32.001551] (-) TimerEvent: {}
+[32.102211] (-) TimerEvent: {}
+[32.202908] (-) TimerEvent: {}
+[32.303603] (-) TimerEvent: {}
+[32.404295] (-) TimerEvent: {}
+[32.505003] (-) TimerEvent: {}
+[32.605686] (-) TimerEvent: {}
+[32.706373] (-) TimerEvent: {}
+[32.807071] (-) TimerEvent: {}
+[32.907763] (-) TimerEvent: {}
+[33.008482] (-) TimerEvent: {}
+[33.109174] (-) TimerEvent: {}
+[33.209866] (-) TimerEvent: {}
+[33.310571] (-) TimerEvent: {}
+[33.411266] (-) TimerEvent: {}
+[33.511957] (-) TimerEvent: {}
+[33.612636] (-) TimerEvent: {}
+[33.713315] (-) TimerEvent: {}
+[33.814013] (-) TimerEvent: {}
+[33.914709] (-) TimerEvent: {}
+[34.015387] (-) TimerEvent: {}
+[34.116072] (-) TimerEvent: {}
+[34.216803] (-) TimerEvent: {}
+[34.317499] (-) TimerEvent: {}
+[34.418197] (-) TimerEvent: {}
+[34.518895] (-) TimerEvent: {}
+[34.619574] (-) TimerEvent: {}
+[34.720251] (-) TimerEvent: {}
+[34.820972] (-) TimerEvent: {}
+[34.921669] (-) TimerEvent: {}
+[35.022358] (-) TimerEvent: {}
+[35.123057] (-) TimerEvent: {}
+[35.223750] (-) TimerEvent: {}
+[35.324465] (-) TimerEvent: {}
+[35.425157] (-) TimerEvent: {}
+[35.525860] (-) TimerEvent: {}
+[35.626531] (-) TimerEvent: {}
+[35.727396] (-) TimerEvent: {}
+[35.828288] (-) TimerEvent: {}
+[35.929191] (-) TimerEvent: {}
+[36.029880] (-) TimerEvent: {}
+[36.130553] (-) TimerEvent: {}
+[36.231210] (-) TimerEvent: {}
+[36.331889] (-) TimerEvent: {}
+[36.432438] (-) TimerEvent: {}
+[36.533015] (-) TimerEvent: {}
+[36.633672] (-) TimerEvent: {}
+[36.734372] (-) TimerEvent: {}
+[36.835080] (-) TimerEvent: {}
+[36.935771] (-) TimerEvent: {}
+[37.036476] (-) TimerEvent: {}
+[37.137186] (-) TimerEvent: {}
+[37.237874] (-) TimerEvent: {}
+[37.338575] (-) TimerEvent: {}
+[37.439260] (-) TimerEvent: {}
+[37.539943] (-) TimerEvent: {}
+[37.640655] (-) TimerEvent: {}
+[37.741369] (-) TimerEvent: {}
+[37.842086] (-) TimerEvent: {}
+[37.942800] (-) TimerEvent: {}
+[38.043522] (-) TimerEvent: {}
+[38.144251] (-) TimerEvent: {}
+[38.244994] (-) TimerEvent: {}
+[38.345727] (-) TimerEvent: {}
+[38.446423] (-) TimerEvent: {}
+[38.547104] (-) TimerEvent: {}
+[38.647799] (-) TimerEvent: {}
+[38.748480] (-) TimerEvent: {}
+[38.849185] (-) TimerEvent: {}
+[38.949869] (-) TimerEvent: {}
+[39.050565] (-) TimerEvent: {}
+[39.151253] (-) TimerEvent: {}
+[39.251982] (-) TimerEvent: {}
+[39.352692] (-) TimerEvent: {}
+[39.453393] (-) TimerEvent: {}
+[39.554093] (-) TimerEvent: {}
+[39.654795] (-) TimerEvent: {}
+[39.755481] (-) TimerEvent: {}
+[39.856186] (-) TimerEvent: {}
+[39.956946] (-) TimerEvent: {}
+[40.057584] (-) TimerEvent: {}
+[40.158215] (-) TimerEvent: {}
+[40.258880] (-) TimerEvent: {}
+[40.359450] (-) TimerEvent: {}
+[40.460109] (-) TimerEvent: {}
+[40.560713] (-) TimerEvent: {}
+[40.661318] (-) TimerEvent: {}
+[40.762000] (-) TimerEvent: {}
+[40.862683] (-) TimerEvent: {}
+[40.963403] (-) TimerEvent: {}
+[41.064079] (-) TimerEvent: {}
+[41.164689] (-) TimerEvent: {}
+[41.265337] (-) TimerEvent: {}
+[41.366004] (-) TimerEvent: {}
+[41.466693] (-) TimerEvent: {}
+[41.568138] (-) TimerEvent: {}
+[41.668854] (-) TimerEvent: {}
+[41.769522] (-) TimerEvent: {}
+[41.870188] (-) TimerEvent: {}
+[41.970845] (-) TimerEvent: {}
+[42.071506] (-) TimerEvent: {}
+[42.172168] (-) TimerEvent: {}
+[42.272849] (-) TimerEvent: {}
+[42.373507] (-) TimerEvent: {}
+[42.474193] (-) TimerEvent: {}
+[42.574852] (-) TimerEvent: {}
+[42.675509] (-) TimerEvent: {}
+[42.776158] (-) TimerEvent: {}
+[42.876708] (-) TimerEvent: {}
+[42.977387] (-) TimerEvent: {}
+[43.078047] (-) TimerEvent: {}
+[43.178706] (-) TimerEvent: {}
+[43.279367] (-) TimerEvent: {}
+[43.380054] (-) TimerEvent: {}
+[43.480834] (-) TimerEvent: {}
+[43.581503] (-) TimerEvent: {}
+[43.682147] (-) TimerEvent: {}
+[43.782816] (-) TimerEvent: {}
+[43.883492] (-) TimerEvent: {}
+[43.984163] (-) TimerEvent: {}
+[44.084837] (-) TimerEvent: {}
+[44.185492] (-) TimerEvent: {}
+[44.286147] (-) TimerEvent: {}
+[44.386811] (-) TimerEvent: {}
+[44.487470] (-) TimerEvent: {}
+[44.588121] (-) TimerEvent: {}
+[44.688780] (-) TimerEvent: {}
+[44.789385] (-) TimerEvent: {}
+[44.890033] (-) TimerEvent: {}
+[44.990644] (-) TimerEvent: {}
+[45.091316] (-) TimerEvent: {}
+[45.192019] (-) TimerEvent: {}
+[45.292710] (-) TimerEvent: {}
+[45.393317] (-) TimerEvent: {}
+[45.494018] (-) TimerEvent: {}
+[45.594655] (-) TimerEvent: {}
+[45.695260] (-) TimerEvent: {}
+[45.795956] (-) TimerEvent: {}
+[45.896636] (-) TimerEvent: {}
+[45.997231] (-) TimerEvent: {}
+[46.097908] (-) TimerEvent: {}
+[46.198598] (-) TimerEvent: {}
+[46.299291] (-) TimerEvent: {}
+[46.399960] (-) TimerEvent: {}
+[46.500662] (-) TimerEvent: {}
+[46.601360] (-) TimerEvent: {}
+[46.701995] (-) TimerEvent: {}
+[46.802652] (-) TimerEvent: {}
+[46.903300] (-) TimerEvent: {}
+[47.003958] (-) TimerEvent: {}
+[47.104635] (-) TimerEvent: {}
+[47.205283] (-) TimerEvent: {}
+[47.305932] (-) TimerEvent: {}
+[47.406583] (-) TimerEvent: {}
+[47.507245] (-) TimerEvent: {}
+[47.607893] (-) TimerEvent: {}
+[47.708583] (-) TimerEvent: {}
+[47.809229] (-) TimerEvent: {}
+[47.909899] (-) TimerEvent: {}
+[48.010594] (-) TimerEvent: {}
+[48.111274] (-) TimerEvent: {}
+[48.211941] (-) TimerEvent: {}
+[48.312676] (-) TimerEvent: {}
+[48.413361] (-) TimerEvent: {}
+[48.514023] (-) TimerEvent: {}
+[48.614668] (-) TimerEvent: {}
+[48.715328] (-) TimerEvent: {}
+[48.816012] (-) TimerEvent: {}
+[48.916725] (-) TimerEvent: {}
+[49.017394] (-) TimerEvent: {}
+[49.118065] (-) TimerEvent: {}
+[49.218744] (-) TimerEvent: {}
+[49.319406] (-) TimerEvent: {}
+[49.420063] (-) TimerEvent: {}
+[49.520746] (-) TimerEvent: {}
+[49.621373] (-) TimerEvent: {}
+[49.721992] (-) TimerEvent: {}
+[49.822609] (-) TimerEvent: {}
+[49.923291] (-) TimerEvent: {}
+[50.023974] (-) TimerEvent: {}
+[50.124676] (-) TimerEvent: {}
+[50.225344] (-) TimerEvent: {}
+[50.326008] (-) TimerEvent: {}
+[50.426723] (-) TimerEvent: {}
+[50.527405] (-) TimerEvent: {}
+[50.628057] (-) TimerEvent: {}
+[50.728745] (-) TimerEvent: {}
+[50.829452] (-) TimerEvent: {}
+[50.930140] (-) TimerEvent: {}
+[51.030809] (-) TimerEvent: {}
+[51.131496] (-) TimerEvent: {}
+[51.232190] (-) TimerEvent: {}
+[51.332913] (-) TimerEvent: {}
+[51.433605] (-) TimerEvent: {}
+[51.534295] (-) TimerEvent: {}
+[51.635004] (-) TimerEvent: {}
+[51.735668] (-) TimerEvent: {}
+[51.836359] (-) TimerEvent: {}
+[51.937033] (-) TimerEvent: {}
+[52.037705] (-) TimerEvent: {}
+[52.138401] (-) TimerEvent: {}
+[52.239095] (-) TimerEvent: {}
+[52.339809] (-) TimerEvent: {}
+[52.440503] (-) TimerEvent: {}
+[52.541233] (-) TimerEvent: {}
+[52.641889] (-) TimerEvent: {}
+[52.742555] (-) TimerEvent: {}
+[52.843235] (-) TimerEvent: {}
+[52.943916] (-) TimerEvent: {}
+[53.044622] (-) TimerEvent: {}
+[53.145305] (-) TimerEvent: {}
+[53.245978] (-) TimerEvent: {}
+[53.346659] (-) TimerEvent: {}
+[53.447338] (-) TimerEvent: {}
+[53.548004] (-) TimerEvent: {}
+[53.648667] (-) TimerEvent: {}
+[53.749350] (-) TimerEvent: {}
+[53.850044] (-) TimerEvent: {}
+[53.950701] (-) TimerEvent: {}
+[54.051297] (-) TimerEvent: {}
+[54.151964] (-) TimerEvent: {}
+[54.252679] (-) TimerEvent: {}
+[54.353371] (-) TimerEvent: {}
+[54.454072] (-) TimerEvent: {}
+[54.554743] (-) TimerEvent: {}
+[54.655406] (-) TimerEvent: {}
+[54.756070] (-) TimerEvent: {}
+[54.856778] (-) TimerEvent: {}
+[54.957472] (-) TimerEvent: {}
+[55.058155] (-) TimerEvent: {}
+[55.158843] (-) TimerEvent: {}
+[55.259537] (-) TimerEvent: {}
+[55.360230] (-) TimerEvent: {}
+[55.460930] (-) TimerEvent: {}
+[55.561619] (-) TimerEvent: {}
+[55.662279] (-) TimerEvent: {}
+[55.762940] (-) TimerEvent: {}
+[55.863624] (-) TimerEvent: {}
+[55.964338] (-) TimerEvent: {}
+[56.065013] (-) TimerEvent: {}
+[56.165722] (-) TimerEvent: {}
+[56.266377] (-) TimerEvent: {}
+[56.366990] (-) TimerEvent: {}
+[56.467711] (-) TimerEvent: {}
+[56.568455] (-) TimerEvent: {}
+[56.669092] (-) TimerEvent: {}
+[56.769691] (-) TimerEvent: {}
+[56.870379] (-) TimerEvent: {}
+[56.971015] (-) TimerEvent: {}
+[57.071655] (-) TimerEvent: {}
+[57.172394] (-) TimerEvent: {}
+[57.273123] (-) TimerEvent: {}
+[57.373699] (-) TimerEvent: {}
+[57.474453] (-) TimerEvent: {}
+[57.575161] (-) TimerEvent: {}
+[57.675834] (-) TimerEvent: {}
+[57.776576] (-) TimerEvent: {}
+[57.877310] (-) TimerEvent: {}
+[57.978021] (-) TimerEvent: {}
+[58.078743] (-) TimerEvent: {}
+[58.179424] (-) TimerEvent: {}
+[58.280091] (-) TimerEvent: {}
+[58.380767] (-) TimerEvent: {}
+[58.481419] (-) TimerEvent: {}
+[58.582057] (-) TimerEvent: {}
+[58.682696] (-) TimerEvent: {}
+[58.783346] (-) TimerEvent: {}
+[58.883992] (-) TimerEvent: {}
+[58.984666] (-) TimerEvent: {}
+[59.085312] (-) TimerEvent: {}
+[59.185973] (-) TimerEvent: {}
+[59.286652] (-) TimerEvent: {}
+[59.387309] (-) TimerEvent: {}
+[59.487959] (-) TimerEvent: {}
+[59.588641] (-) TimerEvent: {}
+[59.689301] (-) TimerEvent: {}
+[59.789953] (-) TimerEvent: {}
+[59.890603] (-) TimerEvent: {}
+[59.991263] (-) TimerEvent: {}
+[60.091931] (-) TimerEvent: {}
+[60.192613] (-) TimerEvent: {}
+[60.293286] (-) TimerEvent: {}
+[60.393946] (-) TimerEvent: {}
+[60.494617] (-) TimerEvent: {}
+[60.595284] (-) TimerEvent: {}
+[60.695948] (-) TimerEvent: {}
+[60.796617] (-) TimerEvent: {}
+[60.897266] (-) TimerEvent: {}
+[60.997922] (-) TimerEvent: {}
+[61.098576] (-) TimerEvent: {}
+[61.199231] (-) TimerEvent: {}
+[61.299897] (-) TimerEvent: {}
+[61.400574] (-) TimerEvent: {}
+[61.501232] (-) TimerEvent: {}
+[61.601931] (-) TimerEvent: {}
+[61.702581] (-) TimerEvent: {}
+[61.803213] (-) TimerEvent: {}
+[61.903917] (-) TimerEvent: {}
+[62.004637] (-) TimerEvent: {}
+[62.105278] (-) TimerEvent: {}
+[62.205881] (-) TimerEvent: {}
+[62.306555] (-) TimerEvent: {}
+[62.407255] (-) TimerEvent: {}
+[62.507936] (-) TimerEvent: {}
+[62.608633] (-) TimerEvent: {}
+[62.709335] (-) TimerEvent: {}
+[62.810004] (-) TimerEvent: {}
+[62.910646] (-) TimerEvent: {}
+[63.011298] (-) TimerEvent: {}
+[63.111936] (-) TimerEvent: {}
+[63.212626] (-) TimerEvent: {}
+[63.313288] (-) TimerEvent: {}
+[63.413944] (-) TimerEvent: {}
+[63.514585] (-) TimerEvent: {}
+[63.615238] (-) TimerEvent: {}
+[63.715914] (-) TimerEvent: {}
+[63.816609] (-) TimerEvent: {}
+[63.917264] (-) TimerEvent: {}
+[64.017919] (-) TimerEvent: {}
+[64.118586] (-) TimerEvent: {}
+[64.219254] (-) TimerEvent: {}
+[64.319921] (-) TimerEvent: {}
+[64.420611] (-) TimerEvent: {}
+[64.521268] (-) TimerEvent: {}
+[64.621913] (-) TimerEvent: {}
+[64.722578] (-) TimerEvent: {}
+[64.823248] (-) TimerEvent: {}
+[64.923896] (-) TimerEvent: {}
+[65.024606] (-) TimerEvent: {}
+[65.125326] (-) TimerEvent: {}
+[65.226044] (-) TimerEvent: {}
+[65.326761] (-) TimerEvent: {}
+[65.427463] (-) TimerEvent: {}
+[65.528160] (-) TimerEvent: {}
+[65.628842] (-) TimerEvent: {}
+[65.729479] (-) TimerEvent: {}
+[65.830185] (-) TimerEvent: {}
+[65.930872] (-) TimerEvent: {}
+[66.031557] (-) TimerEvent: {}
+[66.132202] (-) TimerEvent: {}
+[66.232860] (-) TimerEvent: {}
+[66.333524] (-) TimerEvent: {}
+[66.434184] (-) TimerEvent: {}
+[66.534845] (-) TimerEvent: {}
+[66.635467] (-) TimerEvent: {}
+[66.736089] (-) TimerEvent: {}
+[66.836797] (-) TimerEvent: {}
+[66.937436] (-) TimerEvent: {}
+[67.038104] (-) TimerEvent: {}
+[67.138803] (-) TimerEvent: {}
+[67.239494] (-) TimerEvent: {}
+[67.340149] (-) TimerEvent: {}
+[67.440810] (-) TimerEvent: {}
+[67.541458] (-) TimerEvent: {}
+[67.642103] (-) TimerEvent: {}
+[67.742772] (-) TimerEvent: {}
+[67.843460] (-) TimerEvent: {}
+[67.944114] (-) TimerEvent: {}
+[68.044783] (-) TimerEvent: {}
+[68.145305] (-) TimerEvent: {}
+[68.245820] (-) TimerEvent: {}
+[68.346337] (-) TimerEvent: {}
+[68.446866] (-) TimerEvent: {}
+[68.547375] (-) TimerEvent: {}
+[68.647898] (-) TimerEvent: {}
+[68.748422] (-) TimerEvent: {}
+[68.848935] (-) TimerEvent: {}
+[68.949451] (-) TimerEvent: {}
+[69.049958] (-) TimerEvent: {}
+[69.150450] (-) TimerEvent: {}
+[69.250946] (-) TimerEvent: {}
+[69.351455] (-) TimerEvent: {}
+[69.451965] (-) TimerEvent: {}
+[69.552707] (-) TimerEvent: {}
+[69.653430] (-) TimerEvent: {}
+[69.754152] (-) TimerEvent: {}
+[69.854702] (-) TimerEvent: {}
+[69.955405] (-) TimerEvent: {}
+[70.056123] (-) TimerEvent: {}
+[70.156861] (-) TimerEvent: {}
+[70.257412] (-) TimerEvent: {}
+[70.357952] (-) TimerEvent: {}
+[70.458500] (-) TimerEvent: {}
+[70.559020] (-) TimerEvent: {}
+[70.659536] (-) TimerEvent: {}
+[70.760079] (-) TimerEvent: {}
+[70.860620] (-) TimerEvent: {}
+[70.961132] (-) TimerEvent: {}
+[71.061636] (-) TimerEvent: {}
+[71.162127] (-) TimerEvent: {}
+[71.262624] (-) TimerEvent: {}
+[71.363113] (-) TimerEvent: {}
+[71.463609] (-) TimerEvent: {}
+[71.564345] (-) TimerEvent: {}
+[71.665064] (-) TimerEvent: {}
+[71.765790] (-) TimerEvent: {}
+[71.866344] (-) TimerEvent: {}
+[71.967063] (-) TimerEvent: {}
+[72.067612] (-) TimerEvent: {}
+[72.168164] (-) TimerEvent: {}
+[72.268723] (-) TimerEvent: {}
+[72.369444] (-) TimerEvent: {}
+[72.469972] (-) TimerEvent: {}
+[72.570477] (-) TimerEvent: {}
+[72.671119] (-) TimerEvent: {}
+[72.771661] (-) TimerEvent: {}
+[72.872208] (-) TimerEvent: {}
+[72.972751] (-) TimerEvent: {}
+[73.073259] (-) TimerEvent: {}
+[73.173792] (-) TimerEvent: {}
+[73.274339] (-) TimerEvent: {}
+[73.374887] (-) TimerEvent: {}
+[73.475420] (-) TimerEvent: {}
+[73.575960] (-) TimerEvent: {}
+[73.676690] (-) TimerEvent: {}
+[73.777228] (-) TimerEvent: {}
+[73.877752] (-) TimerEvent: {}
+[73.978277] (-) TimerEvent: {}
+[74.078979] (-) TimerEvent: {}
+[74.179689] (-) TimerEvent: {}
+[74.280241] (-) TimerEvent: {}
+[74.380816] (-) TimerEvent: {}
+[74.481339] (-) TimerEvent: {}
+[74.581879] (-) TimerEvent: {}
+[74.682567] (-) TimerEvent: {}
+[74.783097] (-) TimerEvent: {}
+[74.883792] (-) TimerEvent: {}
+[74.984269] (-) TimerEvent: {}
+[75.084739] (-) TimerEvent: {}
+[75.185265] (-) TimerEvent: {}
+[75.285794] (-) TimerEvent: {}
+[75.386317] (-) TimerEvent: {}
+[75.486827] (-) TimerEvent: {}
+[75.587353] (-) TimerEvent: {}
+[75.687886] (-) TimerEvent: {}
+[75.788431] (-) TimerEvent: {}
+[75.888963] (-) TimerEvent: {}
+[75.989491] (-) TimerEvent: {}
+[76.090023] (-) TimerEvent: {}
+[76.190739] (-) TimerEvent: {}
+[76.291451] (-) TimerEvent: {}
+[76.392167] (-) TimerEvent: {}
+[76.492709] (-) TimerEvent: {}
+[76.593207] (-) TimerEvent: {}
+[76.693721] (-) TimerEvent: {}
+[76.794258] (-) TimerEvent: {}
+[76.894796] (-) TimerEvent: {}
+[76.995329] (-) TimerEvent: {}
+[77.096035] (-) TimerEvent: {}
+[77.196584] (-) TimerEvent: {}
+[77.297284] (-) TimerEvent: {}
+[77.397808] (-) TimerEvent: {}
+[77.498344] (-) TimerEvent: {}
+[77.598862] (-) TimerEvent: {}
+[77.699377] (-) TimerEvent: {}
+[77.799899] (-) TimerEvent: {}
+[77.900433] (-) TimerEvent: {}
+[78.000958] (-) TimerEvent: {}
+[78.101478] (-) TimerEvent: {}
+[78.201991] (-) TimerEvent: {}
+[78.302527] (-) TimerEvent: {}
+[78.403095] (-) TimerEvent: {}
+[78.503631] (-) TimerEvent: {}
+[78.604142] (-) TimerEvent: {}
+[78.704674] (-) TimerEvent: {}
+[78.805185] (-) TimerEvent: {}
+[78.905717] (-) TimerEvent: {}
+[79.006219] (-) TimerEvent: {}
+[79.106723] (-) TimerEvent: {}
+[79.207257] (-) TimerEvent: {}
+[79.307753] (-) TimerEvent: {}
+[79.408249] (-) TimerEvent: {}
+[79.508765] (-) TimerEvent: {}
+[79.609270] (-) TimerEvent: {}
+[79.709788] (-) TimerEvent: {}
+[79.810307] (-) TimerEvent: {}
+[79.910830] (-) TimerEvent: {}
+[80.011334] (-) TimerEvent: {}
+[80.111839] (-) TimerEvent: {}
+[80.212362] (-) TimerEvent: {}
+[80.312866] (-) TimerEvent: {}
+[80.413367] (-) TimerEvent: {}
+[80.513860] (-) TimerEvent: {}
+[80.614378] (-) TimerEvent: {}
+[80.714891] (-) TimerEvent: {}
+[80.815389] (-) TimerEvent: {}
+[80.915902] (-) TimerEvent: {}
+[81.016427] (-) TimerEvent: {}
+[81.116933] (-) TimerEvent: {}
+[81.217442] (-) TimerEvent: {}
+[81.317951] (-) TimerEvent: {}
+[81.418457] (-) TimerEvent: {}
+[81.518965] (-) TimerEvent: {}
+[81.619472] (-) TimerEvent: {}
+[81.719981] (-) TimerEvent: {}
+[81.820509] (-) TimerEvent: {}
+[81.921012] (-) TimerEvent: {}
+[82.021698] (-) TimerEvent: {}
+[82.122246] (-) TimerEvent: {}
+[82.222746] (-) TimerEvent: {}
+[82.323258] (-) TimerEvent: {}
+[82.423764] (-) TimerEvent: {}
+[82.524273] (-) TimerEvent: {}
+[82.624800] (-) TimerEvent: {}
+[82.725316] (-) TimerEvent: {}
+[82.825822] (-) TimerEvent: {}
+[82.926328] (-) TimerEvent: {}
+[83.026830] (-) TimerEvent: {}
+[83.127341] (-) TimerEvent: {}
+[83.227853] (-) TimerEvent: {}
+[83.328380] (-) TimerEvent: {}
+[83.428891] (-) TimerEvent: {}
+[83.529397] (-) TimerEvent: {}
+[83.629909] (-) TimerEvent: {}
+[83.730429] (-) TimerEvent: {}
+[83.830948] (-) TimerEvent: {}
+[83.931467] (-) TimerEvent: {}
+[84.031968] (-) TimerEvent: {}
+[84.132461] (-) TimerEvent: {}
+[84.232963] (-) TimerEvent: {}
+[84.333462] (-) TimerEvent: {}
+[84.433963] (-) TimerEvent: {}
+[84.534468] (-) TimerEvent: {}
+[84.634974] (-) TimerEvent: {}
+[84.735485] (-) TimerEvent: {}
+[84.835998] (-) TimerEvent: {}
+[84.936522] (-) TimerEvent: {}
+[85.037037] (-) TimerEvent: {}
+[85.137533] (-) TimerEvent: {}
+[85.238033] (-) TimerEvent: {}
+[85.338528] (-) TimerEvent: {}
+[85.439016] (-) TimerEvent: {}
+[85.539509] (-) TimerEvent: {}
+[85.639999] (-) TimerEvent: {}
+[85.740515] (-) TimerEvent: {}
+[85.841011] (-) TimerEvent: {}
+[85.941518] (-) TimerEvent: {}
+[86.042025] (-) TimerEvent: {}
+[86.142531] (-) TimerEvent: {}
+[86.243061] (-) TimerEvent: {}
+[86.343764] (-) TimerEvent: {}
+[86.444472] (-) TimerEvent: {}
+[86.545178] (-) TimerEvent: {}
+[86.645897] (-) TimerEvent: {}
+[86.746425] (-) TimerEvent: {}
+[86.847141] (-) TimerEvent: {}
+[86.947859] (-) TimerEvent: {}
+[87.048572] (-) TimerEvent: {}
+[87.149125] (-) TimerEvent: {}
+[87.249857] (-) TimerEvent: {}
+[87.350585] (-) TimerEvent: {}
+[87.451315] (-) TimerEvent: {}
+[87.552045] (-) TimerEvent: {}
+[87.652785] (-) TimerEvent: {}
+[87.753505] (-) TimerEvent: {}
+[87.854231] (-) TimerEvent: {}
+[87.954969] (-) TimerEvent: {}
+[88.055532] (-) TimerEvent: {}
+[88.156155] (-) TimerEvent: {}
+[88.256831] (-) TimerEvent: {}
+[88.357492] (-) TimerEvent: {}
+[88.458046] (-) TimerEvent: {}
+[88.558568] (-) TimerEvent: {}
+[88.659104] (-) TimerEvent: {}
+[88.759636] (-) TimerEvent: {}
+[88.860198] (-) TimerEvent: {}
+[88.960900] (-) TimerEvent: {}
+[89.061610] (-) TimerEvent: {}
+[89.162328] (-) TimerEvent: {}
+[89.263025] (-) TimerEvent: {}
+[89.363713] (-) TimerEvent: {}
+[89.464420] (-) TimerEvent: {}
+[89.565130] (-) TimerEvent: {}
+[89.665840] (-) TimerEvent: {}
+[89.766532] (-) TimerEvent: {}
+[89.867222] (-) TimerEvent: {}
+[89.967908] (-) TimerEvent: {}
+[90.068594] (-) TimerEvent: {}
+[90.169266] (-) TimerEvent: {}
+[90.269944] (-) TimerEvent: {}
+[90.370620] (-) TimerEvent: {}
+[90.471308] (-) TimerEvent: {}
+[90.571982] (-) TimerEvent: {}
+[90.672646] (-) TimerEvent: {}
+[90.773340] (-) TimerEvent: {}
+[90.874018] (-) TimerEvent: {}
+[90.974676] (-) TimerEvent: {}
+[91.075342] (-) TimerEvent: {}
+[91.176038] (-) TimerEvent: {}
+[91.276753] (-) TimerEvent: {}
+[91.377448] (-) TimerEvent: {}
+[91.478126] (-) TimerEvent: {}
+[91.578793] (-) TimerEvent: {}
+[91.679420] (-) TimerEvent: {}
+[91.780090] (-) TimerEvent: {}
+[91.880808] (-) TimerEvent: {}
+[91.981529] (-) TimerEvent: {}
+[92.082231] (-) TimerEvent: {}
+[92.182912] (-) TimerEvent: {}
+[92.283620] (-) TimerEvent: {}
+[92.384351] (-) TimerEvent: {}
+[92.485081] (-) TimerEvent: {}
+[92.585763] (-) TimerEvent: {}
+[92.686428] (-) TimerEvent: {}
+[92.787099] (-) TimerEvent: {}
+[92.887778] (-) TimerEvent: {}
+[92.988460] (-) TimerEvent: {}
+[93.089131] (-) TimerEvent: {}
+[93.189816] (-) TimerEvent: {}
+[93.290502] (-) TimerEvent: {}
+[93.391194] (-) TimerEvent: {}
+[93.491875] (-) TimerEvent: {}
+[93.592585] (-) TimerEvent: {}
+[93.693258] (-) TimerEvent: {}
+[93.793939] (-) TimerEvent: {}
+[93.894670] (-) TimerEvent: {}
+[93.995361] (-) TimerEvent: {}
+[94.096046] (-) TimerEvent: {}
+[94.196749] (-) TimerEvent: {}
+[94.297430] (-) TimerEvent: {}
+[94.398109] (-) TimerEvent: {}
+[94.498786] (-) TimerEvent: {}
+[94.599467] (-) TimerEvent: {}
+[94.700127] (-) TimerEvent: {}
+[94.800817] (-) TimerEvent: {}
+[94.901487] (-) TimerEvent: {}
+[95.002144] (-) TimerEvent: {}
+[95.102799] (-) TimerEvent: {}
+[95.203455] (-) TimerEvent: {}
+[95.304103] (-) TimerEvent: {}
+[95.404781] (-) TimerEvent: {}
+[95.505620] (-) TimerEvent: {}
+[95.606262] (-) TimerEvent: {}
+[95.706884] (-) TimerEvent: {}
+[95.807485] (-) TimerEvent: {}
+[95.908042] (-) TimerEvent: {}
+[96.008644] (-) TimerEvent: {}
+[96.109297] (-) TimerEvent: {}
+[96.209959] (-) TimerEvent: {}
+[96.310614] (-) TimerEvent: {}
+[96.411282] (-) TimerEvent: {}
+[96.511942] (-) TimerEvent: {}
+[96.612605] (-) TimerEvent: {}
+[96.713240] (-) TimerEvent: {}
+[96.813880] (-) TimerEvent: {}
+[96.914538] (-) TimerEvent: {}
+[97.015166] (-) TimerEvent: {}
+[97.115719] (-) TimerEvent: {}
+[97.216423] (-) TimerEvent: {}
+[97.317097] (-) TimerEvent: {}
+[97.417793] (-) TimerEvent: {}
+[97.518345] (-) TimerEvent: {}
+[97.619026] (-) TimerEvent: {}
+[97.719686] (-) TimerEvent: {}
+[97.820353] (-) TimerEvent: {}
+[97.921002] (-) TimerEvent: {}
+[98.021638] (-) TimerEvent: {}
+[98.122277] (-) TimerEvent: {}
+[98.222920] (-) TimerEvent: {}
+[98.323558] (-) TimerEvent: {}
+[98.424203] (-) TimerEvent: {}
+[98.524854] (-) TimerEvent: {}
+[98.625464] (-) TimerEvent: {}
+[98.725976] (-) TimerEvent: {}
+[98.826608] (-) TimerEvent: {}
+[98.927242] (-) TimerEvent: {}
+[99.027886] (-) TimerEvent: {}
+[99.128520] (-) TimerEvent: {}
+[99.229139] (-) TimerEvent: {}
+[99.329751] (-) TimerEvent: {}
+[99.430347] (-) TimerEvent: {}
+[99.530915] (-) TimerEvent: {}
+[99.631499] (-) TimerEvent: {}
+[99.732278] (-) TimerEvent: {}
+[99.832916] (-) TimerEvent: {}
+[99.933692] (-) TimerEvent: {}
+[100.034407] (-) TimerEvent: {}
+[100.135127] (-) TimerEvent: {}
+[100.235825] (-) TimerEvent: {}
+[100.336491] (-) TimerEvent: {}
+[100.437159] (-) TimerEvent: {}
+[100.537691] (-) TimerEvent: {}
+[100.638392] (-) TimerEvent: {}
+[100.739075] (-) TimerEvent: {}
+[100.839597] (-) TimerEvent: {}
+[100.940112] (-) TimerEvent: {}
+[101.040601] (-) TimerEvent: {}
+[101.141083] (-) TimerEvent: {}
+[101.241649] (-) TimerEvent: {}
+[101.342201] (-) TimerEvent: {}
+[101.442715] (-) TimerEvent: {}
+[101.543224] (-) TimerEvent: {}
+[101.643732] (-) TimerEvent: {}
+[101.744190] (-) TimerEvent: {}
+[101.844657] (-) TimerEvent: {}
+[101.945179] (-) TimerEvent: {}
+[102.045686] (-) TimerEvent: {}
+[102.146229] (-) TimerEvent: {}
+[102.246831] (-) TimerEvent: {}
+[102.347353] (-) TimerEvent: {}
+[102.447839] (-) TimerEvent: {}
+[102.548393] (-) TimerEvent: {}
+[102.648949] (-) TimerEvent: {}
+[102.749568] (-) TimerEvent: {}
+[102.850179] (-) TimerEvent: {}
+[102.950725] (-) TimerEvent: {}
+[103.051232] (-) TimerEvent: {}
+[103.151765] (-) TimerEvent: {}
+[103.252577] (-) TimerEvent: {}
+[103.353239] (-) TimerEvent: {}
+[103.453899] (-) TimerEvent: {}
+[103.554717] (-) TimerEvent: {}
+[103.655606] (-) TimerEvent: {}
+[103.756480] (-) TimerEvent: {}
+[103.857159] (-) TimerEvent: {}
+[103.958044] (-) TimerEvent: {}
+[104.058744] (-) TimerEvent: {}
+[104.159420] (-) TimerEvent: {}
+[104.260074] (-) TimerEvent: {}
+[104.360742] (-) TimerEvent: {}
+[104.461382] (-) TimerEvent: {}
+[104.562008] (-) TimerEvent: {}
+[104.662648] (-) TimerEvent: {}
+[104.763292] (-) TimerEvent: {}
+[104.863957] (-) TimerEvent: {}
+[104.964637] (-) TimerEvent: {}
+[105.065279] (-) TimerEvent: {}
+[105.165917] (-) TimerEvent: {}
+[105.266552] (-) TimerEvent: {}
+[105.367209] (-) TimerEvent: {}
+[105.467851] (-) TimerEvent: {}
+[105.568558] (-) TimerEvent: {}
+[105.669197] (-) TimerEvent: {}
+[105.769817] (-) TimerEvent: {}
+[105.870445] (-) TimerEvent: {}
+[105.971075] (-) TimerEvent: {}
+[106.071701] (-) TimerEvent: {}
+[106.172348] (-) TimerEvent: {}
+[106.272957] (-) TimerEvent: {}
+[106.373584] (-) TimerEvent: {}
+[106.474208] (-) TimerEvent: {}
+[106.574826] (-) TimerEvent: {}
+[106.675445] (-) TimerEvent: {}
+[106.776073] (-) TimerEvent: {}
+[106.876718] (-) TimerEvent: {}
+[106.977347] (-) TimerEvent: {}
+[107.077982] (-) TimerEvent: {}
+[107.178619] (-) TimerEvent: {}
+[107.279260] (-) TimerEvent: {}
+[107.379893] (-) TimerEvent: {}
+[107.480539] (-) TimerEvent: {}
+[107.581178] (-) TimerEvent: {}
+[107.681810] (-) TimerEvent: {}
+[107.782433] (-) TimerEvent: {}
+[107.883047] (-) TimerEvent: {}
+[107.983671] (-) TimerEvent: {}
+[108.084299] (-) TimerEvent: {}
+[108.184944] (-) TimerEvent: {}
+[108.285566] (-) TimerEvent: {}
+[108.386196] (-) TimerEvent: {}
+[108.486843] (-) TimerEvent: {}
+[108.587693] (-) TimerEvent: {}
+[108.688407] (-) TimerEvent: {}
+[108.789051] (-) TimerEvent: {}
+[108.889671] (-) TimerEvent: {}
+[108.990348] (-) TimerEvent: {}
+[109.091000] (-) TimerEvent: {}
+[109.191683] (-) TimerEvent: {}
+[109.292394] (-) TimerEvent: {}
+[109.393060] (-) TimerEvent: {}
+[109.493724] (-) TimerEvent: {}
+[109.594403] (-) TimerEvent: {}
+[109.695079] (-) TimerEvent: {}
+[109.795724] (-) TimerEvent: {}
+[109.896340] (-) TimerEvent: {}
+[109.997019] (-) TimerEvent: {}
+[110.097692] (-) TimerEvent: {}
+[110.198391] (-) TimerEvent: {}
+[110.299083] (-) TimerEvent: {}
+[110.399777] (-) TimerEvent: {}
+[110.500471] (-) TimerEvent: {}
+[110.601353] (-) TimerEvent: {}
+[110.702029] (-) TimerEvent: {}
+[110.802648] (-) TimerEvent: {}
+[110.903249] (-) TimerEvent: {}
+[111.003948] (-) TimerEvent: {}
+[111.104631] (-) TimerEvent: {}
+[111.205272] (-) TimerEvent: {}
+[111.305909] (-) TimerEvent: {}
+[111.406550] (-) TimerEvent: {}
+[111.507192] (-) TimerEvent: {}
+[111.607829] (-) TimerEvent: {}
+[111.708471] (-) TimerEvent: {}
+[111.809117] (-) TimerEvent: {}
+[111.909749] (-) TimerEvent: {}
+[112.010382] (-) TimerEvent: {}
+[112.111005] (-) TimerEvent: {}
+[112.211628] (-) TimerEvent: {}
+[112.312252] (-) TimerEvent: {}
+[112.412908] (-) TimerEvent: {}
+[112.513584] (-) TimerEvent: {}
+[112.614266] (-) TimerEvent: {}
+[112.715867] (-) TimerEvent: {}
+[112.816507] (-) TimerEvent: {}
+[112.917096] (-) TimerEvent: {}
+[113.017741] (-) TimerEvent: {}
+[113.118375] (-) TimerEvent: {}
+[113.219014] (-) TimerEvent: {}
+[113.319660] (-) TimerEvent: {}
+[113.420293] (-) TimerEvent: {}
+[113.520971] (-) TimerEvent: {}
+[113.621622] (-) TimerEvent: {}
+[113.722243] (-) TimerEvent: {}
+[113.822873] (-) TimerEvent: {}
+[113.923513] (-) TimerEvent: {}
+[114.024156] (-) TimerEvent: {}
+[114.124809] (-) TimerEvent: {}
+[114.225665] (-) TimerEvent: {}
+[114.326358] (-) TimerEvent: {}
+[114.427039] (-) TimerEvent: {}
+[114.527724] (-) TimerEvent: {}
+[114.628423] (-) TimerEvent: {}
+[114.729082] (-) TimerEvent: {}
+[114.829755] (-) TimerEvent: {}
+[114.930438] (-) TimerEvent: {}
+[115.031106] (-) TimerEvent: {}
+[115.131758] (-) TimerEvent: {}
+[115.232461] (-) TimerEvent: {}
+[115.333144] (-) TimerEvent: {}
+[115.433831] (-) TimerEvent: {}
+[115.534522] (-) TimerEvent: {}
+[115.635208] (-) TimerEvent: {}
+[115.735835] (-) TimerEvent: {}
+[115.836478] (-) TimerEvent: {}
+[115.937109] (-) TimerEvent: {}
+[116.037750] (-) TimerEvent: {}
+[116.138387] (-) TimerEvent: {}
+[116.239017] (-) TimerEvent: {}
+[116.339645] (-) TimerEvent: {}
+[116.440289] (-) TimerEvent: {}
+[116.540952] (-) TimerEvent: {}
+[116.641601] (-) TimerEvent: {}
+[116.742229] (-) TimerEvent: {}
+[116.842857] (-) TimerEvent: {}
+[116.943496] (-) TimerEvent: {}
+[117.044117] (-) TimerEvent: {}
+[117.144781] (-) TimerEvent: {}
+[117.245411] (-) TimerEvent: {}
+[117.346045] (-) TimerEvent: {}
+[117.446677] (-) TimerEvent: {}
+[117.547317] (-) TimerEvent: {}
+[117.647954] (-) TimerEvent: {}
+[117.748638] (-) TimerEvent: {}
+[117.849256] (-) TimerEvent: {}
+[117.949883] (-) TimerEvent: {}
+[118.050516] (-) TimerEvent: {}
+[118.151156] (-) TimerEvent: {}
+[118.251826] (-) TimerEvent: {}
+[118.352496] (-) TimerEvent: {}
+[118.453206] (-) TimerEvent: {}
+[118.553875] (-) TimerEvent: {}
+[118.654559] (-) TimerEvent: {}
+[118.755226] (-) TimerEvent: {}
+[118.855884] (-) TimerEvent: {}
+[118.956597] (-) TimerEvent: {}
+[119.057281] (-) TimerEvent: {}
+[119.157952] (-) TimerEvent: {}
+[119.258622] (-) TimerEvent: {}
+[119.359298] (-) TimerEvent: {}
+[119.459970] (-) TimerEvent: {}
+[119.560665] (-) TimerEvent: {}
+[119.661344] (-) TimerEvent: {}
+[119.762006] (-) TimerEvent: {}
+[119.862672] (-) TimerEvent: {}
+[119.963368] (-) TimerEvent: {}
+[120.064079] (-) TimerEvent: {}
+[120.164757] (-) TimerEvent: {}
+[120.265402] (-) TimerEvent: {}
+[120.366101] (-) TimerEvent: {}
+[120.466987] (-) TimerEvent: {}
+[120.567631] (-) TimerEvent: {}
+[120.668280] (-) TimerEvent: {}
+[120.768977] (-) TimerEvent: {}
+[120.869654] (-) TimerEvent: {}
+[120.970331] (-) TimerEvent: {}
+[121.070988] (-) TimerEvent: {}
+[121.171657] (-) TimerEvent: {}
+[121.272357] (-) TimerEvent: {}
+[121.373028] (-) TimerEvent: {}
+[121.473700] (-) TimerEvent: {}
+[121.574383] (-) TimerEvent: {}
+[121.675025] (-) TimerEvent: {}
+[121.775586] (-) TimerEvent: {}
+[121.876244] (-) TimerEvent: {}
+[121.976936] (-) TimerEvent: {}
+[122.077605] (-) TimerEvent: {}
+[122.178265] (-) TimerEvent: {}
+[122.278947] (-) TimerEvent: {}
+[122.379630] (-) TimerEvent: {}
+[122.480305] (-) TimerEvent: {}
+[122.580997] (-) TimerEvent: {}
+[122.681665] (-) TimerEvent: {}
+[122.782332] (-) TimerEvent: {}
+[122.883003] (-) TimerEvent: {}
+[122.983683] (-) TimerEvent: {}
+[123.084370] (-) TimerEvent: {}
+[123.185020] (-) TimerEvent: {}
+[123.285696] (-) TimerEvent: {}
+[123.386368] (-) TimerEvent: {}
+[123.487044] (-) TimerEvent: {}
+[123.587710] (-) TimerEvent: {}
+[123.688366] (-) TimerEvent: {}
+[123.788974] (-) TimerEvent: {}
+[123.889619] (-) TimerEvent: {}
+[123.990199] (-) TimerEvent: {}
+[124.090696] (-) TimerEvent: {}
+[124.191221] (-) TimerEvent: {}
+[124.291736] (-) TimerEvent: {}
+[124.392244] (-) TimerEvent: {}
+[124.492782] (-) TimerEvent: {}
+[124.593307] (-) TimerEvent: {}
+[124.693876] (-) TimerEvent: {}
+[124.794521] (-) TimerEvent: {}
+[124.895181] (-) TimerEvent: {}
+[124.995866] (-) TimerEvent: {}
+[125.096561] (-) TimerEvent: {}
+[125.197254] (-) TimerEvent: {}
+[125.297941] (-) TimerEvent: {}
+[125.398637] (-) TimerEvent: {}
+[125.499332] (-) TimerEvent: {}
+[125.600227] (-) TimerEvent: {}
+[125.700925] (-) TimerEvent: {}
+[125.801577] (-) TimerEvent: {}
+[125.902193] (-) TimerEvent: {}
+[126.002722] (-) TimerEvent: {}
+[126.103246] (-) TimerEvent: {}
+[126.203937] (-) TimerEvent: {}
+[126.304447] (-) TimerEvent: {}
+[126.404943] (-) TimerEvent: {}
+[126.505446] (-) TimerEvent: {}
+[126.605939] (-) TimerEvent: {}
+[126.706432] (-) TimerEvent: {}
+[126.806933] (-) TimerEvent: {}
+[126.907432] (-) TimerEvent: {}
+[127.007938] (-) TimerEvent: {}
+[127.108440] (-) TimerEvent: {}
+[127.208946] (-) TimerEvent: {}
+[127.309436] (-) TimerEvent: {}
+[127.409947] (-) TimerEvent: {}
+[127.510439] (-) TimerEvent: {}
+[127.610938] (-) TimerEvent: {}
+[127.711428] (-) TimerEvent: {}
+[127.811930] (-) TimerEvent: {}
+[127.912469] (-) TimerEvent: {}
+[128.012989] (-) TimerEvent: {}
+[128.113487] (-) TimerEvent: {}
+[128.213978] (-) TimerEvent: {}
+[128.314465] (-) TimerEvent: {}
+[128.414956] (-) TimerEvent: {}
+[128.515459] (-) TimerEvent: {}
+[128.615952] (-) TimerEvent: {}
+[128.716445] (-) TimerEvent: {}
+[128.816932] (-) TimerEvent: {}
+[128.917413] (-) TimerEvent: {}
+[129.017942] (-) TimerEvent: {}
+[129.047499] (fast_lio) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable fastlio_mapping\x1b[0m\n'}
+[129.118088] (-) TimerEvent: {}
+[129.218605] (-) TimerEvent: {}
+[129.319113] (-) TimerEvent: {}
+[129.419616] (-) TimerEvent: {}
+[129.520148] (-) TimerEvent: {}
+[129.620699] (-) TimerEvent: {}
+[129.721216] (-) TimerEvent: {}
+[129.821727] (-) TimerEvent: {}
+[129.922246] (-) TimerEvent: {}
+[130.022757] (-) TimerEvent: {}
+[130.123261] (-) TimerEvent: {}
+[130.223753] (-) TimerEvent: {}
+[130.324275] (-) TimerEvent: {}
+[130.424800] (-) TimerEvent: {}
+[130.525308] (-) TimerEvent: {}
+[130.625818] (-) TimerEvent: {}
+[130.726335] (-) TimerEvent: {}
+[130.826871] (-) TimerEvent: {}
+[130.927408] (-) TimerEvent: {}
+[131.027926] (-) TimerEvent: {}
+[131.128427] (-) TimerEvent: {}
+[131.228935] (-) TimerEvent: {}
+[131.329429] (-) TimerEvent: {}
+[131.341267] (fast_lio) StdoutLine: {'line': b'[100%] Built target fastlio_mapping\n'}
+[131.372664] (fast_lio) CommandEnded: {'returncode': 0}
+[131.374346] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[131.397381] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin-001/sda/agibotnav/build/fast_lio'], 'cwd': '/home/orin-001/sda/agibotnav/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin-001'), ('LC_TIME', 'zh_CN.UTF-8'), ('ROS_PACKAGE_PATH', '/home/orin-001/ros_noetic_ws/src'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller/lib:/home/orin-001/sda/nav/src/install/dwb_plugins/lib:/home/orin-001/sda/nav/src/install/dwb_core/lib:/home/orin-001/sda/nav/src/install/nav_2d_utils/lib:/home/orin-001/sda/nav/src/install/dwb_msgs/lib:/home/orin-001/sda/nav/src/install/nav_2d_msgs/lib:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller/lib:/home/orin-001/sda/nav/src/install/nav2_planner/lib:/home/orin-001/sda/nav/src/install/nav2_navfn_planner/lib:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_bt_navigator/lib:/home/orin-001/sda/nav/src/install/nav2_collision_monitor/lib:/home/orin-001/sda/nav/src/install/costmap_queue/lib:/home/orin-001/sda/nav/src/install/nav2_costmap_2d/lib:/home/orin-001/sda/nav/src/install/nav2_voxel_grid/lib:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother/lib:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins/lib:/home/orin-001/sda/nav/src/install/nav2_map_server/lib:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager/lib:/home/orin-001/sda/nav/src/install/nav2_behavior_tree/lib:/home/orin-001/sda/nav/src/install/nav2_amcl/lib:/home/orin-001/sda/nav/src/install/nav2_util/lib:/home/orin-001/sda/nav/src/install/nav2_msgs/lib:/home/orin-001/sda/driver/install/livox_sdk2/lib:/home/orin-001/sda/driver/install/livox_ros_driver2/lib:/home/orin-001/sda/agibotnav/install/dwb_msgs/lib:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/lib:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid/lib:/home/orin-001/sda/agibotnav/install/nav2_msgs/lib:/home/orin-001/sda/agibotnav/install/fast_lio/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/orin-001/ros_noetic_ws/devel/lib:'), ('HOME', '/home/orin-001'), ('OLDPWD', '/home/orin-001'), ('DESKTOP_SESSION', 'ubuntu'), ('XIM', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2318'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin-001/sda/nav/src/install:/home/orin-001/sda/agibotnav/install:/home/orin-001/sda/driver/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orin-001'), ('XIM_PROGRAM', 'fcitx'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin-001'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'fcitx-gtk2:'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orin-001/ros_noetic_ws/devel/bin:/home/orin-001/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orin-001/ros_noetic_ws/src/catkin/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2294,unix/ubuntu:/tmp/.ICE-unix/2294'), ('PAPERSIZE', 'a4'), ('GTK3_MODULES', 'fcitx-gtk3:'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80250db6_d28a_45f2_98cb_2b87335facb0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('ROS_ROOT', '/home/orin-001/ros_noetic_ws/devel/share/ros'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/orin-001/sda/agibotnav/build/fast_lio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin-001/sda/nav/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/nav/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/nav/src/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/driver/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin-001/sda/nav/src/install/nav2_controller:/home/orin-001/sda/nav/src/install/dwb_plugins:/home/orin-001/sda/nav/src/install/dwb_core:/home/orin-001/sda/nav/src/install/nav_2d_utils:/home/orin-001/sda/nav/src/install/dwb_msgs:/home/orin-001/sda/nav/src/install/nav_2d_msgs:/home/orin-001/sda/nav/src/install/nav2_regulated_pure_pursuit_controller:/home/orin-001/sda/nav/src/install/nav2_planner:/home/orin-001/sda/nav/src/install/nav2_navfn_planner:/home/orin-001/sda/nav/src/install/nav2_constrained_smoother:/home/orin-001/sda/nav/src/install/nav2_bt_navigator:/home/orin-001/sda/nav/src/install/nav2_core:/home/orin-001/sda/nav/src/install/nav2_collision_monitor:/home/orin-001/sda/nav/src/install/costmap_queue:/home/orin-001/sda/nav/src/install/nav2_costmap_2d:/home/orin-001/sda/nav/src/install/nav2_voxel_grid:/home/orin-001/sda/nav/src/install/nav2_velocity_smoother:/home/orin-001/sda/nav/src/install/nav2_rviz_plugins:/home/orin-001/sda/nav/src/install/nav2_map_server:/home/orin-001/sda/nav/src/install/nav2_lifecycle_manager:/home/orin-001/sda/nav/src/install/nav2_behavior_tree:/home/orin-001/sda/nav/src/install/nav2_amcl:/home/orin-001/sda/nav/src/install/nav2_util:/home/orin-001/sda/nav/src/install/nav2_msgs:/home/orin-001/sda/nav/src/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/dwb_msgs:/home/orin-001/sda/agibotnav/install/nav_2d_msgs:/home/orin-001/sda/agibotnav/install/nav2_voxel_grid:/home/orin-001/sda/agibotnav/install/nav2_msgs:/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/agibotnav/install/fast_lio:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/opt/ros/humble')]), 'shell': False}
+[131.419407] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[131.420267] (fast_lio) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[131.421284] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[131.421536] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[131.421752] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[131.421961] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[131.422171] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[131.422379] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[131.422587] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[131.422787] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[131.423361] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[131.423585] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[131.424117] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[131.424347] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[131.424558] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[131.424759] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp\n'}
+[131.424953] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[131.425148] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[131.425777] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[131.426001] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[131.426468] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[131.426688] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[131.427145] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[131.427408] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[131.427650] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[131.428119] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[131.428430] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[131.428795] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[131.429035] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[131.429483] (-) TimerEvent: {}
+[131.429839] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py\n'}
+[131.430086] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[131.430311] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[131.430528] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[131.430731] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[131.430939] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[131.431149] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[131.431380] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so\n'}
+[131.431588] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py\n'}
+[131.431804] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py\n'}
+[131.431973] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[131.432172] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[131.432541] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[131.432920] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[131.433191] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[131.433441] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[131.433804] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[131.434263] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[131.434469] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/config/mid360_calibrated.yaml\n'}
+[131.434706] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/config/mid360_tilt.yaml\n'}
+[131.434964] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch\n'}
+[131.435171] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[131.435467] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[131.435756] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[131.436032] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[131.436297] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[131.436557] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[131.436805] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[131.437038] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[131.437273] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[131.437501] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[131.437732] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[131.437959] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[131.438159] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.dsv\n'}
+[131.458494] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[131.459112] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[131.459459] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[131.459810] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[131.460150] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[131.460480] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[131.460817] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[131.461091] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[131.461356] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[131.461582] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[131.461882] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.xml\n'}
+[131.462144] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[131.462365] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[131.462637] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[131.462898] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[131.463116] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[131.463368] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[131.463623] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[131.529824] (-) TimerEvent: {}
+[131.531188] (fast_lio) StdoutLine: {'line': b"Listing '/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...\n"}
+[131.531490] (fast_lio) StdoutLine: {'line': b"Listing '/home/orin-001/sda/agibotnav/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...\n"}
+[131.540595] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[131.541034] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[131.541235] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[131.541419] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[131.541615] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[131.541817] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[131.542024] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[131.542192] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[131.542365] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[131.542533] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[131.542708] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[131.542931] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[131.543071] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[131.543289] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[131.543499] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[131.543637] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[131.543765] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[131.543892] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[131.547861] (fast_lio) CommandEnded: {'returncode': 0}
+[131.595290] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[131.597857] (-) EventReactorShutdown: {}

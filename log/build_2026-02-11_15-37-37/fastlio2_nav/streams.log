@@ -1,0 +1,35 @@
+[1.429s] Invoking command in '/home/orin-001/sda/agibotnav/src/fastlio2_nav': PYTHONPATH=/home/orin-001/sda/agibotnav/build/fastlio2_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fastlio2_nav build --build-base /home/orin-001/sda/agibotnav/build/fastlio2_nav/build install --record /home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log --single-version-externally-managed install_data
+[1.589s] Traceback (most recent call last):
+[1.590s]   File "/home/orin-001/sda/agibotnav/src/fastlio2_nav/setup.py", line 1, in <module>
+[1.590s]     from setuptools import setup
+[1.590s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[1.594s]     import setuptools.version
+[1.594s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.594s]     import pkg_resources
+[1.594s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+[1.595s]     __import__('pkg_resources.extern.packaging.requirements')
+[1.595s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 10, in <module>
+[1.595s]     from pkg_resources.extern.pyparsing import (  # noqa
+[1.596s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[1.596s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[1.596s]   File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+[1.596s]   File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+[1.597s]   File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 52, in create_module
+[1.597s]     return self.load_module(spec.name)
+[1.598s]   File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 37, in load_module
+[1.598s]     __import__(extant)
+[1.601s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 5151, in <module>
+[1.602s]     dblQuotedString = Combine(Regex(r'"(?:[^"\n\r\\]|(?:"")|(?:\\(?:[^x]|x[0-9a-fA-F]+)))*')+'"').setName("string enclosed in double quotes")
+[1.603s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 4255, in __init__
+[1.603s]     self.leaveWhitespace()
+[1.603s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3747, in leaveWhitespace
+[1.604s]     self.expr.leaveWhitespace()
+[1.604s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3292, in leaveWhitespace
+[1.604s]     self.exprs = [ e.copy() for e in self.exprs ]
+[1.605s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 3292, in <listcomp>
+[1.605s]     self.exprs = [ e.copy() for e in self.exprs ]
+[1.605s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 1183, in copy
+[1.605s]     cpy = copy.copy( self )
+[1.606s]   File "/usr/lib/python3.10/copy.py", line 92, in copy
+[1.606s]     rv = reductor(4)
+[1.606s] KeyboardInterrupt

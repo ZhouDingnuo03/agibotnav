@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:76: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/fastlio_mapping.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

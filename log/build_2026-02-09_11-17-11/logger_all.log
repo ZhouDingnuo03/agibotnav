@@ -1,0 +1,1405 @@
+[0.362s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.362s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbb90b550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbb90b010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbb90b010>>)
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.905s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.905s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.905s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.905s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.905s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.905s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orin-001/sda/agibotnav'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extension 'ignore_ament_install'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extensions ['colcon_pkg']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extension 'colcon_pkg'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extensions ['colcon_meta']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extension 'colcon_meta'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extensions ['ros']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extension 'ros'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extensions ['cmake', 'python']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extension 'cmake'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extension 'python'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extensions ['python_setup_py']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(fastlio2_pcd) by extension 'python_setup_py'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore_ament_install'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_pkg']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_pkg'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_meta']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_meta'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ros']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ros'
+[0.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extensions ['ros']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extension 'ros'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extensions ['cmake', 'python']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extension 'cmake'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extension 'python'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extensions ['python_setup_py']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra) by extension 'python_setup_py'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extension 'ros'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extensions ['cmake', 'python']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extension 'cmake'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extension 'python'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extensions ['python_setup_py']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs) by extension 'python_setup_py'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extension 'ignore_ament_install'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extensions ['colcon_pkg']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extension 'ros'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extensions ['cmake', 'python']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extension 'cmake'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extension 'python'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extensions ['python_setup_py']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/images) by extension 'python_setup_py'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extension 'ros'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extensions ['cmake', 'python']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extension 'cmake'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extension 'python'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extensions ['python_setup_py']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides) by extension 'python_setup_py'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extension 'ros'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extensions ['cmake', 'python']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extension 'cmake'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extension 'python'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extensions ['python_setup_py']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/overrides/partials) by extension 'python_setup_py'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extension 'ros'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extensions ['cmake', 'python']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extension 'cmake'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extension 'python'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extensions ['python_setup_py']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/docs/styles) by extension 'python_setup_py'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extension 'ros'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extensions ['cmake', 'python']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extension 'cmake'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extension 'python'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extensions ['python_setup_py']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include) by extension 'python_setup_py'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extension 'ros'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extensions ['cmake', 'python']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extension 'cmake'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extension 'python'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extensions ['python_setup_py']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/lowlevel) by extension 'python_setup_py'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extension 'colcon_pkg'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extensions ['colcon_meta']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extension 'ros'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extensions ['cmake', 'python']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extension 'cmake'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extension 'python'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extensions ['python_setup_py']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1) by extension 'python_setup_py'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extensions ['colcon_meta']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extension 'ros'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extensions ['cmake', 'python']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extension 'cmake'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extension 'python'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extensions ['python_setup_py']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsl-1w) by extension 'python_setup_py'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extension 'ignore_ament_install'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extensions ['colcon_meta']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extension 'colcon_meta'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extensions ['ros']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extension 'ros'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extensions ['cmake', 'python']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extension 'cmake'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extension 'python'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extensions ['python_setup_py']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/include/zsm-1w) by extension 'python_setup_py'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extension 'ignore_ament_install'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extensions ['colcon_pkg']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extension 'colcon_pkg'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extension 'ros'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extensions ['cmake', 'python']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extension 'cmake'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extension 'python'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extensions ['python_setup_py']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib) by extension 'python_setup_py'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extension 'colcon_meta'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extensions ['ros']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extension 'ros'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extensions ['cmake', 'python']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extension 'cmake'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extension 'python'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extensions ['python_setup_py']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1) by extension 'python_setup_py'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extensions ['ignore', 'ignore_ament_install']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extension 'ignore'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extension 'ignore_ament_install'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extensions ['colcon_pkg']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extension 'colcon_pkg'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extensions ['colcon_meta']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extension 'colcon_meta'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extensions ['ros']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extension 'ros'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extensions ['cmake', 'python']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extension 'cmake'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extension 'python'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extensions ['python_setup_py']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/aarch64) by extension 'python_setup_py'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extension 'ignore'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extension 'ignore_ament_install'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extensions ['colcon_pkg']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extension 'colcon_pkg'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extensions ['colcon_meta']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extension 'colcon_meta'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extensions ['ros']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extension 'ros'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extensions ['cmake', 'python']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extension 'cmake'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extension 'python'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extensions ['python_setup_py']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1/x86_64) by extension 'python_setup_py'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extensions ['ignore', 'ignore_ament_install']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extension 'ignore'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extension 'ignore_ament_install'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extensions ['colcon_pkg']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extension 'colcon_pkg'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extensions ['colcon_meta']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extension 'colcon_meta'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extensions ['ros']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extension 'ros'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extensions ['cmake', 'python']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extension 'cmake'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extension 'python'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extensions ['python_setup_py']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w) by extension 'python_setup_py'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extension 'ignore_ament_install'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extensions ['colcon_pkg']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extension 'colcon_pkg'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extensions ['colcon_meta']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extension 'colcon_meta'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extensions ['ros']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extension 'ros'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extensions ['cmake', 'python']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extension 'cmake'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extension 'python'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extensions ['python_setup_py']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/aarch64) by extension 'python_setup_py'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extensions ['ignore', 'ignore_ament_install']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extension 'ignore'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extension 'ignore_ament_install'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extensions ['colcon_pkg']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extension 'colcon_pkg'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extensions ['colcon_meta']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extension 'colcon_meta'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extensions ['ros']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extension 'ros'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extensions ['cmake', 'python']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extension 'cmake'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extension 'python'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extensions ['python_setup_py']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsl-1w/x86_64) by extension 'python_setup_py'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extension 'ignore'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extension 'ignore_ament_install'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extensions ['colcon_pkg']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extension 'colcon_pkg'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extensions ['colcon_meta']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extension 'colcon_meta'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extensions ['ros']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extension 'ros'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extensions ['cmake', 'python']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extension 'cmake'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extension 'python'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extensions ['python_setup_py']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w) by extension 'python_setup_py'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extension 'colcon_pkg'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extensions ['colcon_meta']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extension 'colcon_meta'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extensions ['ros']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extension 'ros'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extensions ['cmake', 'python']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extension 'cmake'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/aarch64) by extension 'python_setup_py'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extension 'ros'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extensions ['cmake', 'python']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extension 'cmake'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extension 'python'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extensions ['python_setup_py']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/lib/zsm-1w/x86_64) by extension 'python_setup_py'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extensions ['ignore', 'ignore_ament_install']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extension 'ignore_ament_install'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extensions ['colcon_pkg']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extension 'colcon_pkg'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extensions ['colcon_meta']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extension 'colcon_meta'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extensions ['ros']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extension 'ros'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extensions ['cmake', 'python']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extension 'cmake'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extension 'python'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extensions ['python_setup_py']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site) by extension 'python_setup_py'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extension 'ignore_ament_install'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extensions ['colcon_pkg']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extension 'colcon_pkg'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extensions ['colcon_meta']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extension 'colcon_meta'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extensions ['ros']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extension 'ros'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extensions ['cmake', 'python']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extension 'cmake'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extension 'python'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extensions ['python_setup_py']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/about) by extension 'python_setup_py'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extension 'ros'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extensions ['cmake', 'python']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extension 'cmake'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extension 'python'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extensions ['python_setup_py']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api) by extension 'python_setup_py'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extensions ['ignore', 'ignore_ament_install']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extension 'ignore'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extension 'ignore_ament_install'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extensions ['colcon_pkg']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extension 'colcon_pkg'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extensions ['colcon_meta']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extension 'colcon_meta'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extensions ['ros']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extension 'ros'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extensions ['cmake', 'python']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extension 'cmake'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extension 'python'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extensions ['python_setup_py']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_lowlevel) by extension 'python_setup_py'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extensions ['ignore', 'ignore_ament_install']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extension 'ignore_ament_install'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extensions ['colcon_pkg']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extension 'colcon_pkg'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extensions ['colcon_meta']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extension 'ros'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extensions ['cmake', 'python']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extension 'cmake'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extension 'python'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extensions ['python_setup_py']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1) by extension 'python_setup_py'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extensions ['ignore', 'ignore_ament_install']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extension 'ignore'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extension 'ignore_ament_install'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extensions ['colcon_pkg']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extension 'colcon_pkg'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extensions ['colcon_meta']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extension 'colcon_meta'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extensions ['ros']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extension 'ros'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extensions ['cmake', 'python']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extension 'cmake'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extension 'python'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extensions ['python_setup_py']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsl-1w) by extension 'python_setup_py'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extensions ['ignore', 'ignore_ament_install']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extension 'ignore_ament_install'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extension 'colcon_pkg'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extensions ['colcon_meta']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extension 'colcon_meta'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extensions ['ros']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extension 'ros'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extensions ['cmake', 'python']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extension 'cmake'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extension 'python'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extensions ['python_setup_py']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/api_zsm-1w) by extension 'python_setup_py'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extensions ['ignore', 'ignore_ament_install']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extension 'ignore_ament_install'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extensions ['colcon_pkg']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extension 'colcon_pkg'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extensions ['colcon_meta']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extension 'colcon_meta'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extensions ['ros']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extension 'ros'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extensions ['cmake', 'python']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extension 'cmake'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extension 'python'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extensions ['python_setup_py']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/architecture) by extension 'python_setup_py'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extension 'ignore'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extension 'ignore_ament_install'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extensions ['colcon_pkg']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extension 'colcon_pkg'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extensions ['colcon_meta']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extension 'colcon_meta'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extensions ['ros']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extension 'ros'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extensions ['cmake', 'python']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extension 'cmake'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extension 'python'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extensions ['python_setup_py']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets) by extension 'python_setup_py'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extension 'ignore_ament_install'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extensions ['colcon_pkg']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extension 'colcon_pkg'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extensions ['colcon_meta']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extension 'colcon_meta'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extensions ['ros']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extension 'ros'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extensions ['cmake', 'python']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extension 'cmake'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extension 'python'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extensions ['python_setup_py']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/images) by extension 'python_setup_py'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extensions ['ignore', 'ignore_ament_install']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extension 'ignore'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extension 'ignore_ament_install'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extensions ['colcon_pkg']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extension 'colcon_pkg'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extensions ['colcon_meta']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extension 'colcon_meta'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extensions ['ros']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extension 'ros'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extensions ['cmake', 'python']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extension 'cmake'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extension 'python'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extensions ['python_setup_py']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts) by extension 'python_setup_py'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extension 'ignore_ament_install'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extensions ['colcon_pkg']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extension 'colcon_pkg'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extensions ['colcon_meta']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extension 'colcon_meta'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extensions ['ros']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extension 'ros'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extensions ['cmake', 'python']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extension 'cmake'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extension 'python'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extensions ['python_setup_py']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr) by extension 'python_setup_py'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extension 'colcon_meta'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extensions ['ros']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extension 'ros'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extensions ['cmake', 'python']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extension 'cmake'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extension 'python'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extensions ['python_setup_py']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/lunr/min) by extension 'python_setup_py'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extensions ['ignore', 'ignore_ament_install']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extension 'ignore'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extension 'ignore_ament_install'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extensions ['colcon_pkg']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extension 'colcon_pkg'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extensions ['colcon_meta']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extension 'colcon_meta'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extensions ['ros']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extension 'ros'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extensions ['cmake', 'python']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extension 'cmake'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extension 'python'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extensions ['python_setup_py']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/javascripts/workers) by extension 'python_setup_py'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extensions ['ignore', 'ignore_ament_install']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extension 'ignore'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extension 'ignore_ament_install'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extensions ['colcon_pkg']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extension 'colcon_pkg'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extensions ['colcon_meta']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extension 'colcon_meta'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extensions ['ros']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extension 'ros'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extensions ['cmake', 'python']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extension 'cmake'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extension 'python'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extensions ['python_setup_py']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/assets/stylesheets) by extension 'python_setup_py'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extensions ['ignore', 'ignore_ament_install']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extension 'ignore'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extension 'ignore_ament_install'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extensions ['colcon_pkg']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extension 'colcon_pkg'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extensions ['colcon_meta']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extension 'colcon_meta'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extensions ['ros']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extension 'ros'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extensions ['cmake', 'python']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extension 'cmake'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extension 'python'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extensions ['python_setup_py']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/changelog) by extension 'python_setup_py'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extension 'ignore'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extension 'ignore_ament_install'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extensions ['colcon_pkg']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extension 'colcon_pkg'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extensions ['colcon_meta']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extension 'colcon_meta'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extensions ['ros']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extension 'ros'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extensions ['cmake', 'python']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extension 'cmake'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extension 'python'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extensions ['python_setup_py']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/deploy) by extension 'python_setup_py'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extensions ['ignore', 'ignore_ament_install']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extension 'ignore'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extension 'ignore_ament_install'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extensions ['colcon_pkg']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extension 'colcon_pkg'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extensions ['colcon_meta']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extension 'colcon_meta'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extensions ['ros']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extension 'ros'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extensions ['cmake', 'python']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extension 'cmake'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extension 'python'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extensions ['python_setup_py']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en) by extension 'python_setup_py'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extension 'ignore_ament_install'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extensions ['colcon_pkg']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extension 'colcon_pkg'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extensions ['colcon_meta']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extension 'colcon_meta'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extensions ['ros']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extension 'ros'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extensions ['cmake', 'python']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extension 'cmake'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extension 'python'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extensions ['python_setup_py']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/about) by extension 'python_setup_py'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extension 'ignore_ament_install'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extensions ['colcon_pkg']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extension 'colcon_pkg'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extensions ['colcon_meta']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extension 'colcon_meta'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extensions ['ros']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extension 'ros'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extensions ['cmake', 'python']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extension 'cmake'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extension 'python'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extensions ['python_setup_py']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api) by extension 'python_setup_py'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extensions ['ignore', 'ignore_ament_install']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extension 'ignore'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extension 'ignore_ament_install'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extensions ['colcon_pkg']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extension 'colcon_pkg'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extensions ['colcon_meta']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extension 'colcon_meta'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extensions ['ros']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extension 'ros'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extensions ['cmake', 'python']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extension 'cmake'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extension 'python'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extensions ['python_setup_py']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_lowlevel) by extension 'python_setup_py'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extension 'ignore'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extension 'ignore_ament_install'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extensions ['colcon_pkg']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extension 'colcon_pkg'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extensions ['colcon_meta']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extension 'colcon_meta'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extensions ['ros']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extension 'ros'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extensions ['cmake', 'python']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extension 'cmake'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extension 'python'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extensions ['python_setup_py']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1) by extension 'python_setup_py'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extensions ['ignore', 'ignore_ament_install']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extension 'ignore'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extension 'ignore_ament_install'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extensions ['colcon_pkg']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extension 'colcon_pkg'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extensions ['colcon_meta']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extension 'colcon_meta'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extensions ['ros']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extension 'ros'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extensions ['cmake', 'python']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extension 'cmake'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extension 'python'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extensions ['python_setup_py']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsl-1w) by extension 'python_setup_py'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extensions ['ignore', 'ignore_ament_install']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extension 'ignore'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extension 'colcon_pkg'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extensions ['colcon_meta']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extension 'colcon_meta'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extensions ['ros']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extension 'ros'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extensions ['cmake', 'python']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extension 'cmake'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extension 'python'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extensions ['python_setup_py']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/api_zsm-1w) by extension 'python_setup_py'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extensions ['ignore', 'ignore_ament_install']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extension 'ignore'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extension 'ignore_ament_install'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extensions ['colcon_pkg']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extension 'colcon_pkg'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extensions ['colcon_meta']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extension 'colcon_meta'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extensions ['ros']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extension 'ros'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extensions ['cmake', 'python']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extension 'cmake'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extension 'python'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extensions ['python_setup_py']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/architecture) by extension 'python_setup_py'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extensions ['ignore', 'ignore_ament_install']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extension 'ignore'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extension 'ignore_ament_install'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extensions ['colcon_pkg']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extension 'colcon_pkg'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extensions ['colcon_meta']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extension 'colcon_meta'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extensions ['ros']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extension 'ros'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extensions ['cmake', 'python']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extension 'cmake'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extension 'python'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extensions ['python_setup_py']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/changelog) by extension 'python_setup_py'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extensions ['ignore', 'ignore_ament_install']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extension 'ignore'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extension 'ignore_ament_install'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extensions ['colcon_pkg']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extension 'colcon_pkg'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extensions ['colcon_meta']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extension 'colcon_meta'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extensions ['ros']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extension 'ros'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extensions ['cmake', 'python']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extension 'cmake'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extension 'python'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extensions ['python_setup_py']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/deploy) by extension 'python_setup_py'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extensions ['ignore', 'ignore_ament_install']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extension 'ignore'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extension 'ignore_ament_install'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extensions ['colcon_pkg']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extension 'colcon_pkg'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extensions ['colcon_meta']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extension 'colcon_meta'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extensions ['ros']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extension 'ros'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extensions ['cmake', 'python']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extension 'cmake'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extension 'python'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extensions ['python_setup_py']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/faq) by extension 'python_setup_py'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extensions ['ignore', 'ignore_ament_install']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extension 'ignore'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extension 'ignore_ament_install'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extensions ['colcon_pkg']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extension 'colcon_pkg'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extensions ['colcon_meta']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extension 'colcon_meta'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extensions ['ros']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extension 'ros'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extensions ['cmake', 'python']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extension 'cmake'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extension 'python'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extensions ['python_setup_py']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/sdk_download) by extension 'python_setup_py'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extensions ['ignore', 'ignore_ament_install']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extension 'ignore'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extension 'ignore_ament_install'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extensions ['colcon_pkg']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extension 'colcon_pkg'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extensions ['colcon_meta']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extension 'colcon_meta'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extensions ['ros']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extension 'ros'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extensions ['cmake', 'python']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extension 'cmake'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extension 'python'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extensions ['python_setup_py']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/en/video) by extension 'python_setup_py'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extensions ['ignore', 'ignore_ament_install']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extension 'ignore'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extension 'ignore_ament_install'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extensions ['colcon_pkg']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extension 'colcon_pkg'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extensions ['colcon_meta']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extension 'colcon_meta'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extensions ['ros']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extension 'ros'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extensions ['cmake', 'python']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extension 'cmake'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extension 'python'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extensions ['python_setup_py']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/faq) by extension 'python_setup_py'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extensions ['ignore', 'ignore_ament_install']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extension 'ignore'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extension 'ignore_ament_install'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extensions ['colcon_pkg']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extension 'colcon_pkg'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extensions ['colcon_meta']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extension 'colcon_meta'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extensions ['ros']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extension 'ros'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extensions ['cmake', 'python']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extension 'cmake'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extension 'python'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extensions ['python_setup_py']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/images) by extension 'python_setup_py'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extensions ['ignore', 'ignore_ament_install']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extension 'ignore_ament_install'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extensions ['colcon_pkg']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extension 'colcon_pkg'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extensions ['colcon_meta']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extension 'colcon_meta'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extensions ['ros']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extension 'ros'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extensions ['cmake', 'python']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extension 'cmake'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extension 'python'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extensions ['python_setup_py']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja) by extension 'python_setup_py'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extension 'ignore_ament_install'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extensions ['colcon_pkg']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extension 'colcon_pkg'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extensions ['colcon_meta']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extension 'colcon_meta'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extensions ['ros']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extension 'ros'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extensions ['cmake', 'python']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extension 'cmake'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extension 'python'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extensions ['python_setup_py']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/about) by extension 'python_setup_py'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extension 'colcon_meta'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extensions ['ros']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extension 'ros'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extensions ['cmake', 'python']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extension 'cmake'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extension 'python'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extensions ['python_setup_py']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api) by extension 'python_setup_py'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extensions ['ignore', 'ignore_ament_install']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extension 'ignore'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extension 'ignore_ament_install'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extensions ['colcon_pkg']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extension 'colcon_pkg'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extensions ['colcon_meta']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extension 'colcon_meta'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extension 'ros'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extensions ['cmake', 'python']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extension 'cmake'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extension 'python'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extensions ['python_setup_py']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_lowlevel) by extension 'python_setup_py'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extension 'ignore_ament_install'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extensions ['colcon_pkg']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extension 'colcon_pkg'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extensions ['colcon_meta']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extension 'colcon_meta'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extensions ['ros']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extension 'ros'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extensions ['cmake', 'python']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extension 'cmake'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extension 'python'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extensions ['python_setup_py']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1) by extension 'python_setup_py'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extensions ['ignore', 'ignore_ament_install']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extension 'ignore'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extension 'ignore_ament_install'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extensions ['colcon_pkg']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extension 'colcon_pkg'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extensions ['colcon_meta']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extension 'colcon_meta'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extensions ['ros']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extension 'ros'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extensions ['cmake', 'python']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extension 'cmake'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extension 'python'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extensions ['python_setup_py']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsl-1w) by extension 'python_setup_py'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extensions ['ignore', 'ignore_ament_install']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extension 'ignore_ament_install'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extensions ['colcon_pkg']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extension 'colcon_pkg'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extensions ['colcon_meta']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extension 'colcon_meta'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extensions ['ros']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extension 'ros'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extensions ['cmake', 'python']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extension 'cmake'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extension 'python'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extensions ['python_setup_py']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/api_zsm-1w) by extension 'python_setup_py'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extensions ['ignore', 'ignore_ament_install']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extension 'ignore'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extension 'ignore_ament_install'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extensions ['colcon_pkg']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extension 'colcon_pkg'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extensions ['colcon_meta']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extension 'colcon_meta'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extensions ['ros']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extension 'ros'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extensions ['cmake', 'python']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extension 'cmake'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extension 'python'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extensions ['python_setup_py']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/architecture) by extension 'python_setup_py'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extensions ['ignore', 'ignore_ament_install']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extension 'ignore'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extension 'ignore_ament_install'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extensions ['colcon_pkg']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extension 'colcon_pkg'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extensions ['colcon_meta']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extension 'colcon_meta'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extensions ['ros']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extension 'ros'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extensions ['cmake', 'python']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extension 'cmake'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extension 'python'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extensions ['python_setup_py']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/changelog) by extension 'python_setup_py'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extensions ['ignore', 'ignore_ament_install']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extension 'colcon_pkg'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extensions ['colcon_meta']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extension 'colcon_meta'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extensions ['ros']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extension 'ros'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extensions ['cmake', 'python']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extension 'cmake'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extension 'python'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extensions ['python_setup_py']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/deploy) by extension 'python_setup_py'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extension 'ignore_ament_install'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extensions ['colcon_pkg']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extension 'colcon_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extensions ['colcon_meta']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extension 'colcon_meta'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extensions ['ros']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extension 'ros'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extensions ['cmake', 'python']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extension 'cmake'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extension 'python'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extensions ['python_setup_py']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/faq) by extension 'python_setup_py'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extensions ['ignore', 'ignore_ament_install']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extension 'ignore'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extension 'ignore_ament_install'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extensions ['colcon_pkg']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extension 'colcon_pkg'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extensions ['colcon_meta']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extension 'colcon_meta'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extensions ['ros']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extension 'ros'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extensions ['cmake', 'python']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extension 'cmake'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extension 'python'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extensions ['python_setup_py']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/sdk_download) by extension 'python_setup_py'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extensions ['ignore', 'ignore_ament_install']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extension 'ignore'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extension 'ignore_ament_install'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extensions ['colcon_pkg']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extension 'colcon_pkg'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extensions ['colcon_meta']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extension 'colcon_meta'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extensions ['ros']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extension 'ros'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extensions ['cmake', 'python']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extension 'cmake'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extension 'python'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extensions ['python_setup_py']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ja/video) by extension 'python_setup_py'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extensions ['ignore', 'ignore_ament_install']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extension 'ignore'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extension 'ignore_ament_install'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extensions ['colcon_pkg']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extension 'colcon_pkg'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extensions ['colcon_meta']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extension 'colcon_meta'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extensions ['ros']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extension 'ros'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extensions ['cmake', 'python']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extension 'cmake'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extension 'python'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extensions ['python_setup_py']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko) by extension 'python_setup_py'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extensions ['ignore', 'ignore_ament_install']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extension 'ignore'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extension 'ignore_ament_install'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extensions ['colcon_pkg']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extension 'colcon_pkg'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extensions ['colcon_meta']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extension 'colcon_meta'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extensions ['ros']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extension 'ros'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extensions ['cmake', 'python']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extension 'cmake'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extension 'python'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extensions ['python_setup_py']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/about) by extension 'python_setup_py'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extensions ['ignore', 'ignore_ament_install']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extension 'ignore'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extension 'ignore_ament_install'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extensions ['colcon_pkg']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extension 'colcon_pkg'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extensions ['colcon_meta']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extension 'colcon_meta'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extensions ['ros']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extension 'ros'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extensions ['cmake', 'python']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extension 'cmake'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extension 'python'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extensions ['python_setup_py']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api) by extension 'python_setup_py'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extension 'ignore'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extension 'colcon_pkg'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extensions ['colcon_meta']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extension 'colcon_meta'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extensions ['ros']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extension 'ros'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extensions ['cmake', 'python']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extension 'cmake'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extension 'python'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extensions ['python_setup_py']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_lowlevel) by extension 'python_setup_py'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extensions ['ignore', 'ignore_ament_install']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extension 'ignore'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extension 'ignore_ament_install'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extensions ['colcon_pkg']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extension 'colcon_pkg'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extensions ['ros']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extension 'ros'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extensions ['cmake', 'python']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extension 'cmake'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extension 'python'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extensions ['python_setup_py']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1) by extension 'python_setup_py'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extension 'ignore_ament_install'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extensions ['colcon_pkg']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extension 'colcon_pkg'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extensions ['colcon_meta']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extension 'colcon_meta'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extensions ['ros']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extension 'ros'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extensions ['cmake', 'python']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extension 'cmake'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extension 'python'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extensions ['python_setup_py']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsl-1w) by extension 'python_setup_py'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extension 'ignore_ament_install'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extensions ['colcon_pkg']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extension 'colcon_meta'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extensions ['ros']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extension 'ros'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extensions ['cmake', 'python']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extension 'cmake'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extension 'python'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extensions ['python_setup_py']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/api_zsm-1w) by extension 'python_setup_py'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extension 'ignore'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extension 'ignore_ament_install'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extensions ['colcon_pkg']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extension 'colcon_pkg'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extensions ['colcon_meta']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extension 'colcon_meta'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extensions ['ros']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extension 'ros'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extensions ['cmake', 'python']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extension 'cmake'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extension 'python'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extensions ['python_setup_py']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/architecture) by extension 'python_setup_py'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extension 'ignore'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extension 'ignore_ament_install'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extensions ['colcon_pkg']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extension 'colcon_pkg'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extensions ['colcon_meta']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extension 'colcon_meta'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extensions ['ros']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extension 'ros'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extensions ['cmake', 'python']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extension 'cmake'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extension 'python'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extensions ['python_setup_py']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/changelog) by extension 'python_setup_py'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extensions ['ignore', 'ignore_ament_install']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extension 'ignore'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extension 'ignore_ament_install'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extensions ['colcon_pkg']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extension 'colcon_pkg'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extensions ['colcon_meta']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extension 'colcon_meta'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extensions ['ros']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extension 'ros'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extensions ['cmake', 'python']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extension 'cmake'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extension 'python'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extensions ['python_setup_py']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/deploy) by extension 'python_setup_py'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extensions ['ignore', 'ignore_ament_install']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extension 'ignore_ament_install'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extensions ['colcon_pkg']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extension 'colcon_pkg'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extensions ['colcon_meta']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extension 'colcon_meta'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extensions ['ros']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extension 'ros'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extensions ['cmake', 'python']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extension 'cmake'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extension 'python'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extensions ['python_setup_py']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/faq) by extension 'python_setup_py'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extensions ['ignore', 'ignore_ament_install']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extension 'ignore'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extension 'ignore_ament_install'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extensions ['colcon_pkg']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extension 'colcon_pkg'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extensions ['colcon_meta']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extension 'colcon_meta'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extensions ['ros']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extension 'ros'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extensions ['cmake', 'python']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extension 'cmake'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extension 'python'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extensions ['python_setup_py']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/sdk_download) by extension 'python_setup_py'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extensions ['ignore', 'ignore_ament_install']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extension 'ignore'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extension 'ignore_ament_install'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extensions ['colcon_pkg']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extension 'colcon_pkg'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extensions ['colcon_meta']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extension 'colcon_meta'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extensions ['ros']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extension 'ros'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extensions ['cmake', 'python']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extension 'cmake'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extension 'python'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extensions ['python_setup_py']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/ko/video) by extension 'python_setup_py'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extensions ['ignore', 'ignore_ament_install']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extension 'ignore'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extension 'ignore_ament_install'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extensions ['colcon_pkg']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extension 'colcon_pkg'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extensions ['colcon_meta']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extension 'colcon_meta'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extensions ['ros']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extension 'ros'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extensions ['cmake', 'python']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extension 'cmake'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extension 'python'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extensions ['python_setup_py']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides) by extension 'python_setup_py'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extension 'colcon_meta'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extensions ['ros']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extension 'ros'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extensions ['cmake', 'python']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extension 'cmake'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extension 'python'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extensions ['python_setup_py']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/overrides/partials) by extension 'python_setup_py'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extensions ['ignore', 'ignore_ament_install']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extension 'ignore'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extension 'ignore_ament_install'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extensions ['colcon_pkg']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extension 'colcon_pkg'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extensions ['colcon_meta']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extension 'colcon_meta'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extension 'ros'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extensions ['cmake', 'python']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extension 'cmake'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extension 'python'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extensions ['python_setup_py']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/sdk_download) by extension 'python_setup_py'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extensions ['ignore', 'ignore_ament_install']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extension 'ignore_ament_install'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extensions ['colcon_pkg']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extension 'colcon_pkg'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extensions ['colcon_meta']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extension 'colcon_meta'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extensions ['ros']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extension 'ros'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extensions ['cmake', 'python']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extension 'cmake'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extension 'python'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extensions ['python_setup_py']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/search) by extension 'python_setup_py'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extensions ['ignore', 'ignore_ament_install']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extension 'ignore'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extension 'ignore_ament_install'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extensions ['colcon_pkg']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extension 'colcon_pkg'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extensions ['colcon_meta']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extension 'colcon_meta'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extensions ['ros']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extension 'ros'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extensions ['cmake', 'python']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extension 'cmake'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extension 'python'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extensions ['python_setup_py']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/styles) by extension 'python_setup_py'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extensions ['ignore', 'ignore_ament_install']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extension 'ignore'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extension 'ignore_ament_install'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extensions ['colcon_pkg']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extension 'colcon_pkg'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extensions ['colcon_meta']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extension 'colcon_meta'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extensions ['ros']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extension 'ros'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extensions ['cmake', 'python']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extension 'cmake'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extension 'python'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extensions ['python_setup_py']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/agibot_D1_Edu-Ultra/site/video) by extension 'python_setup_py'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_nav) by extensions ['ignore', 'ignore_ament_install']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_nav) by extension 'ignore'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_nav) by extension 'ignore_ament_install'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_nav) by extensions ['colcon_pkg']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_nav) by extension 'colcon_pkg'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_nav) by extensions ['colcon_meta']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_nav) by extension 'colcon_meta'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_nav) by extensions ['ros']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_nav) by extension 'ros'
+[1.067s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fastlio2_nav' with type 'ros.ament_python' and name 'fastlio2_nav'
+[1.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.164s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 27 installed packages in /home/orin-001/sda/nav/src/install
+[1.165s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/orin-001/sda/agibotnav/install
+[1.167s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/orin-001/sda/driver/install
+[1.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/humble
+[1.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.268s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin-001/sda/agibotnav/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin-001/sda/agibotnav/install/fast_lio', 'merge_install': False, 'path': '/home/orin-001/sda/agibotnav/src/FAST_LIO', 'symlink_install': False, 'test_result_base': None}
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'fastlio2_nav' build argument 'cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'fastlio2_nav' build argument 'cmake_target' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'fastlio2_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'fastlio2_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'fastlio2_nav' build argument 'cmake_clean_first' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'fastlio2_nav' build argument 'cmake_force_configure' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'fastlio2_nav' build argument 'ament_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'fastlio2_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'fastlio2_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.269s] DEBUG:colcon.colcon_core.verb:Building package 'fastlio2_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin-001/sda/agibotnav/build/fastlio2_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin-001/sda/agibotnav/install/fastlio2_nav', 'merge_install': False, 'path': '/home/orin-001/sda/agibotnav/src/fastlio2_nav', 'symlink_install': False, 'test_result_base': None}
+[1.270s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin-001/sda/agibotnav/src/FAST_LIO' with build type 'ament_cmake'
+[1.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin-001/sda/agibotnav/src/FAST_LIO'
+[1.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.298s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orin-001/sda/agibotnav/src/fastlio2_nav' with build type 'ament_python'
+[1.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastlio2_nav', 'ament_prefix_path')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/hook/ament_prefix_path.ps1'
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/hook/ament_prefix_path.dsv'
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/hook/ament_prefix_path.sh'
+[1.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin-001/sda/agibotnav/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/fast_lio -- -j8 -l8
+[1.891s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orin-001/sda/agibotnav/src/fastlio2_nav'
+[1.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin-001/sda/agibotnav/src/fastlio2_nav': PYTHONPATH=/home/orin-001/sda/agibotnav/build/fastlio2_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fastlio2_nav build --build-base /home/orin-001/sda/agibotnav/build/fastlio2_nav/build install --record /home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log --single-version-externally-managed install_data
+[3.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin-001/sda/agibotnav/src/fastlio2_nav' returned '0': PYTHONPATH=/home/orin-001/sda/agibotnav/build/fastlio2_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fastlio2_nav build --build-base /home/orin-001/sda/agibotnav/build/fastlio2_nav/build install --record /home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log --single-version-externally-managed install_data
+[3.556s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fastlio2_nav' for CMake module files
+[3.557s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fastlio2_nav' for CMake config files
+[3.559s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib'
+[3.559s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fastlio2_nav/bin'
+[3.559s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/pkgconfig/fastlio2_nav.pc'
+[3.560s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages'
+[3.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastlio2_nav', 'pythonpath')
+[3.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/hook/pythonpath.ps1'
+[3.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/hook/pythonpath.dsv'
+[3.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/hook/pythonpath.sh'
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fastlio2_nav/bin'
+[3.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fastlio2_nav)
+[3.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/package.ps1'
+[3.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/package.dsv'
+[3.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/package.sh'
+[3.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/package.bash'
+[3.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/package.zsh'
+[3.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin-001/sda/agibotnav/install/fastlio2_nav/share/colcon-core/packages/fastlio2_nav)
+[3.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin-001/sda/agibotnav/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/fast_lio -- -j8 -l8
+[3.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin-001/sda/agibotnav/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/opt/ros/humble /usr/bin/cmake --install /home/orin-001/sda/agibotnav/build/fast_lio
+[3.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[3.866s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio' for CMake module files
+[3.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin-001/sda/agibotnav/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin-001/sda/nav/src/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/nav2_simple_commander:/home/orin-001/sda/agibotnav/install/fastlio2_nav:/opt/ros/humble /usr/bin/cmake --install /home/orin-001/sda/agibotnav/build/fast_lio
+[3.868s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio' for CMake config files
+[3.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[3.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[3.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[3.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/lib'
+[3.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[3.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[3.876s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/bin'
+[3.876s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[3.877s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/lib/python3.10/site-packages'
+[3.877s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/bin'
+[3.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.ps1'
+[3.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.dsv'
+[3.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.sh'
+[3.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.bash'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.zsh'
+[3.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin-001/sda/agibotnav/install/fast_lio/share/colcon-core/packages/fast_lio)
+[3.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[3.884s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio' for CMake module files
+[3.886s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio' for CMake config files
+[3.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[3.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[3.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[3.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/lib'
+[3.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[3.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[3.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[3.893s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/bin'
+[3.893s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[3.893s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/lib/python3.10/site-packages'
+[3.894s] Level 1:colcon.colcon_core.environment:checking '/home/orin-001/sda/agibotnav/install/fast_lio/bin'
+[3.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.ps1'
+[3.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.dsv'
+[3.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.sh'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.bash'
+[3.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-001/sda/agibotnav/install/fast_lio/share/fast_lio/package.zsh'
+[3.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin-001/sda/agibotnav/install/fast_lio/share/colcon-core/packages/fast_lio)
+[3.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.901s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.922s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.923s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.923s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.964s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin-001/sda/agibotnav/install/local_setup.ps1'
+[3.968s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin-001/sda/agibotnav/install/_local_setup_util_ps1.py'
+[3.972s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin-001/sda/agibotnav/install/setup.ps1'
+[3.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin-001/sda/agibotnav/install/local_setup.sh'
+[3.980s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin-001/sda/agibotnav/install/_local_setup_util_sh.py'
+[3.981s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin-001/sda/agibotnav/install/setup.sh'
+[3.988s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin-001/sda/agibotnav/install/local_setup.bash'
+[3.990s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin-001/sda/agibotnav/install/setup.bash'
+[3.996s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin-001/sda/agibotnav/install/local_setup.zsh'
+[3.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin-001/sda/agibotnav/install/setup.zsh'

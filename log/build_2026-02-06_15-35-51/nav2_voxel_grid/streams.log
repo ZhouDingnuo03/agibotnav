@@ -1,0 +1,93 @@
+[0.018s] Invoking command in '/home/orin-001/sda/agibotnav/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble PYTHONPATH=/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orin-001/sda/agibotnav/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/orin-001/sda/agibotnav/install/nav2_voxel_grid
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.196s] -- The CXX compiler identification is GNU 11.4.0
+[0.215s] -- Detecting C compiler ABI info
+[0.332s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.485s] -- Detecting CXX compiler ABI info - done
+[0.510s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.511s] -- Detecting CXX compile features
+[0.512s] -- Detecting CXX compile features - done
+[0.520s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.803s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.985s] -- Found nav2_common: 1.1.20 (/home/orin-001/sda/agibotnav/install/nav2_common/share/nav2_common/cmake)
+[0.989s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.066s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.074s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.088s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.109s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.210s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.214s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.353s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.385s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.429s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.444s] -- Looking for pthread.h
+[1.564s] -- Looking for pthread.h - found
+[1.564s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.683s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.685s] -- Found Threads: TRUE  
+[1.771s] -- Setting build type to Release as none was specified.
+[1.774s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.927s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.944s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.944s] -- Configured cppcheck include dirs: /home/orin-001/sda/agibotnav/src/navigation2/nav2_voxel_grid/include
+[1.944s] -- Configured cppcheck exclude dirs and/or files: 
+[1.946s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.946s] -- Configured cpplint exclude dirs and/or files: 
+[1.947s] -- Added test 'lint_cmake' to check CMake code style
+[1.949s] -- Added test 'uncrustify' to check C / C++ code style
+[1.949s] -- Configured uncrustify additional arguments: 
+[1.950s] -- Added test 'xmllint' to check XML markup files
+[1.955s] -- Configuring done
+[1.987s] -- Generating done
+[1.998s] -- Build files have been written to: /home/orin-001/sda/agibotnav/build/nav2_voxel_grid
+[2.021s] Invoked command in '/home/orin-001/sda/agibotnav/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble PYTHONPATH=/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orin-001/sda/agibotnav/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/orin-001/sda/agibotnav/install/nav2_voxel_grid
+[2.023s] Invoking command in '/home/orin-001/sda/agibotnav/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble PYTHONPATH=/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/nav2_voxel_grid -- -j8 -l8
+[2.109s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.110s] [ 30%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[2.110s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.235s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.400s] [ 40%] Built target gtest_main
+[9.464s] [ 50%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[9.644s] [ 50%] Built target voxel_grid
+[20.109s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[20.413s] [ 60%] Built target gtest
+[20.612s] [ 70%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[20.612s] [ 80%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_bresenham_3d.dir/voxel_grid_bresenham_3d.cpp.o[0m
+[32.352s] [ 90%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[32.827s] [ 90%] Built target voxel_grid_tests
+[32.899s] [100%] [32m[1mLinking CXX executable voxel_grid_bresenham_3d[0m
+[33.335s] [100%] Built target voxel_grid_bresenham_3d
+[33.381s] Invoked command in '/home/orin-001/sda/agibotnav/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble PYTHONPATH=/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/nav2_voxel_grid -- -j8 -l8
+[33.410s] Invoking command in '/home/orin-001/sda/agibotnav/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble PYTHONPATH=/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin-001/sda/agibotnav/build/nav2_voxel_grid
+[33.439s] -- Install configuration: "Release"
+[33.439s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[33.440s] -- Set runtime path of "/home/orin-001/sda/agibotnav/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[33.440s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/include
+[33.440s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/include/nav2_voxel_grid
+[33.441s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[33.441s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[33.441s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[33.441s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[33.442s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[33.442s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[33.442s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[33.442s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[33.443s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[33.443s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[33.443s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[33.443s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[33.444s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[33.444s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[33.444s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[33.444s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.445s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.445s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[33.445s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[33.445s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[33.446s] -- Installing: /home/orin-001/sda/agibotnav/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[33.461s] Invoked command in '/home/orin-001/sda/agibotnav/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin-001/sda/agibotnav/install/nav2_common:/home/orin-001/sda/driver/install/livox_ros_driver2:/home/orin-001/sda/agibotnav/install/fast_lio:/opt/ros/humble PYTHONPATH=/home/orin-001/sda/agibotnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin-001/sda/agibotnav/build/nav2_voxel_grid

@@ -1,0 +1,62 @@
+# 仅代价地图配置（专注处理点云）
+costmap_node:
+  ros__parameters:
+    # 基础配置
+    global_frame: map
+    robot_base_frame: base_link
+    update_frequency: 5.0        # 代价地图更新频率
+    publish_frequency: 2.0       # 代价地图发布频率
+    transform_tolerance: 0.5     # TF变换容忍度
+    resolution: 0.05             # 栅格分辨率（米/栅格）
+    width: 50                    # 代价地图宽度（栅格数）
+    height: 50                   # 代价地图高度（栅格数）
+    origin_x: -2.5               # 地图原点x
+    origin_y: -2.5               # 地图原点y
+    footprint: "[[0.25, 0.25], [0.25, -0.25], [-0.25, -0.25], [-0.25, 0.25]]"  # 机器人足迹
+    footprint_padding: 0.01
+
+    # 核心：仅启用voxel_layer（点云识别）+ inflation_layer（膨胀）
+    plugins: ["voxel_layer", "inflation_layer"]
+
+    # 点云识别图层（voxel_layer）
+    voxel_layer:
+      plugin: "nav2_costmap_2d::VoxelLayer"
+      enabled: true
+      publish_voxel_map: false
+      max_obstacle_height: 2.0
+      min_obstacle_height: -1.0
+      obstacle_range: 50.0       # 点云识别范围（米）
+      raytrace_range: 55.0
+      mark_threshold: 0
+      observation_sources: cloud  # 点云数据源名称
+      # 配置点云话题
+      cloud:
+        data_type: PointCloud2
+        topic: /cloud_registered  # 订阅你的点云话题
+        marking: true             # 标记障碍物
+        clearing: true            # 清除已消失的障碍物
+        min_z: -1.0               # 点云高度范围（放宽）
+        max_z: 2.0
+
+    # 障碍物膨胀图层
+    inflation_layer:
+      plugin: "nav2_costmap_2d::InflationLayer"
+      enabled: true
+      cost_scaling_factor: 3.0    # 代价缩放因子
+      inflation_radius: 0.5       # 膨胀半径（米）
+
+    # 禁用静态地图层（彻底避免no map警告）
+    static_layer:
+      enabled: false
+
+# 组件容器配置（适配Nav2 Humble）
+costmap_container:
+  ros__parameters:
+    use_sim_time: false
+    autostart: true
+    container_name: costmap_container
+    component_type: nav2_costmap_2d::Costmap2DROS
+    namespace: global_costmap
+    remappings:
+      - {from: "costmap", to: "global_costmap/costmap"}
+      - {from: "costmap_updates", to: "global_costmap/costmap_updates"}

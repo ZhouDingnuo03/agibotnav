@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "test",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "highlevel_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-highlevel_demo-eb7b0c6d4146008a7221.json",
+					"name" : "highlevel_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lowlevel_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lowlevel_demo-920bca6402ee8281fcc2.json",
+					"name" : "lowlevel_demo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orin-001/sda/agibotnav/build/test",
+		"source" : "/home/orin-001/sda/agibotnav/src/agibot_D1_Edu-Ultra/demo/zsl-1/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

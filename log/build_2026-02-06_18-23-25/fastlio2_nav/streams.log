@@ -1,0 +1,22 @@
+[1.197s] Invoking command in '/home/orin-001/sda/agibotnav/src/fastlio2_nav': PYTHONPATH=/home/orin-001/sda/agibotnav/build/fastlio2_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fastlio2_nav build --build-base /home/orin-001/sda/agibotnav/build/fastlio2_nav/build install --record /home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log --single-version-externally-managed install_data
+[1.658s] running egg_info
+[1.659s] writing ../../build/fastlio2_nav/fastlio2_nav.egg-info/PKG-INFO
+[1.660s] writing dependency_links to ../../build/fastlio2_nav/fastlio2_nav.egg-info/dependency_links.txt
+[1.660s] writing entry points to ../../build/fastlio2_nav/fastlio2_nav.egg-info/entry_points.txt
+[1.660s] writing requirements to ../../build/fastlio2_nav/fastlio2_nav.egg-info/requires.txt
+[1.660s] writing top-level names to ../../build/fastlio2_nav/fastlio2_nav.egg-info/top_level.txt
+[1.666s] reading manifest file '../../build/fastlio2_nav/fastlio2_nav.egg-info/SOURCES.txt'
+[1.667s] writing manifest file '../../build/fastlio2_nav/fastlio2_nav.egg-info/SOURCES.txt'
+[1.667s] running build
+[1.667s] running build_py
+[1.668s] running install
+[1.668s] running install_lib
+[1.670s] running install_data
+[1.671s] copying launch/fastlio2_nav_launch.py -> /home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/launch
+[1.671s] copying config/costmap_common_params.yaml -> /home/orin-001/sda/agibotnav/install/fastlio2_nav/share/fastlio2_nav/config
+[1.671s] running install_egg_info
+[1.676s] removing '/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages/fastlio2_nav-0.0.0-py3.10.egg-info' (and everything under it)
+[1.677s] Copying ../../build/fastlio2_nav/fastlio2_nav.egg-info to /home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages/fastlio2_nav-0.0.0-py3.10.egg-info
+[1.678s] running install_scripts
+[1.714s] writing list of installed files to '/home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log'
+[1.767s] Invoked command in '/home/orin-001/sda/agibotnav/src/fastlio2_nav' returned '0': PYTHONPATH=/home/orin-001/sda/agibotnav/build/fastlio2_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-001/sda/agibotnav/install/fastlio2_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fastlio2_nav build --build-base /home/orin-001/sda/agibotnav/build/fastlio2_nav/build install --record /home/orin-001/sda/agibotnav/build/fastlio2_nav/install.log --single-version-externally-managed install_data

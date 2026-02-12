@@ -1,0 +1,9 @@
+/home/orin-001/sda/agibotnav/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
+/home/orin-001/sda/agibotnav/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
+/home/orin-001/sda/agibotnav/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
+/home/orin-001/sda/agibotnav/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
+/home/orin-001/sda/agibotnav/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
+/home/orin-001/sda/agibotnav/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
+/home/orin-001/sda/agibotnav/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
+/home/orin-001/sda/agibotnav/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
+/home/orin-001/sda/agibotnav/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl
