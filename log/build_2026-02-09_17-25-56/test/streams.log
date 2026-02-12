@@ -1,6 +1,0 @@
-[0.586s] Invoking command in '/home/orin-001/sda/agibotnav/build/test': /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/test -- -j8 -l8
-[0.675s] [35m[1mConsolidate compiler generated dependencies of target highlevel_demo[0m
-[0.675s] [35m[1mConsolidate compiler generated dependencies of target lowlevel_demo[0m
-[0.705s] [100%] Built target lowlevel_demo
-[0.705s] [100%] Built target highlevel_demo
-[0.730s] Invoked command in '/home/orin-001/sda/agibotnav/build/test' returned '0': /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/test -- -j8 -l8

@@ -1,2 +1,0 @@
-Invoking command in '/home/orin-001/sda/agibotnav/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/nav2_common -- -j8 -l8
-Invoked command in '/home/orin-001/sda/agibotnav/build/nav2_common' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/nav2_common -- -j8 -l8

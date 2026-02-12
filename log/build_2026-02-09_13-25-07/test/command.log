@@ -1,4 +1,0 @@
-Invoking command in '/home/orin-001/sda/agibotnav/build/test': /usr/bin/cmake /home/orin-001/sda/agibotnav/src/agibot_D1_Edu-Ultra/demo/zsl-1/cpp -DCMAKE_INSTALL_PREFIX=/home/orin-001/sda/agibotnav/install/test
-Invoked command in '/home/orin-001/sda/agibotnav/build/test' returned '0': /usr/bin/cmake /home/orin-001/sda/agibotnav/src/agibot_D1_Edu-Ultra/demo/zsl-1/cpp -DCMAKE_INSTALL_PREFIX=/home/orin-001/sda/agibotnav/install/test
-Invoking command in '/home/orin-001/sda/agibotnav/build/test': /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/test -- -j8 -l8
-Invoked command in '/home/orin-001/sda/agibotnav/build/test' returned '0': /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/test -- -j8 -l8

@@ -1,1 +1,0 @@
-Invoking command in '/home/orin-001/sda/agibotnav/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orin-001/sda/agibotnav/build/nav_2d_msgs -- -j8 -l8
