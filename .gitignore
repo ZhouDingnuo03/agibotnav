@@ -1,0 +1,47 @@
+# ========== 核心：排除所有.log日志文件 ==========
+# 排除任意目录下的所有.log文件
+*.log
+# 排除.log的压缩/备份文件
+*.log.gz
+*.log.1
+*.log.old
+
+# ========== ROS2相关无用文件 ==========
+# ROS2日志目录
+log/
+# ROS2编译产物
+install/
+build/
+devel/
+ws/
+# ROS2数据包
+*.bag
+*.bag.active
+
+# ========== Python相关无用文件 ==========
+# Python编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+# Python虚拟环境
+venv/
+env/
+# Python依赖缓存
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# ========== 系统/编辑器相关 ==========
+# Linux系统临时文件
+*.swp
+*.swo
+*.tmp
+*.bak
+# macOS系统文件
+.DS_Store
+# VSCode配置（若用VSCode开发）
+.vscode/
+# 终端历史
+.history/
+
