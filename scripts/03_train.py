@@ -450,8 +450,8 @@ def main():
     ap.add_argument("--base_ch", type=int, default=32)
     ap.add_argument("--lr", type=float, default=3e-5)
     ap.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
-    ap.add_argument("--resume", default="",
-                    help="从已有模型继续训练，如 --resume checkpoints/best.pth；留空则从头训练")
+    ap.add_argument("--resume", nargs='?', const="checkpoints/best.pth", default="",
+                    help="从已有模型继续训练。--resume (默认 checkpoints/best.pth) 或 --resume /path/to/model；留空则从头训练")
     args = ap.parse_args()
     train(args)
 
