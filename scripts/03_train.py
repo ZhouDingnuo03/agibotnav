@@ -298,7 +298,7 @@ def train(args):
     # 是否从已有模型继续训练
     if args.resume.strip() and os.path.exists(args.resume):
         print(f"\n🔄 从已有模型继续训练: {args.resume}")
-        ckpt = torch.load(args.resume, map_location=device)
+        ckpt = torch.load(args.resume, map_location=device, weights_only=True)
         model.load_state_dict(ckpt)
         print(f"✅ 模型加载完成，继续训练\n")
     elif args.resume.strip():

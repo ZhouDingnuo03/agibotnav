@@ -151,7 +151,7 @@ class SemanticBBoxNode(Node):
 
         # ── 加载模型 ──────────────────────────────────────
         self.get_logger().info(f"加载模型: {model_path}")
-        ckpt = torch.load(model_path, map_location=self.device)
+        ckpt = torch.load(model_path, map_location=self.device, weights_only=True)
         bc = base_ch
         self.model = UNet(in_ch=1, num_classes=4, base=bc).to(self.device)
         self.model.load_state_dict(ckpt)
@@ -182,7 +182,7 @@ class SemanticBBoxNode(Node):
         return x, y
 
     def _create_box_marker(self, marker_id: int, cls: int,
-                          y1: int, x1: int, y2: int, x2: int, frame_id: str,
+                          y1: int, x1: int, y2: int, x2: int, frame_id: str, msg_info,
                           timestamp):
         """创建一个cube marker表示bounding box"""
         marker = Marker()
@@ -276,7 +276,7 @@ class SemanticBBoxNode(Node):
             for (y1, x1, y2, x2, area) in regions:
                 # 创建 bounding box marker
                 marker = self._create_box_marker(
-                    marker_id, cls, y1, x1, y2, x2, msg.header.frame_id, now_stamp(self))
+                    marker_id, cls, y1, x1, y2, x2, msg.header.frame_id, msg.info, now_stamp(self))
                 marker_array.markers.append(marker)
                 marker_id += 1
 

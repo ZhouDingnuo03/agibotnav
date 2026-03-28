@@ -168,7 +168,7 @@ class SemanticMapNode(Node):
 
         # ── 加载模型 ──────────────────────────────────────
         self.get_logger().info(f"加载模型: {model_path}")
-        ckpt = torch.load(model_path, map_location=self.device)
+        ckpt = torch.load(model_path, map_location=self.device, weights_only=True)
         # 直接加载 state_dict（03_train.py 只保存了 state_dict）
         bc = base_ch
         self.model = UNet(in_ch=1, num_classes=4, base=bc).to(self.device)
